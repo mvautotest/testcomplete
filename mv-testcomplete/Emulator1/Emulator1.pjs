@@ -5,12 +5,7 @@
 		<child name="PatternSortingTool" key="{DF3CC003-E9FA-47E2-AF93-C5F4D78B168E}" path="PatternSortingTool\PatternSortingTool.mds" />
 		<child name="AdvOCR" key="{D014DDD9-8EE9-4867-9798-7E4CA3212D4F}" path="AdvOCR\AdvOCR.mds" />
 		<child name="ListEdit" key="{4E740895-36DD-4470-B95E-540A6B1E0744}" path="ListEdit\ListEdit.mds" />
-<<<<<<< HEAD
 		<child name="ROIFind" key="{BE6BC535-820D-41EA-AFF8-6F3962A9DCDD}" path="ROIFind\ROIFind.mds" />
-=======
-		<child name="Test" key="{4B81A262-213E-4F4B-9B9E-2286A36F4FC9}" path="Test\Test.mds" />
-		<child name="ROIFind" key="{B0F30D77-D1E9-4533-9404-C474FF3CDD1D}" path="ROIFind\ROIFind.mds" />
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867
 	</children>
 	<testItems key="{2CFC50BD-46AD-44F0-A99F-B7EB7087C860}">
 		<children>
@@ -18,12 +13,7 @@
 			<testItem key="{DF3CC003-E9FA-47E2-AF93-C5F4D78B168E}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{D014DDD9-8EE9-4867-9798-7E4CA3212D4F}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{4E740895-36DD-4470-B95E-540A6B1E0744}" enabled="False" timeout="0" stopOnError="True" description="" />
-<<<<<<< HEAD
 			<testItem key="{BE6BC535-820D-41EA-AFF8-6F3962A9DCDD}" enabled="True" timeout="0" stopOnError="True" description="" />
-=======
-			<testItem key="{4B81A262-213E-4F4B-9B9E-2286A36F4FC9}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{B0F30D77-D1E9-4533-9404-C474FF3CDD1D}" enabled="True" timeout="0" stopOnError="True" description="" />
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867
 		</children>
 	</testItems>
 	<variables key="{46AC575B-20C9-4D8B-BCAC-4959D435C396}">

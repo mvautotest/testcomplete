@@ -13,14 +13,14 @@ def PST_Properties_001():
   Setup.Setup_LoadPSTImages()
   #Setup.VPM_CameraCheck()
   Setup.Setup_VPMNewButton()
-  aqTestCase.Begin("Start test ID: " + PST_Properties_001);
+  aqTestCase.Begin("Start test ID: PST_Properties_001");
   Setup.Setup_DragPatternSortToTaskTree()
   Setup.Setup_VPMPropertiesTab()
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.wValue[102, "E"], "stringValue_", cmpEqual, "C:\\Datalogic\\IMPACT\\Applications\\Emulator\\EmulatorRoot\\PST\\")
   aqTestCase.End();
   
 #PST_Properties_015: Verify user can train successfully without train progress percentage dialog appears during train pattern
-  aqTestCase.Begin("Start test ID: " + PST_Properties_015);
+  aqTestCase.Begin("Start test ID: PST_Properties_015");
   Setup.Setup_VPMAdvSetupTab()
   Setup.Setup_PSTTrainPanel()
   Setup.Setup_PSTLoadDB("dbnottrain")
@@ -32,7 +32,7 @@ def PST_Properties_001():
   aqTestCase.End();
   
 #PST_Properties_027: Verify that between PST tool do not upddate each other after user unlink
-  aqTestCase.Begin("Start test ID: " + PST_Properties_027);
+  aqTestCase.Begin("Start test ID: PST_Properties_027");
   Setup.Setup_DragPatternSortToTaskTree()
   #Setup.Setup_VPMPropertiesTab()
   Setup.Setup_PSTLinkPatternDB()

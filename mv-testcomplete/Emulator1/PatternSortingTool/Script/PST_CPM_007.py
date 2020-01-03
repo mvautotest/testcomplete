@@ -21,7 +21,7 @@ def PST_CPM_007():
   Setup.Setup_PSTCPMDragDropPatternDBToPanel()
   Setup.Setup_EnableRunMode()
   
-  aqTestCase.Begin("Start test ID: " + PST_CPM_007);
+  aqTestCase.Begin("Start test ID: PST_CPM_007");
   Setup.Setup_PSTCPMNewDb("testcpm2", "create")
   Delay(500) 
   Setup.Setup_PSTCPMAddLabelInfo(True, "test", "test", "Texture", "add")
@@ -41,7 +41,7 @@ def PST_CPM_007():
   aqTestCase.End();
   
   #PST_CPM_008: verify error displays if enter invalid chacter to max dip with texture algoritnm
-  aqTestCase.Begin("Start test ID: " + PST_CPM_008);
+  aqTestCase.Begin("Start test ID: PST_CPM_008");
   Delay(300)
   Setup.Setup_PSTCPMAdvanceSet("main", "Texture", None, None, None, None, None, None, None, None, None)
   Delay(300)
@@ -57,7 +57,7 @@ def PST_CPM_007():
   aqTestCase.End();
   
   #PST_CPM_009: verify error displays if enter invalid chacter to max duplicate point with texture algoritnm
-  aqTestCase.Begin("Start test ID: " + PST_CPM_009);
+  aqTestCase.Begin("Start test ID: PST_CPM_009");
   Setup.Setup_PSTCPMAdvanceSet("main", "Texture", None, None, None, None, None, None, None, None, None)
   Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane3.Panel.Panel.NumericEntry_24.Keys("[BS][BS][BS]21474836348[Enter]")
   aqObject.CheckProperty(Aliases.javaw.Dialog27, "WndCaption", cmpEqual, "Numeric Entry - Error")
@@ -71,7 +71,7 @@ def PST_CPM_007():
   aqTestCase.End();
   
   #PST_CPM_010: Verify user can create a pattern with Texture Algorithm
-  aqTestCase.Begin("Start test ID: " + PST_CPM_010);
+  aqTestCase.Begin("Start test ID: PST_CPM_010");
   Setup.Setup_PSTCPMAdvanceSet("main", "Texture", "[BS][BS]1", None, None, None, "[BS][BS][BS][BS]2", "[BS][BS][BS][BS]2", None, None, "ok")
   Delay(500)
   Setup.Setup_PSTCPMRetrainAll("")

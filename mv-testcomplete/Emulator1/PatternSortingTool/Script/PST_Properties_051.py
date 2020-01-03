@@ -15,14 +15,14 @@ def PST_Properties_051():
   Setup.Setup_VPMNewButton()
   
   Setup.Setup_DragPatternSortToTaskTree()
-  aqTestCase.Begin("Start test ID: " + PST_Properties_051);
+  aqTestCase.Begin("Start test ID: PST_Properties_051");
   Setup.Setup_PSTTrainPanel()
   Setup.Setup_PSTLoadDB("test")
   Setup.Setup_VPMPropertiesTab()
   aqTestCase.End();
   
 #PST_Properties_058: Verify default velue on contour algorithm
-  aqTestCase.Begin("Start test ID: " + PST_Properties_058);
+  aqTestCase.Begin("Start test ID: PST_Properties_058");
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.wValue[17, "E"], "value_", cmpEqual, 1)
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.wValue[20, "E"], "value_", cmpEqual, 0)
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.wValue[21, "E"], "value_", cmpEqual, 3)

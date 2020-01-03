@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{C3332822-C6CE-4862-A6D0-6996BB9954DF}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
 	<config nodeName="TestedApps" />
@@ -19,25 +18,3 @@
 		</child>
 	</children>
 </Root>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{C3332822-C6CE-4862-A6D0-6996BB9954DF}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
-	<config nodeName="TestedApps" />
-	<testData />
-	<data />
-	<children>
-		<child key="{437B4B58-CB46-4669-BFC0-2EB8997A889F}">
-			<config nodeName="Xmx_Setup" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="VPM VPM -optionfile &quot;C:\Datalogic\IMPACT\Applications\optionFile.txt&quot;" workFolder="C:\Datalogic\IMPACT\Applications" userName="" password="" domain="" />
-					<param name="Profile" parameters="VPM VPM -optionfile &quot;C:\Datalogic\IMPACT\Applications\optionFile.txt&quot;" workFolder="C:\Datalogic\IMPACT\Applications" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="VPM VPM -optionfile &quot;C:\Datalogic\IMPACT\Applications\optionFile.txt&quot;" workFolder="C:\Datalogic\IMPACT\Applications" />
-					<param name="Simple" fileName="Xmx_Setup.cmd" filePath="C:\Datalogic\IMPACT\Applications\" parameters="VPM VPM -optionfile &quot;C:\Datalogic\IMPACT\Applications\optionFile.txt&quot;" workFolder="C:\Datalogic\IMPACT\Applications" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-	</children>
-</Root>
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867

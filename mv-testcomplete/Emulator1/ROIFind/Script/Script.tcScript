@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
@@ -7,13 +6,3 @@
 		<child name="Unit1" key="{237C10ED-E13A-445C-A787-EA01DAF5DA85}" path="Unit1.py" />
 	</children>
 </Root>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children>
-		<child name="Main" key="{18BBBB83-9619-421D-AD14-64BDE08D9B99}" path="Main.py" />
-		<child name="Setup" key="{691909CB-98FE-4956-9208-2DD2CFDA57D8}" path="..\..\PinpointPatternFind\Script\Setup.py" />
-		<child name="Unit1" key="{237C10ED-E13A-445C-A787-EA01DAF5DA85}" path="Unit1.py" />
-	</children>
-</Root>
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867

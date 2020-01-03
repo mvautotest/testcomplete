@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{18BBBB83-9619-421D-AD14-64BDE08D9B99}" />
 </Root>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{18BBBB83-9619-421D-AD14-64BDE08D9B99}" />
-</Root>
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867

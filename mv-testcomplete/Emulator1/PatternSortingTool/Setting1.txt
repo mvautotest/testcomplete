@@ -6,7 +6,7 @@
 ;'Vision Device   (192.168.0.112)'
 ;Vision Device   (192.168.0.129)
 ;'IMPACT Device 1   (192.168.0.159:10080)'
-Vision Device 4   (192.168.0.192:10080)
+IMPACT Device 4   (192.168.0.192:10080)
 ;IMPACT Device 3   (192.168.0.131:10080)
 ;'IMPACT Device 4   (192.168.0.162:10080)'
 ;IMPACT Device 1   (192.168.0.189:10080)

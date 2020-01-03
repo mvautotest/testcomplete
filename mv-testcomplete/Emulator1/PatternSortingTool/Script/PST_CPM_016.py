@@ -21,7 +21,7 @@ def PST_CPM_016():
   Setup.Setup_PSTCPMDragDropPatternDBToPanel()
   Setup.Setup_EnableRunMode()
   
-  aqTestCase.Begin("Start test ID: " + PST_CPM_016);
+  aqTestCase.Begin("Start test ID: PST_CPM_016");
   Setup.Setup_PSTCPMNewDb("testcpm4", "create")
  
   Setup.Setup_PSTCPMAddLabelInfo(True, "test", "test", "Edge Match", "add")
@@ -42,7 +42,7 @@ def PST_CPM_016():
   aqTestCase.End();
   
   #PST_CPM_017: verify scale range type contains 3 types in dropdownlist
-  aqTestCase.Begin("Start test ID: " + PST_CPM_017);
+  aqTestCase.Begin("Start test ID: PST_CPM_017");
   Delay(300)
   Setup.Setup_PSTCPMAdvanceSet("main", "Edge Match", None, None, None, None, None, None, None, None, None)
   Delay(300)
@@ -53,7 +53,7 @@ def PST_CPM_016():
   aqTestCase.End();
   
   #PST_CPM_018: verify when train edge detecction - sensitivity is fixed, thrshold is enabled
-  aqTestCase.Begin("Start test ID: " + PST_CPM_018);
+  aqTestCase.Begin("Start test ID: PST_CPM_018");
   Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog4.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel.Panel.Panel.Panel.Panel.PatternSortDatabase_AdvancedTrainDialog_EdgeSensitivitySlider.wPosition = 5
   aqObject.CheckProperty(Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog4.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel.Panel.Panel.Panel.Panel2.Slider_2, "Enabled", cmpEqual, True)
   Setup.Setup_PSTCPMAdvanceSet(None, None, None, None, None, None, None, None, None, None, "ok")
@@ -61,7 +61,7 @@ def PST_CPM_016():
   aqTestCase.End();
 
   #PST_CPM_020: Verify user can create a pattern with Edge Match Algorithm
-  aqTestCase.Begin("Start test ID: " + PST_CPM_020);
+  aqTestCase.Begin("Start test ID: PST_CPM_020");
   Setup.Setup_PSTCPMAdvanceSet("main", "Edge Match", "[BS][BS]2", None, None, None, None, None, None, None, "ok")
   Delay(300)
   Setup.Setup_PSTCPMRetrainAll("")

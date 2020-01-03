@@ -12,6 +12,7 @@ def PST_Train_014():
   
   Setup.Setup_DragPatternSortToTaskTree()
   Setup.Setup_PSTTrainPanel()
+  #Setup.Setup_PSTLoadDB("test")
   Setup.Setup_PSTNewDBSet("test", "create")
   #Setup.Setup_PSTNameDB("test[Enter]")
   

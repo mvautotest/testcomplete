@@ -21,9 +21,11 @@ def PST_Database_038():
   
   #Database_039: Verify user can add one or multi images
   Setup.Setup_PSTAddImage("\\Image\\Image004.JPG", "add")
-  #Setup.Setup_PSTDeletePattern()
+  Setup.Setup_PSTDeletePattern()
+  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ToolBar.Panel.Button2.ClickButton()
+
   #Setup.Setup_PSTAddImage("Image005.BMP", "add")
-  Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys("Image005.BMP"+"[Enter]")
+  Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys('"Image004.BMP" "Image005.BMP"'+"[Enter]")
   #Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.FilePane.Panel.ScrollPane.Viewport.FilePane_4.ClickItemXY("Image005.BMP", 58, 13)
   #Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Panel2.WindowsFileChooserUI_9.ClickButton()
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ScrollPane.Viewport.PatternSortDatabaseViewer_DatabasePanel_, "ChildCount", cmpEqual, 6)

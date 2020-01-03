@@ -132,6 +132,6 @@
 		<child name="PST_CPM_050" key="{11B8742C-FC5D-4F53-A24A-2DED626E118E}" path="PST_CPM_050.py" />
 		<child name="PST_CPM_051" key="{82926C81-1C2E-46E3-A8A6-3A93737E56C7}" path="PST_CPM_051.py" />
 		<child name="Main" key="{CDB078FB-6AB5-451B-BF2C-1F5E28505A33}" path="Main.py" />
-		<child name="Setup" key="{2B771E8D-4942-4A37-BDD3-04141D29A283}" path="Setup.py" />
+		<child name="Setup" key="{408BB8EF-7F75-4585-92EE-53792FA07EDA}" path="..\..\PinpointPatternFind\Script\Setup.py" />
 	</children>
 </Root>

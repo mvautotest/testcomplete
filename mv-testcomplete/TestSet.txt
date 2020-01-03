@@ -1,5 +1,5 @@
 ;Uncomment to unlock the test that you want to run
-;ListEdit
-AdvOCR
-;PatternSortTool
+ListEdit
+;AdvOCR
+;PatternSortingTool
 ;Run_project_Suite

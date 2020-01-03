@@ -16,7 +16,6 @@ def PST_Database_056():
   Setup.Setup_PSTLoadDBSet("test123", "load")
   Setup.Setup_PSTDBPanel()
 
-
   #Database_056: verify user can delete selected pattern
   Setup.Setup_PSTDeletePattern()
   

@@ -3,18 +3,22 @@
 
 import re
 import math
-#Chose mapped driver to connect
+
+#Choose mapped drive to connect
+ #name  = "\\\\192.168.0.13\\c\\Users\\hale\\Documents\\PST\\"
 global name1
-F=aqFile.OpenTextFile(aqFileSystem.GetCurrentFolder()+"\\MappedDriveSetting.txt", aqFile.faRead, aqFile.ctANSI)
-F.Cursor=0
+
+F = aqFile.OpenTextFile(aqFileSystem.GetCurrentFolder() + "\\MappedDriveSetting.txt", aqFile.faRead, aqFile.ctANSI)
+F.Cursor = 0
+ #Log.Message("File by line")
 while not F.IsEndOfFile():
-  s=F.ReadLine()
-  if not ";" in s:
-    name1=s
-    Log.Message(name1)
-  else:
-    name1=None
-    
+   s = F.ReadLine()
+   if not ";" in s:
+     #Log.Message(s)
+     name1 = s
+     #name2 = aqString.Remove(name1, 0, 2) + aqString.Remove(name1, 16, 1) + aqString.Remove(name1 + 19, 1) + aqString.Remove(name1, 26, 1) + aqString.Remove(name1, 32, 1) + aqString.Remove(name1, 43, 1) + aqString.Remove(name1, 48, 1)
+     Log.Message(name1)
+     
 F.Close()
 
 def Setup_OCRValue():
@@ -99,7 +103,7 @@ def Setup_loadVPM():
       EnviromentCheck()
     else:
       Log.Message("do nothing")
-    Delay(17000)
+    Delay(7000)
     if Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.Panel.TaskToolbar.CameraModeButton.Enabled == False:
       Log.Message("Device is ready to test")
     else:
@@ -971,13 +975,13 @@ def Setup_PSTTrainPanel():
   #Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.BaseSetupPanel_ButtonBar_.ToolSetupCardPanel_HashcodeRadioButton10.ClickButton(True)
 
 def Setup_PSTLoadDB(foldername):
-  global name1
-  Log.Message(str(name1)+"test")
+  
   Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel.Button.ClickButton()
-  Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(str(name1) + foldername + "[Enter].pdb")
+  Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(name1 + foldername + "\\" +foldername+".pdb")
   #Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.FilePane.Panel.ScrollPane.Viewport.FilePane_4.ClickItemXY("test.pdb", 48, 12)
   Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel2.WindowsFileChooserUI_9.ClickButton()
-  Delay(2000)
+  Delay(3000)
+
 def Setup_PSTLoadDBSet(foldername, option):
   if foldername == None:
     Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel.Button.ClickButton()
@@ -985,7 +989,7 @@ def Setup_PSTLoadDBSet(foldername, option):
     Log.Message("do nothing")
   else:
     Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel.Button.ClickButton()  
-    Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(foldername + "[Enter].pdb")
+    Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(name1 + foldername + "\\" +foldername+".pdb")
     #Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.FilePane.Panel.ScrollPane.Viewport.FilePane_4.ClickItemXY("test.pdb", 48, 12)
     
     Delay(2000)
@@ -995,6 +999,7 @@ def Setup_PSTLoadDBSet(foldername, option):
     Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel2.WindowsFileChooserUI_10.ClickButton()
   else:
     Log.Message("do nothing")
+    
 def Setup_PSTNewDBSet(name, option):
   if name != None:
     Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel.Button2.ClickButton()
@@ -1004,6 +1009,7 @@ def Setup_PSTNewDBSet(name, option):
     if option == "cancel":
       Aliases.javaw.Dialog4.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_1_1.Panel.Panel.Panel2.WindowsFileChooserUI_10.ClickButton()
     elif option == "create":
+      Delay(300)
       Aliases.javaw.Dialog4.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_1_1.Panel.Panel.Panel2.WindowsFileChooserUI_9.ClickButton()
     else:
       Log.Message("BD has been created")
@@ -1029,7 +1035,7 @@ def Setup_PSTAddButton():
   Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.Panel.Button.ClickButton()
 
 def Setup_PSTCoppyPatternSort1():
-  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.ClickItemR("Root|Image In Task|Pattern Sort")
+  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.ClickItemR("Root|Image In Task|Pattern Sort 1")
   Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.SwingPopupMenu.Click("Copy")
 
 def Setup_PSTPasteToTaskTree():
@@ -1345,8 +1351,8 @@ def Setup_PSTTrainROI(option):
 
 def Setup_PSTLinkDB():
   Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.Panel.Panel2.LinkPanel.ToggleButton.ClickButton(True)  
-  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.DblClickItem("Root|Image In Task|Pattern Sort")
-  ImageRepository.LinkButton.LinkDatabase.Click()
+  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.wItems.Item[0].Items.Item[1].Items.Item[0].DblClick()
+  Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.wItems.Item[0].Items.Item[1].Items.Item[0].Items.Item[7].Click(True)
 
 def Setup_PSTMatchScore(option, score):
     Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingPassFailPanel.Panel2.Panel.Panel.PatchableCheckBox.ClickButton(option)
@@ -1450,7 +1456,7 @@ def Setup_PSTCPMAddLabelInfo(button, label, info, mode, option):
       else:
         Log.Message("do nothing")      
       if option == "add":
-        
+        Delay(200)
         Aliases.javaw.PatternSortDatabase_AddPatternDialog.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Button.ClickButton()
       elif option == "cancel":
         Aliases.javaw.PatternSortDatabase_AddPatternDialog.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Button2.ClickButton()
@@ -1515,12 +1521,13 @@ def Setup_PSTCPMUpdateMode(mode):
   Aliases.javaw.CpmFrame3.RootPane.null_layeredPane.null_contentPane.Panel.ScrollPane.Viewport.CpmFrame_25.Panel_1.PatternSortDatabase.PatternFrame.ModeValue.ClickItem(mode) 
 
 
-def Setup_PSTCPMLoadDB(name, option):
+
+def Setup_PSTCPMLoadDB(name, option):  
 
  if name != None:
     Aliases.javaw.CpmFrame3.RootPane.null_layeredPane.null_contentPane.Panel.ScrollPane.Viewport.CpmFrame_25.Panel_1.PatternSortDatabase.LoadButton.ClickButton()
 
-    Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortDatabase_13.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(name)
+    Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortDatabase_13.Panel.Panel.Panel.WindowsFileChooserUI_7.Keys(name1 + name)
 
     if option == "cancel":
       Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortDatabase_13.Panel.Panel.Panel2.WindowsFileChooserUI_10.ClickButton()

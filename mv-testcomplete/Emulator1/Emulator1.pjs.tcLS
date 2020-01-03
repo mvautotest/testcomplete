@@ -35,11 +35,7 @@
 			<Node name="{8502881b-664b-46cc-bfa5-e7a35290b26d}">
 				<Prp name="relpath" type="S" value="AdvORC\AdvOCR.mds.tcLS"/>
 			</Node>
-<<<<<<< HEAD
 			<Node name="{be6bc535-820d-41ea-aff8-6f3962a9dcdd}">
-=======
-			<Node name="{b0f30d77-d1e9-4533-9404-c474ff3cdd1d}">
->>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867
 				<Prp name="relpath" type="S" value="ROIFind\ROIFind.mds.tcLS"/>
 			</Node>
 			<Node name="{d014ddd9-8ee9-4867-9798-7e4ca3212d4f}">

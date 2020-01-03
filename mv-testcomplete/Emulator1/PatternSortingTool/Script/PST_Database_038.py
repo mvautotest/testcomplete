@@ -13,13 +13,16 @@ def PST_Database_038():
   
   Setup.Setup_DragPatternSortToTaskTree()
   Setup.Setup_PSTTrainPanel()
+  aqTestCase.Begin("Start test ID: PST_Database_038");
   Setup.Setup_PSTLoadDBSet("test", "load")
   Setup.Setup_PSTDBPanel()
   Setup.Setup_PSTAddImage("", None)
   aqObject.CheckProperty(Aliases.javaw.Dialog20, "WndCaption", cmpEqual, "Add Images to Database")
   Setup.Setup_PSTAddImage(None, "cancel")
+  aqTestCase.End()
   
   #Database_039: Verify user can add one or multi images
+  aqTestCase.Begin("Start test ID: PST_Database_039");
   Setup.Setup_PSTAddImage("\\Image\\Image004.JPG", "add")
   Setup.Setup_PSTDeletePattern()
   Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ToolBar.Panel.Button2.ClickButton()
@@ -29,19 +32,25 @@ def PST_Database_038():
   #Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.FilePane.Panel.ScrollPane.Viewport.FilePane_4.ClickItemXY("Image005.BMP", 58, 13)
   #Aliases.javaw.Dialog20.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Panel2.WindowsFileChooserUI_9.ClickButton()
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ScrollPane.Viewport.PatternSortDatabaseViewer_DatabasePanel_, "ChildCount", cmpEqual, 6)
+  aqTestCase.End()
   
   #database_51: Verify train processing display during train patterns
+  aqTestCase.Begin("Start test ID: PST_Database_051");
   Setup.Setup_PSTModeDB("Texture")
   Setup.Setup_PSTAdvanceSet("db", "Texture","[BS]2", "[BS]3", "[BS]2","[BS]4", None, None, None, None, "ok")
   Setup.Setup_PSTRetrainAll("db", "ok")
   aqObject.CheckProperty(Aliases.javaw.Dialog2.RootPane.null_layeredPane.null_contentPane.Panel, "Enabled", cmpEqual, True)
+  aqTestCase.End()
   
   #Database_040: verify duplicate pattern dialog appears if user add duplicate image to db
+  aqTestCase.Begin("Start test ID: PST_Database_040");
   Setup.Setup_PSTAddImage("Image004.JPG", "add")
   aqObject.CheckProperty(Aliases.javaw.Dialog6, "WndCaption", cmpEqual, "Setup Error")
   Aliases.javaw.Dialog6.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button.ClickButton()
-
+  aqTestCase.End()
+  
   #Database_052: verify user can delete selected pattern
+  aqTestCase.Begin("Start test ID: PST_Database_052");
   Setup.Setup_PSTDeletePattern()
   
   scrollPane = Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ScrollPane
@@ -52,13 +61,15 @@ def PST_Database_038():
   
   Setup.Setup_PSTDeleteAllPatten()
   aqObject.CheckProperty(Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ScrollPane.Viewport.PatternSortDatabaseViewer_DatabasePanel_, "ChildCount", cmpEqual, 0)
+  aqTestCase.End()
   
   #Database_058: Verify meesage "database needs to be trained" appear after delete all pattern
+  aqTestCase.Begin("Start test ID: PST_Database_058");
   Setup.Setup_VPMPropertiesTab()
   Setup.Setup_PSTRunpropertytab()
   aqObject.CheckProperty(Aliases.javaw.Dialog5, "WndCaption", cmpEqual, "Error")
   Sys.Process("javaw").SwingObject("JDialog", "Error", -1, 1).SwingObject("JRootPane", "", 0).SwingObject("null.layeredPane").SwingObject("null.contentPane").SwingObject("JOptionPane", "", 0).SwingObject("OptionPane.buttonArea").SwingObject("OptionPane.button").ClickButton()
-
+  aqTestCase.End()
   
   Setup.Setup_PSTDeleteFoder("PST\\test")
   Setup.Setup_VPMUnloadProgram()

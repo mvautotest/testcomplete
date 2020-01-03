@@ -21,7 +21,7 @@ def PST_CPM_011():
   Setup.Setup_PSTCPMDragDropPatternDBToPanel()
   Setup.Setup_EnableRunMode()
   
-  aqTestCase.Begin("Start test ID: " + PST_CPM_011);
+  aqTestCase.Begin("Start test ID: PST_CPM_011");
   Setup.Setup_PSTCPMNewDb("testcpm3", "create")
   Delay(500)
   Setup.Setup_PSTCPMAddLabelInfo(True, "test", "test", "Contour", "add")
@@ -42,7 +42,7 @@ def PST_CPM_011():
   aqTestCase.End(); 
   
   #PST_CPM_012: verify error displays if enter invalid chacter to number of Scale level
-  aqTestCase.Begin("Start test ID: " + PST_CPM_012);
+  aqTestCase.Begin("Start test ID: PST_CPM_012");
   Setup.Setup_PSTCPMAdvanceSet("main", "Contour", None, None, None, None, None, None, None, None, None)
   Delay(300)
   Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel.Panel.NumericEntry_22.Keys("[BS][BS][BS]8[Enter]")
@@ -57,7 +57,7 @@ def PST_CPM_011():
   aqTestCase.End(); 
   
   #PST_CPM_013: verify error displays if enter invalid chacter to number of Clusters Per Keypoint
-  aqTestCase.Begin("Start test ID: " + PST_CPM_013);
+  aqTestCase.Begin("Start test ID: PST_CPM_013");
   Setup.Setup_PSTCPMAdvanceSet("main", "Contour", None, None, None, None, None, None, None, None, None)
   Delay(300)
   Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel.Panel.NumericEntry_23.Keys("[BS][BS][BS]5[Enter]")
@@ -72,7 +72,7 @@ def PST_CPM_011():
   aqTestCase.End();
   
   #PST_CPM_014: verify error displays if enter invalid chacter to number of Max Number of Keypoint
-  aqTestCase.Begin("Start test ID: " + PST_CPM_014);
+  aqTestCase.Begin("Start test ID: PST_CPM_014");
   Setup.Setup_PSTCPMAdvanceSet("main", "Contour", None, None, None, None, None, None, None, None, None)
   Delay(300)
   Aliases.javaw.PatternSortDatabase_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel.Panel.NumericEntry_24.Keys("[BS][BS][BS]21474836348[Enter]")
@@ -87,7 +87,7 @@ def PST_CPM_011():
   aqTestCase.End();
   
   #PST_CPM_015: verify user can create a pattern with contour algorithm
-  aqTestCase.Begin("Start test ID: " + PST_CPM_015);
+  aqTestCase.Begin("Start test ID: PST_CPM_015");
   Setup.Setup_PSTCPMAdvanceSet("main", "Contour", "[BS][BS][BS][BS][BS]1", "[BS][BS][BS][BS]2", "[BS][BS][BS]4", "[BS]0", None, None, None, None, "ok")
   Delay(500)
   Setup.Setup_PSTCPMRetrainAll("")
