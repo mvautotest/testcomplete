@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{3085406E-2CC9-4808-890C-02520386FAC7}"/>
+				<Prp name="end time" type="D" value="43822.4357682986"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PST_General_001 [Script\PST_General_001 - PST_General_001]"/>
+				<Prp name="start time" type="D" value="43822.4351039699"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{4AB3C30D-4B2F-4D03-A90D-72DEAC6463F9}"/>
+				<Prp name="end time" type="D" value="43822.4386193866"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PST_General_005 [Script\PST_General_005 - PST_General_005]"/>
+				<Prp name="start time" type="D" value="43822.4378084259"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{1FB5DE96-109D-40D0-A899-380B9A2CE9D1}"/>
+				<Prp name="end time" type="D" value="43822.4378083102"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PST_General_004 [Script\PST_General_004 - PST_General_004]"/>
+				<Prp name="start time" type="D" value="43822.4369610301"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{EFFEFA03-1B75-4F41-A1B0-58AAB4061607}"/>
+				<Prp name="end time" type="D" value="43822.4394105671"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value="PST_General_006 [Script\PST_General_006 - PST_General_006]"/>
+				<Prp name="start time" type="D" value="43822.4386194792"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{53BF6B2E-0E1C-4495-B260-D58C056A9C04}"/>
+				<Prp name="end time" type="D" value="43822.4369609028"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value="PST_General_003 [Script\PST_General_003 - PST_General_003]"/>
+				<Prp name="start time" type="D" value="43822.4357684144"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="end time" type="D" value="43822.4394105671"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="start time" type="D" value="43822.4394105671"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

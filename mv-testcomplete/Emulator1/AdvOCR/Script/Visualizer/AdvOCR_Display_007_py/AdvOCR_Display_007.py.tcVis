@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F42F1D16-0028-4C9A-9016-6DE7F55E1F97}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="43636.3156712963" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.Panel.Main_Toolbar.SaveProgramButton" objectLeft="240" objectTop="24" objectRight="277" objectBottom="59" clickPointX="262" clickPointY="42" imageFileName="tcvi2006329734209120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="43636.3242361111" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.ViewsTabbedPane" objectLeft="647" objectTop="68" objectRight="1916" objectBottom="607" clickPointX="773" clickPointY="600" imageFileName="tcvi2007069171109680.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

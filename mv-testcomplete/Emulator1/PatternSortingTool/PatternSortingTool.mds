@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<child name="Stores" key="{848658B4-FF29-4B40-8B57-2F3225FB9016}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="NameMapping" key="{E4E18C50-3409-45CD-B32B-836BD06D65CA}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Script" key="{2A6B7AD7-CD92-4B52-B603-EBFBF23A15A9}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{73E60567-0F05-407D-9DAA-A179A67CFF84}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{E60CA848-5529-4B23-BE02-E32B2293718C}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ImageRepository" key="{AFA73A9D-00FE-4637-B06E-4844EF12E814}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
+	</children>
+	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
+	<testItems key="{AFAAC429-7520-44AC-B1BE-81E43883093A}" version="14">
+		<children>
+			<testItem name="PST_General" key="{71068759-394E-4777-9357-32B2DE91BFE8}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="PST_General_001" key="{EBD0B52F-0863-4946-9FC4-A4ED67C932C9}" group="False" enabled="False" testMoniker="{D16F424A-1331-442C-BA9A-C0932BF9A4E9}PST_General_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_General_003" key="{540EE2CE-42BC-43FA-AB28-7305261E49CD}" group="False" enabled="False" testMoniker="{4AF26FDD-5EA3-470C-A265-5EC85426227E}PST_General_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_General_004" key="{727E69F8-802D-48B1-91B7-9BBE7588D4A9}" group="False" enabled="False" testMoniker="{76ABAE99-D7F4-419F-A62D-2EF23ED70B1D}PST_General_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_General_005" key="{484798E9-72DC-42BE-B852-6ABACEC66C4A}" group="False" enabled="False" testMoniker="{9C0A484B-44D9-4665-A76C-0DD6B30DA40A}PST_General_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_General_006" key="{EA9A390B-8893-4BC5-8BC8-A7D305EAF934}" group="False" enabled="False" testMoniker="{79964F82-FA0C-4D4B-AB46-A731822D633C}PST_General_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_General_007" key="{7B4CEC02-449A-4821-8C42-C1C55F6910CE}" group="False" enabled="True" testMoniker="{919AC10F-B6A5-4313-B77A-7EC82616C06D}PST_General_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="PST_Train" key="{B60EABBA-0B0D-4E98-AA10-AB8395A3909B}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="PST_Train_001" key="{2FB6D946-7FAE-49D2-8987-B3912365351F}" group="False" enabled="True" testMoniker="{3BB34F38-4D15-47C4-BC3A-243D309518EF}PST_Train_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_002" key="{B3E0ACC4-E99B-4ABF-B4A3-09D8B7CA49EE}" group="False" enabled="True" testMoniker="{20958270-EB09-4690-8D6B-79700FCBB39C}PST_Train_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_003" key="{CFDFD5DE-1A4D-47C0-83EE-BFB7E458F86C}" group="False" enabled="True" testMoniker="{1CE83CB6-E512-452D-AE2F-893589D6A358}PST_Train_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_004" key="{D0601665-AB20-45AD-B6E9-0192077CB064}" group="False" enabled="True" testMoniker="{229B0950-8479-4AB3-93F2-EF14AB4981B1}PST_Train_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_005" key="{6455274B-4A96-43D9-A8BE-7DDB1B098922}" group="False" enabled="True" testMoniker="{81731CFD-571D-4D8E-AA56-C85978D49297}PST_Train_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_006" key="{BD37F1D1-0424-4530-8A5B-93DEB998D4C1}" group="False" enabled="True" testMoniker="{77E43280-2A67-4EA2-8060-A68C6FD4B1FA}PST_Train_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_007" key="{7867C479-36EA-4540-B1D7-919DA0912535}" group="False" enabled="True" testMoniker="{A151B1EF-D42C-477B-B836-0C58E6BC485A}PST_Train_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_008" key="{DBEA454D-B9A6-4964-AAC6-5703D5E56859}" group="False" enabled="True" testMoniker="{0BA6FEB4-74B0-4F7D-B74A-1D671AC582F2}PST_Train_008" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_010" key="{6F86FBA8-C09D-40B6-9796-85847450A2AC}" group="False" enabled="True" testMoniker="{58CA7621-7B0C-444F-B665-4A9E18165AEC}PST_Train_010" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_011" key="{307879E5-3839-41C1-88C5-0E3DE3A52F09}" group="False" enabled="True" testMoniker="{51F99558-3506-4009-B016-75F75DF956A4}PST_Train_011" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_012" key="{3AA84E08-2962-4E48-A078-424A70139529}" group="False" enabled="True" testMoniker="{65DDAE18-323C-456B-A9B9-BFC04754BE47}PST_Train_012" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_013" key="{DEB442D7-069D-4ECD-A2D6-360AE145B59B}" group="False" enabled="True" testMoniker="{2355EDE7-9788-43B8-AFD6-FD9A00CC7D76}PST_Train_013" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_014" key="{FE360749-561B-4B4F-82A6-B3F63403B62B}" group="False" enabled="True" testMoniker="{ED419540-E767-4B06-AC29-8AAE69BD6466}PST_Train_014" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_015" key="{5B13C1D0-FF51-4015-8E9E-32CC815C93A8}" group="False" enabled="True" testMoniker="{33142902-F575-4B2D-8544-B25DE7E73A3B}PST_Train_015" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_017" key="{0A4F7160-EF80-45D1-B631-ED11677B1385}" group="False" enabled="True" testMoniker="{8DBCA0B1-EF4B-4BA7-A4F8-BC736EFF153A}PST_Train_017" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_019" key="{F83853ED-CE23-4E51-85AF-15F1AF11274E}" group="False" enabled="True" testMoniker="{45090B5A-F440-46EF-A056-7A777662FEAD}PST_Train_019" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_020" key="{16B8CFD3-DF1F-4C4D-B660-35459D1771E0}" group="False" enabled="True" testMoniker="{0DAAA787-5737-43F1-97D6-CDB58B5C5DA6}PST_Train_020" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_021" key="{3BA927F4-81A1-4788-BE49-658593852795}" group="False" enabled="True" testMoniker="{4CBBB7AD-C6F9-4E9A-9A3B-60FB688C67DA}PST_Train_021" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_022" key="{21A6FFB4-21D8-4330-A486-63A99B4CDD1B}" group="False" enabled="True" testMoniker="{962BA16B-0DE5-416B-91B2-1A790341CCE9}PST_Train_022" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_023" key="{7552D687-4F8D-475D-AC67-7AFA1F7102F3}" group="False" enabled="True" testMoniker="{5394A0B1-3F30-43C7-A4AF-5E8AED4DB3E5}PST_Train_023" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_024" key="{DB62C273-F2FA-453E-8DD3-9F10D76664AD}" group="False" enabled="True" testMoniker="{D7C36DA7-A831-4834-ADCE-73285F7A12A8}PST_Train_024" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_025" key="{9FB4C998-BC5C-4B3A-B156-04807409B1EE}" group="False" enabled="True" testMoniker="{409EEF7D-E765-4C7A-95A5-EDF7AE486A00}PST_Train_025" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_026" key="{28AC8F86-27C8-48A1-B6D4-734DD03177B2}" group="False" enabled="True" testMoniker="{4B614E77-1D7B-4A74-9742-1B35BBEB6068}PST_Train_026" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_027" key="{4D91639F-469D-44C5-B2E9-69E7D1D098E8}" group="False" enabled="True" testMoniker="{B8176CE8-D03E-4011-A2B9-8B71B16D87EA}PST_Train_027" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_031" key="{312DE4C7-048F-451C-A341-9E13F719BB63}" group="False" enabled="True" testMoniker="{AE7D45B3-CC1F-45E1-85DE-20CECA0E5E2A}PST_Train_031" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_032" key="{01461AD0-74CC-4133-B7A1-5DEBF5DBF86E}" group="False" enabled="True" testMoniker="{8C35DC70-47AA-44C8-9D4F-356ED54F4E3A}PST_Train_032" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_044" key="{644F27FF-9B36-46BF-8B50-8854BB971D87}" group="False" enabled="True" testMoniker="{8BD1A923-66EB-49D5-8345-C420573A5451}PST_Train_044" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_045" key="{46FC6A7D-3A57-4E2C-92AC-661553753159}" group="False" enabled="True" testMoniker="{EB13E7D3-51A2-4433-96A1-2042545A4EC4}PST_Train_045" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_046" key="{CEBD471F-CA51-4624-9D2B-12267082163F}" group="False" enabled="True" testMoniker="{62CE31C7-BDA6-4CE1-A815-45A8ABE0F861}PST_Train_046" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_047" key="{AC1E5412-EF3B-4F65-9C16-385134928EF3}" group="False" enabled="True" testMoniker="{0A4AF9A6-22CF-465D-98E2-0A2FED4008E0}PST_Train_047" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_048" key="{8D34AD00-2359-4B4F-84D9-5DB7723AC666}" group="False" enabled="True" testMoniker="{EE3249DB-C81B-4D9B-8B43-0A47CE149E9E}PST_Train_048" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_049" key="{6F362B35-DD56-4D1A-B971-C2E957ED30BF}" group="False" enabled="True" testMoniker="{C68DA6F6-548D-427B-8E8A-229CF9555A2E}PST_Train_049" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_051" key="{28DD4F27-A5BD-4104-B5AB-4EA917F9A06E}" group="False" enabled="True" testMoniker="{9DBC4E71-DD66-445C-BD60-B3629EF9AF47}PST_Train_051" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_052" key="{A6A19E30-5665-438E-9A13-A8FC69946B96}" group="False" enabled="True" testMoniker="{4EF681B1-348C-41C1-99EA-B3DF93462D13}PST_Train_052" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_053" key="{543B9CB7-14A2-4B49-9344-33668CAAF27D}" group="False" enabled="True" testMoniker="{A7EA7F99-3A3E-4CEE-9ADA-C3E9C22F044F}PST_Train_053" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_054" key="{E6DCB56A-D638-48C7-B4AA-6F5775E23289}" group="False" enabled="True" testMoniker="{64048510-B101-4DBA-AA64-CB77EBA0CC54}PST_Train_054" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_056" key="{D59783C9-C4A1-423B-AF21-0DA4DA21F553}" group="False" enabled="True" testMoniker="{47ABC30F-9699-44DE-8A38-262E6DCB6192}PST_Train_056" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_057" key="{D0F4D312-E620-4560-AF4C-DCAC8AF9866D}" group="False" enabled="True" testMoniker="{BC81242A-A7EC-4CEC-A5A6-EA512EAA741B}PST_Train_057" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_058" key="{92B2DE4D-BA5E-4C05-83A8-728682F9F4F6}" group="False" enabled="True" testMoniker="{4361E23A-F6B8-4479-89F1-84CB3BA9A2AA}PST_Train_058" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_059" key="{CC5B7DF0-7B48-469F-8293-D84C39AC6C14}" group="False" enabled="True" testMoniker="{2AB7F51D-89FD-43F6-BAC6-0A6B1662B922}PST_Train_059" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_061" key="{77753E81-ED44-4CD3-8DB0-4279EBA33BF7}" group="False" enabled="True" testMoniker="{5C53C33A-6297-4CE6-928A-7FF44E7E696A}PST_Train_061" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_062" key="{47582E95-2FC8-454E-BA59-BEFE0B012B91}" group="False" enabled="True" testMoniker="{707F295A-A8E4-4156-910F-AEB3FFCEC438}PST_Train_062" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_063" key="{F438B9A2-0D65-4222-A37B-7A1E80BFB662}" group="False" enabled="True" testMoniker="{ED8D1891-3C15-481E-8F4B-368D1E748CD9}PST_Train_063" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_064" key="{9044F920-20B5-4847-8FCD-8782D8388D47}" group="False" enabled="True" testMoniker="{3B29F8A0-0086-4014-B00A-328A7A175717}PST_Train_064" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_065" key="{2DEBA952-A2DC-441B-9EE3-CB6FC46052A8}" group="False" enabled="True" testMoniker="{2E7B1A25-63C6-4108-95E5-797419CA8436}PST_Train_065" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_067" key="{9DF9182E-EA7E-4B40-9002-F14BA5464B2F}" group="False" enabled="True" testMoniker="{9FF066EE-213D-471C-8AF4-FDF23BF11735}PST_Train_067" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_068" key="{1D2A1A31-ED4F-4AFF-8DA6-8464B1174EC3}" group="False" enabled="True" testMoniker="{3CE2AEA7-878B-4B88-94EA-1F89E4EE90B7}PST_Train_068" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_069" key="{F6162D45-78DE-4291-AC45-F3314E2426E7}" group="False" enabled="True" testMoniker="{4357AA52-A3FF-4194-B3FA-1E9AFC56A7D7}PST_Train_069" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_070" key="{8DB4CDDC-C830-4C56-B472-A8CA43DC0AEF}" group="False" enabled="True" testMoniker="{45BE4B92-AC34-484D-BE97-7E4C27035072}PST_Train_070" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_071" key="{FAA7D948-3C21-4D9E-9528-E934F998F267}" group="False" enabled="True" testMoniker="{0DB2F41C-E90F-408A-B231-D677E2622C02}PST_Train_071" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_072" key="{C4D515D8-841A-469B-BA1D-4164BC6F589A}" group="False" enabled="True" testMoniker="{9D8ACDCF-0775-452A-9830-5C3A9F76DA90}PST_Train_072" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_073" key="{6698DC14-85CC-43C6-A555-7EC3B21C20BB}" group="False" enabled="True" testMoniker="{18267F37-12C8-47D1-8147-AE25017ADAF5}PST_Train_073" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_074" key="{239652AC-6421-4BE1-A072-F894D7A14006}" group="False" enabled="True" testMoniker="{69E136D1-DB27-4E79-AD1B-9AA922C96703}PST_Train_074" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_075" key="{4B378842-5CE7-4166-8430-07C2168A558E}" group="False" enabled="True" testMoniker="{10B83D53-D674-41B6-BEEC-56658AF66897}PST_Train_075" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_076" key="{D71FAC5C-002C-4428-8191-4EEDCC9BC29B}" group="False" enabled="True" testMoniker="{5D9EE3C2-90FD-4283-A0CA-E1AA3E9AFF65}PST_Train_076" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_077" key="{54107E61-E298-4F8C-AA5A-296C16DC5442}" group="False" enabled="True" testMoniker="{0D733AA9-C2BF-4820-840B-37E1AFC155B1}PST_Train_077" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_078" key="{BEBC4A80-1377-4720-B3C2-EDC3A6189FBE}" group="False" enabled="True" testMoniker="{1F143A82-8B7E-464F-A3DA-49DF99B4336B}PST_Train_078" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_079" key="{842CFC75-903F-4B93-AA9B-1225B7B25010}" group="False" enabled="True" testMoniker="{58F660FE-4AA3-49AC-B70F-10A9331C354D}PST_Train_079" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_080" key="{36664737-9FC0-452C-BE55-E8D17F2F34E0}" group="False" enabled="True" testMoniker="{0C978CB3-E730-41C0-9841-9EB24D152D78}PST_Train_080" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_081" key="{18075258-E6BA-410D-9E97-12D82DAEB865}" group="False" enabled="True" testMoniker="{2428C50A-C8E8-490E-93CB-37B17FDAB6AF}PST_Train_081" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_082" key="{46C054D9-CEBC-47C8-B5BC-F3EBFB819AD8}" group="False" enabled="True" testMoniker="{1A582D91-3ECB-4869-A0CC-C74F282C1C4D}PST_Train_082" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_083" key="{826C97EB-9CE6-4607-8C76-01D5A96A1222}" group="False" enabled="True" testMoniker="{E46C739F-0261-4C18-8E6D-2F98BA9FA167}PST_Train_083" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_084" key="{23F181F6-DC92-41F5-85F3-95185F57B25F}" group="False" enabled="True" testMoniker="{407CE286-F736-4B47-B565-75501B293E99}PST_Train_084" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_085" key="{9345A391-D4B4-4277-B01D-589E758DB2EB}" group="False" enabled="True" testMoniker="{830A896A-21FC-43A9-B28B-F95CB37DA6E8}PST_Train_085" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_086" key="{F0D10D6A-CEDD-48FE-9220-F7AF471669FD}" group="False" enabled="True" testMoniker="{29848975-DC6B-4918-9C2D-264F8142957A}PST_Train_086" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_087" key="{2A776529-737C-489F-8AD5-241DAD983B93}" group="False" enabled="True" testMoniker="{F3CF0AC7-34B7-4CE3-B83F-5BCAF7914BFD}PST_Train_087" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_088" key="{7A7302FE-0034-4A63-AAE9-7A0D6058E7B2}" group="False" enabled="True" testMoniker="{F8B0B5C8-9FDF-496B-A92F-C53307B2779A}PST_Train_088" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_089" key="{B1C1F943-FC2C-4FAB-A597-B30FBB9AE39B}" group="False" enabled="True" testMoniker="{2AAE9D7B-F8F6-496F-824C-070872324C21}PST_Train_089" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_090" key="{CDEECD31-1052-4F9E-BF59-A4AEA2702578}" group="False" enabled="True" testMoniker="{EF117C17-C969-4A62-B7C0-6C83C0698044}PST_Train_090" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_091" key="{C9281591-B7F6-4D8A-86B5-8AFA3A6DE3B0}" group="False" enabled="True" testMoniker="{A1D78CD0-0480-40C1-A995-6F2793B38999}PST_Train_091" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_092" key="{1F460F83-CE60-44EB-90DD-49D0D4DC52FA}" group="False" enabled="True" testMoniker="{234E452E-0E9F-4C0F-A013-636EB1D1D04A}PST_Train_092" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_093" key="{85851217-5866-4186-97E7-FF83D8D9F9AA}" group="False" enabled="True" testMoniker="{0D014CBE-8119-422C-8F22-461948F6B416}PST_Train_093" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_094" key="{EFA27D67-DA75-4258-92E8-0DF0A51DC71D}" group="False" enabled="True" testMoniker="{EB8C9E2F-F828-44EB-9D72-D7DEDB2F7E32}PST_Train_094" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_095" key="{A28FA209-138B-4B95-91F8-0741A05AE28E}" group="False" enabled="True" testMoniker="{3B59357C-895C-4036-BB08-6910094CB265}PST_Train_095" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_097" key="{1F568604-4781-4E14-A81D-AD1EFE12B154}" group="False" enabled="True" testMoniker="{A195CBF1-8848-4270-BA2A-8AE1745ED88F}PST_Train_097" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_102" key="{4390E5BB-AAF0-43FB-BE04-AFAC83C46484}" group="False" enabled="True" testMoniker="{394EB4CD-5AC0-4017-B42E-9EDC16C46F2C}PST_Train_102" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_099" key="{21AF4FD0-21F3-4022-A3CE-9D268C1E82B0}" group="False" enabled="True" testMoniker="{7B2D5596-3B4C-4726-A1CF-38D8B755294D}PST_Train_099" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Train_066" key="{2963A204-6F89-4AEE-BC75-37275C2977D3}" group="False" enabled="True" testMoniker="{02E77F9F-73B0-44FD-AA32-2AA2E23059D7}PST_Train_066" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="PST_Database" key="{57068CCB-7E5A-4162-95EA-C5DF087A6F34}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="PST_Database_002" key="{D77EE99A-2237-4F3A-BE86-CF8E4E19B772}" group="False" enabled="False" testMoniker="{8284B4CC-D028-47DE-BB88-C000D58CE56B}PST_Database_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_003" key="{F4C10F5F-3865-4EC8-871F-23B0063CE98C}" group="False" enabled="False" testMoniker="{B8EF2ADE-4A75-4D1D-AD12-188C7A8E9662}PST_Database_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_005" key="{9020F32A-F4FB-4F01-ADFF-8122E4293C32}" group="False" enabled="False" testMoniker="{A79071C2-08C3-4ECF-8ACF-CCF529C1CBAE}PST_Database_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_006" key="{1675303B-30BC-4201-A63D-3E5C7640A8B5}" group="False" enabled="False" testMoniker="{C7965CC5-384F-4FC5-841B-A5B585006C05}PST_Database_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_0026" key="{B9F6197B-D5F1-4142-AFC2-418CC23BB2FF}" group="False" enabled="False" testMoniker="{F8354841-1AB6-40A5-ADFC-171ADDD6BF55}PST_Database_0026" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_0027" key="{A4D9064D-48E7-47F8-BF83-9610C23F3636}" group="False" enabled="False" testMoniker="{081F8CE4-1DB4-40AC-B256-607C61868C97}PST_Database_0027" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_0029" key="{3B3F7922-B741-4BCB-A6D0-D7F224B26CCB}" group="False" enabled="False" testMoniker="{2F572970-D3BE-468C-8877-8256A67780B1}PST_Database_0029" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_030" key="{89FFC366-A7BB-40D7-B5C6-10053000ED18}" group="False" enabled="False" testMoniker="{0559EE12-7A00-42E1-9A65-E1B86F849AA5}PST_Database_030" count="8" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_034" key="{B1C81C65-AF10-4F20-A367-CD238583F09A}" group="False" enabled="False" testMoniker="{CBD6111D-A071-45D7-B3D7-B9A5F9701E55}PST_Database_034" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_038" key="{C4254DC9-3CB9-4FF9-8118-0C4A72C1AA86}" group="False" enabled="False" testMoniker="{508518EE-8D99-4C75-AF46-74040AFBA803}PST_Database_038" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_049" key="{3244A421-177D-4C7B-BAE3-B97B7EC7A2BA}" group="False" enabled="False" testMoniker="{C9CF2772-549D-47AB-9031-03ADD9D6D447}PST_Database_049" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_056" key="{1DA62298-8998-4467-B7C7-EFB2C3829C9C}" group="False" enabled="True" testMoniker="{2DDAC83A-6A67-4943-AD72-AC19CB48A06F}PST_Database_056" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_059" key="{688BE3FC-EAAD-4565-80A1-B5428C33F401}" group="False" enabled="True" testMoniker="{512D74C2-2224-4BF5-AA89-68B360CF6A88}PST_Database_059" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_061" key="{7A58A1BA-5DB1-468A-A010-70156CD46E14}" group="False" enabled="True" testMoniker="{B41B64A4-5DD6-4C43-99EE-C704F2873F1A}PST_Database_061" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_068" key="{141A816C-8625-4D40-A612-2B9BEA7E8190}" group="False" enabled="True" testMoniker="{DE8CAAF6-AED7-4DFD-9069-F9C6F4102AB1}PST_Database_068" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_070" key="{902CC602-3BE2-4380-BDE1-E9057B583641}" group="False" enabled="True" testMoniker="{266DBF2D-6421-47A3-A986-C282B80F9EAF}PST_Database_070" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_072" key="{C59839FA-6B8D-4EA2-80E6-2A67990E51EF}" group="False" enabled="True" testMoniker="{A85C9836-5C56-42A1-A1E7-762636B576F2}PST_Database_072" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_076" key="{AA687F61-56A2-4C3D-B310-3D833C6C3092}" group="False" enabled="True" testMoniker="{34494A9A-C6E2-4E2A-8AB1-02FEC1DE459B}PST_Database_076" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="PST_Database_092" key="{79823CF0-30AA-489C-897C-467A46839FD9}" group="False" enabled="True" testMoniker="{361EBC93-B03D-4001-864A-34176D5D47D4}PST_Database_092" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="PST_CPM" key="{2DAA53C1-13D3-47D7-9F30-49E6FA12EBF3}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="PST_CPM_001" key="{B9135844-8A70-44C6-A4D9-61F4F24169CE}" group="False" enabled="False" testMoniker="{2E30964F-C16E-4B50-93CE-7D7D4EF3B622}PST_CPM_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem1" key="{915E34B4-C94F-40BA-BDA6-AC7BC1859A25}" group="False" enabled="False" testMoniker="{E005BBDB-4254-4886-B56E-D469E9B0D6DF}PST_CPM_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem2" key="{BCE16988-4EE3-4394-8F50-10490862E7F6}" group="False" enabled="True" testMoniker="{0A9E1757-2A5B-438B-9AC6-7DE5D5AE2F3D}PST_CPM_011" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem3" key="{1C2353E2-8282-4B4E-A749-CF4C93A65FD1}" group="False" enabled="True" testMoniker="{F32A56B8-0A72-41BE-9CA1-86EDDDA5AC44}PST_CPM_016" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem4" key="{9EB24321-3E5C-4B9E-A175-FFB702DC60A5}" group="False" enabled="True" testMoniker="{4C15A23E-C86C-4F47-88FC-CB4F399B82D2}PST_CPM_021" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem5" key="{397E50ED-643A-4E32-BC02-BA1DD8E9D18A}" group="False" enabled="True" testMoniker="{BC07F5BF-DE2C-4730-A540-9FBB1AAC672E}PST_CPM_022" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem6" key="{D881F1B2-3664-4F32-8247-65CC29AFD32D}" group="False" enabled="True" testMoniker="{1C125211-AA35-4D32-8184-5A2FD4BF0D26}PST_CPM_026" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem7" key="{A7D5DA4E-FD00-4CA7-9F38-46D34AE1ABE2}" group="False" enabled="True" testMoniker="{AC399F34-BD48-4FEB-9F51-D319B46B9163}PST_CPM_031" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem8" key="{81656C64-AF41-4697-BF86-AE79508B23F2}" group="False" enabled="True" testMoniker="{4E9643EB-C810-4585-A7C9-BFA3130E142E}PST_CPM_041" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem10" key="{EC1B3E03-C28B-46DC-9FCA-AE4C1E8EDFC9}" group="False" enabled="True" testMoniker="{4C4A3496-77F2-4EB2-89C5-F96EA61FF280}PST_CPM_045" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem9" key="{F33ADC06-7AB4-4B2F-98A9-C948216BEB14}" group="False" enabled="True" testMoniker="{13BE684C-3BE2-4D59-A57D-D37DC8089EBE}PST_CPM_046" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem11" key="{127D0551-A82F-4B12-9085-1A5644F8D39A}" group="False" enabled="True" testMoniker="{7CC66204-DFA2-47AC-9EED-5C35A79CD1F1}PST_CPM_047" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem12" key="{D50BE6A8-C490-4967-8B57-659EF947891A}" group="False" enabled="True" testMoniker="{DA1747FE-A290-4802-8870-9BA38D8FF04A}PST_CPM_048" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem13" key="{08423E47-AA9D-4495-9375-DB1D506C473A}" group="False" enabled="True" testMoniker="{303B4BD8-C977-446A-8349-15834AB2E014}PST_CPM_049" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem14" key="{7535EA71-2F28-4956-AB35-1497000C00D6}" group="False" enabled="True" testMoniker="{11B8742C-FC5D-4F53-A24A-2DED626E118E}PST_CPM_050" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem15" key="{13619642-5C9D-4B74-AC2A-5765B553A235}" group="False" enabled="True" testMoniker="{82926C81-1C2E-46E3-A8A6-3A93737E56C7}PST_CPM_051" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="PST_SearchROIPassFail" key="{C3A2C237-0993-484F-BF1C-5B2F1EEB336D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem16" key="{5ADE9B03-312A-414D-A876-E65037B77F8C}" group="False" enabled="True" testMoniker="{7175DB98-7A68-4117-A111-2CFDF2518CD3}PST_SearchROIPassFail_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem17" key="{8967C6EB-51EB-47B2-9D60-127D4DC40EB6}" group="False" enabled="True" testMoniker="{D34D1DF5-26F6-4F94-8EE6-B2EEACE36798}PST_SearchROIPassFail_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="PST_Properties" key="{57B36AFF-649F-4F33-9478-104BEEE8A83A}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem18" key="{BFE29A26-62FD-4A60-9838-CCD3C9C47D56}" group="False" enabled="True" testMoniker="{12FEEB2D-9EE7-4A4A-9A4F-C5BC7D600CB7}PST_Properties_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem19" key="{87000152-16F4-4A61-80FD-191D98D6B800}" group="False" enabled="True" testMoniker="{3E6A21C6-DE7C-4F3C-8FF8-E893DC9389BB}PST_Properties_042" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem20" key="{D5D539CA-9F9F-4228-8AD9-25F84EFDF3E7}" group="False" enabled="True" testMoniker="{85328B2D-61CB-4ADA-A3BA-629C833071D8}PST_Properties_051" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="main" key="{0C3CB5AB-72DA-4BE1-976B-38B7D77B1CC2}" group="False" enabled="False" testMoniker="{CDB078FB-6AB5-451B-BF2C-1F5E28505A33}main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="test" key="{2DB0712A-7B8E-4A8D-B840-E0D150CA94BD}" group="False" enabled="False" testMoniker="{CDB078FB-6AB5-451B-BF2C-1F5E28505A33}test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{5AAA811A-906A-42FB-87EE-714B85322F8B}">
+		<data Version="3" />
+	</variables>
+	<settings key="{D4482984-99B8-4E78-8D75-3E6D5A55CAA7}">
+		<settingsVersion value="14.30" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="23" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="javax.swing.JButton" val1="{AA8311A8-D893-4F5F-88F3-5BA33E9B94AA}" val2="13" val3="4" />
+				<row val0="javax.swing.plaf.basic.BasicOptionPaneUI$ButtonFactory$ConstrainedButton" val1="{AA8311A8-D893-4F5F-88F3-5BA33E9B94AA}" val2="13" val3="4" />
+				<row val0="javax.swing.JCheckBox" val1="{B9215B74-2F96-4065-9FB3-9D1526EEBAD7}" val2="13" val3="4" />
+				<row val0="javax.swing.JComboBox" val1="{C5BDADF2-41F0-4398-B76A-995160721368}" val2="13" val3="4" />
+				<row val0="javax.swing.JCheckBoxMenuItem" val1="{21399519-3421-4366-82A0-8B707D81F4CA}" val2="13" val3="4" />
+				<row val0="javax.swing.JRadioButtonMenuItem" val1="{269EC47C-1911-47FC-83D4-8C43FE45B32E}" val2="13" val3="4" />
+				<row val0="javax.swing.JPasswordField" val1="{2DE03994-1524-4838-88B6-07CF537142F5}" val2="13" val3="4" />
+				<row val0="javax.swing.JRadioButton" val1="{8EB0BD9E-D470-4078-823D-94CC2E1CC78B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollBar" val1="{9A5DD4B7-FE5C-4E55-A7C6-A66E8C1D942B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollPane$ScrollBar" val1="{9A5DD4B7-FE5C-4E55-A7C6-A66E8C1D942B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollPane" val1="{6EA27BFE-7A0E-4AB4-9DC6-6486E47EC32C}" val2="13" val3="4" />
+				<row val0="javax.swing.JSlider" val1="{8EB26B4A-C26F-46DE-897C-282740A9C2FE}" val2="13" val3="4" />
+				<row val0="javax.swing.JSpinner" val1="{49BA71C6-8A9E-4EEF-BC35-B2F618F79D67}" val2="13" val3="4" />
+				<row val0="javax.swing.JTabbedPane" val1="{9C7A9C5B-96A7-46F8-8F71-7DB3262F22BB}" val2="13" val3="4" />
+				<row val0="javax.swing.JTable" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="13" val3="4" />
+				<row val0="javax.swing.table.JTableHeader" val1="{2C53FFA6-B4AC-464B-ABF3-1C363024ED27}" val2="13" val3="4" />
+				<row val0="javax.swing.JEditorPane" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextArea" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextPane" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JFormattedTextField" val1="{3D30CB6B-934E-4787-8686-D2DC944F9C07}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextField" val1="{3D30CB6B-934E-4787-8686-D2DC944F9C07}" val2="13" val3="4" />
+				<row val0="javax.swing.JToggleButton" val1="{526C06EE-D0F5-4038-A174-172D34A1FA7B}" val2="13" val3="4" />
+				<row val0="javax.swing.JToolBar" val1="{A978648F-2B98-42EA-9B88-313F326959A4}" val2="13" val3="4" />
+				<row val0="javax.swing.JTree" val1="{FA98F18D-09D4-423E-94D0-F822397B369C}" val2="13" val3="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="13" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeFirefoxObject" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 5/SE" />
+				<row val0="iPhone 6/7/8" />
+				<row val0="iPhone 6/7/8 Plus" />
+				<row val0="Apple iPhone X" />
+				<row val0="Google Pixel 2" />
+				<row val0="Samsung Galaxy Note 9" />
+				<row val0="Samsung Galaxy S9" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="7" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 5/SE" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="iPhone 6/7/8" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="iPhone 6/7/8 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone X" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="375" val8="812" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Pixel 2" val6="Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36" val7="411" val8="731" val9="2.625" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="414" val8="846" val9="3.5" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy S9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="360" val8="740" val9="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="False" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{AE29AE81-BE2E-49F0-915A-E85B4EB3E43D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{EE53E9DA-0875-40B2-BCD3-C4B2F739DB03}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{051B58F3-DC87-4048-A919-35CA791E4DD4}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{0FF97CD2-A2BF-41E5-9BDC-60D6277F1619}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="Panel_1" key="{077361E7-2E33-49F4-8AAE-187A9B9844E4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel_1" ID="{077361E7-2E33-49F4-8AAE-187A9B9844E4}" FileName="Regions\Panel_1.png" Update="False" />
+		</child>
+		<child name="Panel_11" key="{0A240322-5112-44E4-9446-3C253CC38F3D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel_11" ID="{0A240322-5112-44E4-9446-3C253CC38F3D}" FileName="Regions\Panel_11.png" Update="False" />
+		</child>
+		<child name="Panel_12" key="{D4C955D7-79B9-457D-B7DB-2402ECE517D2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel_12" ID="{D4C955D7-79B9-457D-B7DB-2402ECE517D2}" FileName="Regions\Panel_12.png" Update="False" />
+		</child>
+		<child name="Panel_13" key="{6BC150AD-050E-44C0-BB6A-B1DF08204799}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel_13" ID="{6BC150AD-050E-44C0-BB6A-B1DF08204799}" FileName="Regions\Panel_13.png" Update="False" />
+		</child>
+		<child name="Panel_14" key="{CFA26A2A-7DFC-4CBA-ACEF-646955AA5BDA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel_14" ID="{CFA26A2A-7DFC-4CBA-ACEF-646955AA5BDA}" FileName="Regions\Panel_14.png" Update="False" />
+		</child>
+		<child name="OCRSet" key="{4EC56408-8142-4D28-B038-0FBC099EC11A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSet" ID="{4EC56408-8142-4D28-B038-0FBC099EC11A}" FileName="Regions\OCRSet.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane" key="{8B6FEDC6-4A7F-4A36-B269-DEE5D7BEB78E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane" ID="{8B6FEDC6-4A7F-4A36-B269-DEE5D7BEB78E}" FileName="Regions\Control_GlassPane.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane1" key="{710F7349-F9A0-442E-BE57-C161F73D69F2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane1" ID="{710F7349-F9A0-442E-BE57-C161F73D69F2}" FileName="Regions\Control_GlassPane1.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree" key="{32A4B03A-056E-44EC-9E11-762A6E06CB19}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree" ID="{32A4B03A-056E-44EC-9E11-762A6E06CB19}" FileName="Regions\ControlPanelTree.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree1" key="{01359218-D804-4191-856C-30220ED87621}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree1" ID="{01359218-D804-4191-856C-30220ED87621}" FileName="Regions\ControlPanelTree1.png" Update="False" />
+		</child>
+		<child name="ControlPropertiesPane_ControlPropertiesInnerPane" key="{132ACFC2-02EB-44DB-8FAB-3692A56A7050}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPropertiesPane_ControlPropertiesInnerPane" ID="{132ACFC2-02EB-44DB-8FAB-3692A56A7050}" FileName="Regions\ControlPropertiesPane_ControlPropertiesInnerPane.png" Update="False" />
+		</child>
+		<child name="ControlPropertiesPane_ControlPropertiesInnerPane1" key="{B13A618E-281F-4FB8-B1FA-D817469B44EA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPropertiesPane_ControlPropertiesInnerPane1" ID="{B13A618E-281F-4FB8-B1FA-D817469B44EA}" FileName="Regions\ControlPropertiesPane_ControlPropertiesInnerPane1.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane2" key="{3E20AAA0-6B90-4676-B786-E5568E8F1C4A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane2" ID="{3E20AAA0-6B90-4676-B786-E5568E8F1C4A}" FileName="Regions\Control_GlassPane2.png" Update="False" />
+		</child>
+		<child name="OCR_Font_Library2_2_" key="{EDD61FF2-7304-46F7-B204-569ADFF47DA7}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCR_Font_Library2_2_" ID="{EDD61FF2-7304-46F7-B204-569ADFF47DA7}" FileName="Regions\OCR_Font_Library2_2_.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree2" key="{5D9DCDA0-5D5F-4A22-B790-F4E42EE12107}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree2" ID="{5D9DCDA0-5D5F-4A22-B790-F4E42EE12107}" FileName="Regions\ControlPanelTree2.png" Update="False" />
+		</child>
+		<child name="OCR_Font_Library2" key="{3FA7A2CF-2B93-4958-8E63-ED637415411A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCR_Font_Library2" ID="{3FA7A2CF-2B93-4958-8E63-ED637415411A}" FileName="Regions\OCR_Font_Library2.png" Update="False" />
+		</child>
+		<child name="PropertyText" key="{FF5BAD1C-EE46-454C-877F-02EA3439AFC3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PropertyText" ID="{FF5BAD1C-EE46-454C-877F-02EA3439AFC3}" FileName="Regions\PropertyText.png" Update="False" />
+		</child>
+		<child name="ControlPropertiesPane_ControlPropertiesInnerPane2" key="{5DCC7C04-59EA-43AD-AA10-3ADAD415A822}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPropertiesPane_ControlPropertiesInnerPane2" ID="{5DCC7C04-59EA-43AD-AA10-3ADAD415A822}" FileName="Regions\ControlPropertiesPane_ControlPropertiesInnerPane2.png" Update="False" />
+		</child>
+		<child name="ControlPropertiesPane_ControlPropertiesInnerPane3" key="{C83CD7A6-C283-458C-9A3B-B44A620EFE80}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPropertiesPane_ControlPropertiesInnerPane3" ID="{C83CD7A6-C283-458C-9A3B-B44A620EFE80}" FileName="Regions\ControlPropertiesPane_ControlPropertiesInnerPane3.png" Update="False" />
+		</child>
+		<child name="ControlPropertiesPane_ControlPropertiesInnerPane4" key="{2CC6C61F-7CCD-4C90-970D-F1F02C7FD69F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPropertiesPane_ControlPropertiesInnerPane4" ID="{2CC6C61F-7CCD-4C90-970D-F1F02C7FD69F}" FileName="Regions\ControlPropertiesPane_ControlPropertiesInnerPane4.png" Update="False" />
+		</child>
+		<child name="PropertiesViewport" key="{BEAA0FC9-62D0-46E9-B47A-BE4A5A0EA1E1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PropertiesViewport" ID="{BEAA0FC9-62D0-46E9-B47A-BE4A5A0EA1E1}" FileName="Regions\PropertiesViewport.png" Update="False" />
+		</child>
+		<child name="Panel" key="{50C82C96-B2AE-4327-B9D8-9275D3B0A22E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel" ID="{50C82C96-B2AE-4327-B9D8-9275D3B0A22E}" FileName="Regions\Panel.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane3" key="{46103686-D4A2-4ED5-AD59-999F55AB87B5}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane3" ID="{46103686-D4A2-4ED5-AD59-999F55AB87B5}" FileName="Regions\Control_GlassPane3.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas" key="{7AB340B0-094A-44C2-A53C-69FB71FF310E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas" ID="{7AB340B0-094A-44C2-A53C-69FB71FF310E}" FileName="Regions\DisplayCanvas.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas1" key="{B170299F-5F1F-4625-848F-2E1758A8DF99}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas1" ID="{B170299F-5F1F-4625-848F-2E1758A8DF99}" FileName="Regions\DisplayCanvas1.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas2" key="{DB34A800-814D-4ABD-8F86-24BBBC14DD64}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas2" ID="{DB34A800-814D-4ABD-8F86-24BBBC14DD64}" FileName="Regions\DisplayCanvas2.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas3" key="{17ADFA0A-3C1F-4C70-8C96-D1BB3268B389}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas3" ID="{17ADFA0A-3C1F-4C70-8C96-D1BB3268B389}" FileName="Regions\DisplayCanvas3.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas4" key="{2565329D-1FC6-47F8-BB08-F2707FB5B737}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas4" ID="{2565329D-1FC6-47F8-BB08-F2707FB5B737}" FileName="Regions\DisplayCanvas4.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas5" key="{6D2BD111-DFCF-48D1-85BA-99A9EB5EBC28}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas5" ID="{6D2BD111-DFCF-48D1-85BA-99A9EB5EBC28}" FileName="Regions\DisplayCanvas5.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas6" key="{460D763C-6E06-4EA5-9086-98B79ECDC796}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas6" ID="{460D763C-6E06-4EA5-9086-98B79ECDC796}" FileName="Regions\DisplayCanvas6.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane4" key="{3593F37C-BCDF-4886-AE14-F843479F5020}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane4" ID="{3593F37C-BCDF-4886-AE14-F843479F5020}" FileName="Regions\Control_GlassPane4.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane5" key="{680CC73B-2A58-436A-9FFA-975237746BC4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane5" ID="{680CC73B-2A58-436A-9FFA-975237746BC4}" FileName="Regions\Control_GlassPane5.png" Update="False" />
+		</child>
+		<child name="OCRSetPanel_LibraryPanel_" key="{269CECDB-2F9D-4EAE-9E3E-AD13E61E6816}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSetPanel_LibraryPanel_" ID="{269CECDB-2F9D-4EAE-9E3E-AD13E61E6816}" FileName="Regions\OCRSetPanel_LibraryPanel_.png" Update="False" />
+		</child>
+		<child name="OCRSet1" key="{363D18E4-C394-4FEE-B25E-7B61B6F10E7B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSet1" ID="{363D18E4-C394-4FEE-B25E-7B61B6F10E7B}" FileName="Regions\OCRSet1.png" Update="False" />
+		</child>
+		<child name="OCRSet2" key="{DA1A6EA8-BDEC-42D0-9871-6D37690AC2D4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSet2" ID="{DA1A6EA8-BDEC-42D0-9871-6D37690AC2D4}" FileName="Regions\OCRSet2.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane6" key="{3B9B5D60-57DC-47E8-B018-84E865A02DFA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane6" ID="{3B9B5D60-57DC-47E8-B018-84E865A02DFA}" FileName="Regions\Control_GlassPane6.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas7" key="{B1F898B6-F43A-4732-B624-023DFB1D9E4C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas7" ID="{B1F898B6-F43A-4732-B624-023DFB1D9E4C}" FileName="Regions\DisplayCanvas7.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree3" key="{E2B864F5-080F-4291-8343-E801C966DEB0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree3" ID="{E2B864F5-080F-4291-8343-E801C966DEB0}" FileName="Regions\ControlPanelTree3.png" Update="False" />
+		</child>
+		<child name="OCR_Font_Library2_2_1" key="{3D9BC7FB-EE4A-45E0-AF5A-9CACC82C1335}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCR_Font_Library2_2_1" ID="{3D9BC7FB-EE4A-45E0-AF5A-9CACC82C1335}" FileName="Regions\OCR_Font_Library2_2_1.png" Update="False" />
+		</child>
+		<child name="Control_GlassPane7" key="{53D31F23-1417-4369-9D5E-1B06ED710867}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Control_GlassPane7" ID="{53D31F23-1417-4369-9D5E-1B06ED710867}" FileName="Regions\Control_GlassPane7.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree4" key="{850EEA55-08BB-4790-A47D-CF150843EFA3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree4" ID="{850EEA55-08BB-4790-A47D-CF150843EFA3}" FileName="Regions\ControlPanelTree4.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree5" key="{FF145B91-E24C-45CC-9CB1-D199119093E2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree5" ID="{FF145B91-E24C-45CC-9CB1-D199119093E2}" FileName="Regions\ControlPanelTree5.png" Update="False" />
+		</child>
+		<child name="LinkingSummary" key="{C217CCD4-57B1-44C2-86C3-9B74B8235C93}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="LinkingSummary" ID="{C217CCD4-57B1-44C2-86C3-9B74B8235C93}" FileName="Regions\LinkingSummary.png" Update="False" />
+		</child>
+		<child name="LinkingSummaryViewport" key="{8AA2B1D9-0AFE-4AD8-AA55-A16CCDB2AAD4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="LinkingSummaryViewport" ID="{8AA2B1D9-0AFE-4AD8-AA55-A16CCDB2AAD4}" FileName="Regions\LinkingSummaryViewport.png" Update="False" />
+		</child>
+		<child name="ControlPanelTree6" key="{9850E407-238B-40B0-B61F-ED28749CD128}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ControlPanelTree6" ID="{9850E407-238B-40B0-B61F-ED28749CD128}" FileName="Regions\ControlPanelTree6.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas8" key="{CBE7CC6B-8E63-44C7-8026-6A1E32D2BAE6}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas8" ID="{CBE7CC6B-8E63-44C7-8026-6A1E32D2BAE6}" FileName="Regions\DisplayCanvas8.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas9" key="{9187AD7D-A709-40D7-AE89-23B9F869B5D4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas9" ID="{9187AD7D-A709-40D7-AE89-23B9F869B5D4}" FileName="Regions\DisplayCanvas9.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas10" key="{C7E4F373-B84D-47F2-B1E3-C41347A6E86B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas10" ID="{C7E4F373-B84D-47F2-B1E3-C41347A6E86B}" FileName="Regions\DisplayCanvas10.png" Update="False" />
+		</child>
+		<child name="Panel1" key="{1A02D782-1FD3-456F-99FD-6732FE874850}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel1" ID="{1A02D782-1FD3-456F-99FD-6732FE874850}" FileName="Regions\Panel1.png" Update="False" />
+		</child>
+		<child name="Panel2" key="{54FE24DC-0925-434A-9D1A-4A1D5D76D3A8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel2" ID="{54FE24DC-0925-434A-9D1A-4A1D5D76D3A8}" FileName="Regions\Panel2.png" Update="False" />
+		</child>
+		<child name="DisplayPanel_RuntimeTable" key="{86FEB3B6-8545-4C7D-8B59-E08AECDB1D6F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayPanel_RuntimeTable" ID="{86FEB3B6-8545-4C7D-8B59-E08AECDB1D6F}" FileName="Regions\DisplayPanel_RuntimeTable.png" Update="False" />
+		</child>
+		<child name="Panel3" key="{C0137035-30ED-4471-92B5-1694321EF142}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Panel3" ID="{C0137035-30ED-4471-92B5-1694321EF142}" FileName="Regions\Panel3.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas11" key="{99907502-70D3-450E-A4E5-168126EA4D29}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas11" ID="{99907502-70D3-450E-A4E5-168126EA4D29}" FileName="Regions\DisplayCanvas11.png" Update="False" />
+		</child>
+		<child name="Viewport" key="{97F04C53-81F6-4D4A-BC1B-8ED2B54B7D32}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Viewport" ID="{97F04C53-81F6-4D4A-BC1B-8ED2B54B7D32}" FileName="Regions\Viewport.png" Update="False" />
+		</child>
+		<child name="OCRSetPanel" key="{CE6A848F-C030-4BB7-B83B-7E3B8AB8691A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSetPanel" ID="{CE6A848F-C030-4BB7-B83B-7E3B8AB8691A}" FileName="Regions\OCRSetPanel.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas12" key="{33693D6D-F67F-4397-9A80-BE9391B7C838}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas12" ID="{33693D6D-F67F-4397-9A80-BE9391B7C838}" FileName="Regions\DisplayCanvas12.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas13" key="{9FD26639-AA5A-4087-8D4A-2841B8C0614D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas13" ID="{9FD26639-AA5A-4087-8D4A-2841B8C0614D}" FileName="Regions\DisplayCanvas13.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas14" key="{E983A230-7639-4BA3-9014-FC1976B0851D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas14" ID="{E983A230-7639-4BA3-9014-FC1976B0851D}" FileName="Regions\DisplayCanvas14.png" Update="False" />
+		</child>
+		<child name="OCRSetPanel1" key="{FEE3B779-A43C-48E0-A77D-B32E0E0D8EE3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="OCRSetPanel1" ID="{FEE3B779-A43C-48E0-A77D-B32E0E0D8EE3}" FileName="Regions\OCRSetPanel1.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas15" key="{55D3DB99-0147-4D7F-8D47-C284C0339D21}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas15" ID="{55D3DB99-0147-4D7F-8D47-C284C0339D21}" FileName="Regions\DisplayCanvas15.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas16" key="{A22A1DF6-648B-4797-8C75-178E80EA4815}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas16" ID="{A22A1DF6-648B-4797-8C75-178E80EA4815}" FileName="Regions\DisplayCanvas16.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas17" key="{05F4734A-7338-4FAE-9BE4-4AE4AC17F699}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas17" ID="{05F4734A-7338-4FAE-9BE4-4AE4AC17F699}" FileName="Regions\DisplayCanvas17.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas18" key="{88BC406D-B1CE-4740-B1DA-67E782C29B65}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas18" ID="{88BC406D-B1CE-4740-B1DA-67E782C29B65}" FileName="Regions\DisplayCanvas18.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas19" key="{C483FDCD-E9F4-46AF-853F-C3EC80A1C985}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas19" ID="{C483FDCD-E9F4-46AF-853F-C3EC80A1C985}" FileName="Regions\DisplayCanvas19.png" Update="False" />
+		</child>
+		<child name="ROIEditor" key="{91D65E59-2C9F-4D47-A90D-696B5E67E1C1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ROIEditor" ID="{91D65E59-2C9F-4D47-A90D-696B5E67E1C1}" FileName="Regions\ROIEditor.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas20" key="{3435C6D0-E484-4222-85C0-EC127808BEBF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas20" ID="{3435C6D0-E484-4222-85C0-EC127808BEBF}" FileName="Regions\DisplayCanvas20.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas21" key="{28EB50D2-751B-4ABC-8298-5068AD68088B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas21" ID="{28EB50D2-751B-4ABC-8298-5068AD68088B}" FileName="Regions\DisplayCanvas21.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas22" key="{8E3DE539-8DE9-43D6-A658-D11573FB7E35}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas22" ID="{8E3DE539-8DE9-43D6-A658-D11573FB7E35}" FileName="Regions\DisplayCanvas22.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas23" key="{A02ABB50-7DB9-4AD5-BCCD-24BC75FDC88A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas23" ID="{A02ABB50-7DB9-4AD5-BCCD-24BC75FDC88A}" FileName="Regions\DisplayCanvas23.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas24" key="{FA8EE9FC-EA01-44EF-86B8-D3F9EE157495}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas24" ID="{FA8EE9FC-EA01-44EF-86B8-D3F9EE157495}" FileName="Regions\DisplayCanvas24.png" Update="False" />
+		</child>
+		<child name="wndSunAwtFrame" key="{4E54F848-7F7C-4FEF-B503-08D3A6914D84}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="wndSunAwtFrame" ID="{4E54F848-7F7C-4FEF-B503-08D3A6914D84}" FileName="Regions\wndSunAwtFrame.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas25" key="{DA115330-9215-40F2-83A9-297B7F75EDEF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas25" ID="{DA115330-9215-40F2-83A9-297B7F75EDEF}" FileName="Regions\DisplayCanvas25.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas26" key="{25266E49-6501-4EA1-9DD6-D452FA3FD10D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas26" ID="{25266E49-6501-4EA1-9DD6-D452FA3FD10D}" FileName="Regions\DisplayCanvas26.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas27" key="{4F7E686B-78B7-4EAF-8B12-E5E326FA977D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas27" ID="{4F7E686B-78B7-4EAF-8B12-E5E326FA977D}" FileName="Regions\DisplayCanvas27.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas28" key="{E1513937-9C6B-4D03-8BDC-E7182EAA0788}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas28" ID="{E1513937-9C6B-4D03-8BDC-E7182EAA0788}" FileName="Regions\DisplayCanvas28.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas29" key="{087B4BA7-830E-4AA8-8CE1-3A4F6CE9A27B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas29" ID="{087B4BA7-830E-4AA8-8CE1-3A4F6CE9A27B}" FileName="Regions\DisplayCanvas29.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas30" key="{F747C6C1-2049-46E7-837D-2C8D399F6FDE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas30" ID="{F747C6C1-2049-46E7-837D-2C8D399F6FDE}" FileName="Regions\DisplayCanvas30.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas31" key="{F945E1A2-A7E6-435F-908A-498EE82C9DCF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas31" ID="{F945E1A2-A7E6-435F-908A-498EE82C9DCF}" FileName="Regions\DisplayCanvas31.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas32" key="{8CD35A2F-A43F-46DB-ABCC-F0796FADF9AE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas32" ID="{8CD35A2F-A43F-46DB-ABCC-F0796FADF9AE}" FileName="Regions\DisplayCanvas32.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas33" key="{E087687C-F748-4845-B43A-EDCE2463934D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas33" ID="{E087687C-F748-4845-B43A-EDCE2463934D}" FileName="Regions\DisplayCanvas33.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas34" key="{81465CCC-1B1A-475C-83D1-6E50FE3E7B14}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas34" ID="{81465CCC-1B1A-475C-83D1-6E50FE3E7B14}" FileName="Regions\DisplayCanvas34.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas35" key="{44127072-AB03-4A45-A4D4-6D5BE5C48B62}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas35" ID="{44127072-AB03-4A45-A4D4-6D5BE5C48B62}" FileName="Regions\DisplayCanvas35.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas36" key="{2D8358AA-41CC-4F0F-8B81-E236EAA843A8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas36" ID="{2D8358AA-41CC-4F0F-8B81-E236EAA843A8}" FileName="Regions\DisplayCanvas36.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas37" key="{74BFBDB4-DE8B-4B48-A6CC-7281C22115BE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas37" ID="{74BFBDB4-DE8B-4B48-A6CC-7281C22115BE}" FileName="Regions\DisplayCanvas37.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas38" key="{E871E2C1-F902-4A1D-BB4C-4630698BA161}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas38" ID="{E871E2C1-F902-4A1D-BB4C-4630698BA161}" FileName="Regions\DisplayCanvas38.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas39" key="{880364F3-A063-40FC-96A2-15C37120B1D9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas39" ID="{880364F3-A063-40FC-96A2-15C37120B1D9}" FileName="Regions\DisplayCanvas39.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas40" key="{ACAB1079-B18A-48C8-9F7E-CDF440A732F1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas40" ID="{ACAB1079-B18A-48C8-9F7E-CDF440A732F1}" FileName="Regions\DisplayCanvas40.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas41" key="{03BBF452-5F6F-4C81-85E4-EA6CF1B1EAEF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas41" ID="{03BBF452-5F6F-4C81-85E4-EA6CF1B1EAEF}" FileName="Regions\DisplayCanvas41.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas42" key="{6C8AB425-0FDA-444A-9127-58E05699A359}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas42" ID="{6C8AB425-0FDA-444A-9127-58E05699A359}" FileName="Regions\DisplayCanvas42.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas43" key="{AD201EBE-8322-445D-9A49-37EA2E42C05D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas43" ID="{AD201EBE-8322-445D-9A49-37EA2E42C05D}" FileName="Regions\DisplayCanvas43.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas44" key="{6BD51C3D-9B64-458A-B3E0-8A9AFAC051FB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas44" ID="{6BD51C3D-9B64-458A-B3E0-8A9AFAC051FB}" FileName="Regions\DisplayCanvas44.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas45" key="{944713A5-5844-48D7-A53E-F9DAABC4BE32}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas45" ID="{944713A5-5844-48D7-A53E-F9DAABC4BE32}" FileName="Regions\DisplayCanvas45.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas46" key="{265329D3-DDE3-48DE-8F3E-D3BA71870F50}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas46" ID="{265329D3-DDE3-48DE-8F3E-D3BA71870F50}" FileName="Regions\DisplayCanvas46.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas47" key="{475CDBBE-FAE5-4281-95D4-64F6627B75A7}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas47" ID="{475CDBBE-FAE5-4281-95D4-64F6627B75A7}" FileName="Regions\DisplayCanvas47.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas48" key="{F9C6F4F5-5B6C-4C0A-8F8D-337BEEAE2D0B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas48" ID="{F9C6F4F5-5B6C-4C0A-8F8D-337BEEAE2D0B}" FileName="Regions\DisplayCanvas48.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas49" key="{B99AFD0D-448A-4A1A-BA78-C7B989B6D5D6}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas49" ID="{B99AFD0D-448A-4A1A-BA78-C7B989B6D5D6}" FileName="Regions\DisplayCanvas49.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas50" key="{4B7D607C-2222-422D-AB94-4DF547C08FE7}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas50" ID="{4B7D607C-2222-422D-AB94-4DF547C08FE7}" FileName="Regions\DisplayCanvas50.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas51" key="{164DC4D0-7064-4358-92FB-E68B20B7CC8F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas51" ID="{164DC4D0-7064-4358-92FB-E68B20B7CC8F}" FileName="Regions\DisplayCanvas51.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas52" key="{5C3E69CB-F685-44F4-8F85-8459CCA179C1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas52" ID="{5C3E69CB-F685-44F4-8F85-8459CCA179C1}" FileName="Regions\DisplayCanvas52.png" Update="False" />
+		</child>
+		<child name="DisplayCanvas53" key="{C72B6FEE-309F-450B-BE08-AC0A3A916C10}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DisplayCanvas53" ID="{C72B6FEE-309F-450B-BE08-AC0A3A916C10}" FileName="Regions\DisplayCanvas53.png" Update="False" />
+		</child>
+	</children>
+</Root>

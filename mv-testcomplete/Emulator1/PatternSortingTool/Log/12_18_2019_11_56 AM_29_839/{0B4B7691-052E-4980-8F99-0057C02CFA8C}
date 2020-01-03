@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 40">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1254"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.PatternSortingSetup1_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel2.Panel.PatchableIntegerTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;PatternSortingSetup1$AdvancedTrainDialog&quot;, &quot;Global Train Parameters&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JTabbedPane&quot;, &quot;Texture&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableIntegerTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="date" type="D" value="43817.5503137037"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="155"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.Panel.Main_Toolbar.NewProgramButton&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Main Toolbar&quot;).SwingObject(&quot;NewProgramButton&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="date" type="D" value="43817.5501327431"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="35"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Width&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="date" type="D" value="43817.5501276968"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1087"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ToolBar.Panel.Button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingDatabasePanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortDatabaseViewer&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JToolBar&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;&quot;, 4))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="date" type="D" value="43817.5512346875"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1099"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'test[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.PatternSortModelDropdown2.BasicComboBoxEditor_BorderlessTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortModelDropdown&quot;, &quot;&quot;, 1).SwingObject(&quot;BasicComboBoxEditor$BorderlessTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="date" type="D" value="43817.5503018519"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="20"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;SwingObject&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane.&amp;#8203;Panel.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Setup&lt;/span&gt;&lt;/a&gt;.&amp;#8203;BaseSetupPanel_1.&amp;#8203;Panel.&amp;#8203;Panel.&amp;#8203;BaseImagePanel.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel.Panel.BaseImagePanel.ROIEditor&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;ROIEditor&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane.&amp;#8203;Panel.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Setup&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{06C651D2-77E2-485E-A0CC-AECE465BB1C9}_1.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{06C651D2-77E2-485E-A0CC-AECE465BB1C9}_1.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="date" type="D" value="43817.5501239236"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;PropertiesScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertyTable&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The grid cell (27, 'E') was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="date" type="D" value="43817.5504522569"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="995"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel2.WindowsFileChooserUI_9&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;JDialog&quot;, &quot;Load Pattern Database&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel$2$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 2).SwingObject(&quot;WindowsFileChooserUI$9&quot;, &quot;Load&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="date" type="D" value="43817.5502579861"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="107"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="983"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree.SwingPopupMenu&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OverviewComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$TaskComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 1).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;CustomSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$FilledLayeredPane_&quot;, &quot;&quot;, 0).SwingObject(&quot;TaskTree&quot;).SwingPopupMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Paste Pattern Sort' was clicked."/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="date" type="D" value="43817.5502089699"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="32"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="41"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Keys&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane2.&amp;#8203;Panel.&amp;#8203;PropertiesScrollPane.&amp;#8203;Viewport.&amp;#8203;PropertyTable.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel.ExtendedTextField&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;ExtendedTextField&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane2.&amp;#8203;Panel.&amp;#8203;PropertiesScrollPane.&amp;#8203;Viewport.&amp;#8203;PropertyTable.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{02711061-1F8F-497B-9537-23E9241460C6}_1.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{02711061-1F8F-497B-9537-23E9241460C6}_1.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture32.png"/>
+			<Prp name="message" type="S" value="The object &quot;ExtendedTextField&quot; does not exist."/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="date" type="D" value="43817.5509678009"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="948"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="PSI Image existed - do nothing"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="date" type="D" value="43817.5501305208"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1250"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.PatternSortingSetup1_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel2.Panel.PatchableRealTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;PatternSortingSetup1$AdvancedTrainDialog&quot;, &quot;Global Train Parameters&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JTabbedPane&quot;, &quot;Texture&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableRealTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="date" type="D" value="43817.5503075347"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="28"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="date" type="D" value="43817.5501254514"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[BS]101[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel.ExtendedTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;PropertiesScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertyTable&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ExtendedTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="date" type="D" value="43817.5504563889"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture23.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="43817.5499222685"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1251"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[BS]7' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.PatternSortingSetup1_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel2.Panel.PatchableRealTextField3&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;PatternSortingSetup1$AdvancedTrainDialog&quot;, &quot;Global Train Parameters&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JTabbedPane&quot;, &quot;Texture&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableRealTextField&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="date" type="D" value="43817.5503092361"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;.ExtendedTextField&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;javax.swing.JPanel&lt;/td&gt;&lt;td&gt;javax.swing.JComboBox&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Do not use the property for object recognition.&quot; href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}.delete.JavaFullClassName&quot;&gt;Delete&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="An object recognition hint. See Details for additional information."/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="date" type="D" value="43817.550578507"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="992"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel.Button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;Load...&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="date" type="D" value="43817.5502427778"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Device is ready to test"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="43817.5497290509"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="23"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="date" type="D" value="43817.5501247106"/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="33"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1084"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.BaseSetupPanel_ButtonBar_.ToolSetupCardPanel_HashcodeRadioButton2&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;BaseSetupPanel$ButtonBar_&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel$HashcodeRadioButton&quot;, &quot;Database&quot;, 2))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The toggle button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="date" type="D" value="43817.5512304514"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1045"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.Panel.Button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;Add&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="date" type="D" value="43817.5504374306"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="135"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="date" type="D" value="43817.5513840741"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="982"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (99, 442) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_TaskComponent_.Panel.ScrollPane.Viewport.CustomSplitPane.TasksTabbedPane_FilledLayeredPane_.TaskTree&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OverviewComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$TaskComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 1).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;CustomSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$FilledLayeredPane_&quot;, &quot;&quot;, 0).SwingObject(&quot;TaskTree&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="date" type="D" value="43817.5501998495"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The 'Vision Program Manager - (Local Emulator IMPACT Emulator 1)' window was closed."/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="date" type="D" value="43817.5512662269"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.Dialog.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;JDialog&quot;, &quot;Vision Program Manager&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JOptionPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OptionPane.buttonArea&quot;).SwingObject(&quot;OptionPane.button&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="date" type="D" value="43817.5512575926"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="42"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="42"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;aqObject.CheckProperty&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{0E20F97C-E1E6-4159-80D3-4BB5C8BE1139}_1.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{0E20F97C-E1E6-4159-80D3-4BB5C8BE1139}_1.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture33.png"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="date" type="D" value="43817.5510903704"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1261"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="date" type="D" value="43817.550314456"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="40"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;OptionPane.&amp;#8203;OptionPane_buttonArea.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;OptionPane_button&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{E458EE8E-4F09-4C6F-B878-45361A7AB1F3}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{E458EE8E-4F09-4C6F-B878-45361A7AB1F3}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture31.png"/>
+			<Prp name="message" type="S" value="The object &quot;OptionPane_button&quot; does not exist."/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="date" type="D" value="43817.5508387384"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Please adjust VPM as default: Height = 436 and width = 1084"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="date" type="D" value="43817.5501277315"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="38"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Keys&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane2.&amp;#8203;Panel.&amp;#8203;PropertiesScrollPane.&amp;#8203;Viewport.&amp;#8203;PropertyTable.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel.ExtendedTextField&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;ExtendedTextField&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane2.&amp;#8203;Panel.&amp;#8203;PropertiesScrollPane.&amp;#8203;Viewport.&amp;#8203;PropertyTable.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{02711061-1F8F-497B-9537-23E9241460C6}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{02711061-1F8F-497B-9537-23E9241460C6}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture29.png"/>
+			<Prp name="message" type="S" value="The object &quot;ExtendedTextField&quot; does not exist."/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="date" type="D" value="43817.5505886806"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1204"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.PatchableComboBox.WindowsComboBoxUI_XPComboBoxButton&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableComboBox&quot;, &quot;&quot;, 0).SwingObject(&quot;WindowsComboBoxUI$XPComboBoxButton&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="date" type="D" value="43817.5502860648"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane.TasksTabbedPane_SystemComponent_.ScrollPane.Viewport.Panel.TaskTree&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OverviewComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$SystemComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;TaskTree&quot;))"/>
+			<Prp name="picture" type="S" value="Picture21.png"/>
+			<Prp name="message" type="S" value="Unable to perform the action because the control is disabled."/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="43817.5497343171"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="95"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The process ID is 36292."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The application &quot;C:\Datalogic\IMPACT\Applications\Xmx_Setup.cmd VPM VPM -optionfile &quot;C:\Datalogic\IMPACT\Applications\optionFile.txt&quot;&quot; started."/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="43817.5494237963"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="29"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel.&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;ExtendedTextField&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;common.ExtendedTextField&lt;/td&gt;&lt;td&gt;javax.swing.CellRendererPane&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Update the property value in Name Mapping with the found value.&quot; href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}.update.JavaFullClassName.@6A0061007600610078002E007300770069006E0067002E00430065006C006C00520065006E0064006500720065007200500061006E006500&quot;&gt;Update&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="An object recognition hint. See Details for additional information."/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="date" type="D" value="43817.5509580903"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="31"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="29"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="date" type="D" value="43817.5501262153"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1091"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'testhale' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.PatternSortModelDropdown.BasicComboBoxEditor_BorderlessTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortModelDropdown&quot;, &quot;&quot;, 0).SwingObject(&quot;BasicComboBoxEditor$BorderlessTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="date" type="D" value="43817.5502970833"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="14"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture26.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="date" type="D" value="43817.5499306366"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="100"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="43817.5495456482"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="89"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="43817.5493058796"/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="28"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="169"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="date" type="D" value="43817.5501456482"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1264"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.PatternSortingSetup1_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Button2&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;PatternSortingSetup1$AdvancedTrainDialog&quot;, &quot;Global Train Parameters&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;OK&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="date" type="D" value="43817.5503171181"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;.ExtendedTextField&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;javax.swing.JPanel&lt;/td&gt;&lt;td&gt;javax.swing.JComboBox&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Do not use the property for object recognition.&quot; href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}.delete.JavaFullClassName&quot;&gt;Delete&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{AF27D0AC-E4E6-44FD-9048-4FC6D0C6CC95}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="An object recognition hint. See Details for additional information."/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="date" type="D" value="43817.5509580556"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1234"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.Panel.Button2&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;Advanced ...&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="date" type="D" value="43817.5503046065"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="259"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The tab control page 'Setup' was selected with the left mouse button."/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="date" type="D" value="43817.5512251852"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="43"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="43"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;OptionPane.&amp;#8203;OptionPane_buttonArea.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;OptionPane_button&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{E458EE8E-4F09-4C6F-B878-45361A7AB1F3}_1.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{E458EE8E-4F09-4C6F-B878-45361A7AB1F3}_1.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture34.png"/>
+			<Prp name="message" type="S" value="The object &quot;OptionPane_button&quot; does not exist."/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="date" type="D" value="43817.5512166204"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;SwingObject&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane.&amp;#8203;Panel.&amp;#8203;Setup.&amp;#8203;BaseSetupPanel_1.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;.&amp;#8203;Panel.&amp;#8203;BaseImagePanel.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel.Panel.BaseImagePanel.ROIEditor&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;ROIEditor&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;VpmFrame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;VPM.&amp;#8203;HideableTabbedPane.&amp;#8203;SplitPane.&amp;#8203;DetailComponent.&amp;#8203;DetailComponent_1.&amp;#8203;DetailComponent_BottomComponent_.&amp;#8203;PropertiesTabbedPane.&amp;#8203;Panel.&amp;#8203;Setup.&amp;#8203;BaseSetupPanel_1.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Panel&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{06C651D2-77E2-485E-A0CC-AECE465BB1C9}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{06C651D2-77E2-485E-A0CC-AECE465BB1C9}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture22.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="43817.5499193634"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1120"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Folder exist"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43817.5491881829"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture24.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="43817.5499248958"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="30"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="157"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.NewProgramPrompt.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;NewProgramPrompt&quot;, &quot;New&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 2).SwingObject(&quot;JButton&quot;, &quot;OK&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="date" type="D" value="43817.550135625"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1201"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="date" type="D" value="43817.5512396181"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="39"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="39"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;aqObject.CheckProperty&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;javaw.&amp;#8203;&lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Dialog11&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.Aliases.javaw.Dialog11&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{0E20F97C-E1E6-4159-80D3-4BB5C8BE1139}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{0E20F97C-E1E6-4159-80D3-4BB5C8BE1139}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture30.png"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="date" type="D" value="43817.5507127199"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5D33C475-53E1-4904-853D-8610EE8D98A4}"/>
+			<Prp name="unit 1" type="S" value="{ED8D1891-3C15-481E-8F4B-368D1E748CD9}"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1098"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.PatternSortModelDropdown2.BasicComboBoxEditor_BorderlessTextField&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortModelDropdown&quot;, &quot;&quot;, 1).SwingObject(&quot;BasicComboBoxEditor$BorderlessTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="date" type="D" value="43817.5502997454"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="34"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="32"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="date" type="D" value="43817.5501269792"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1209"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingTrainPanel.Panel.Panel2.Panel.PatchableComboBox&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableComboBox&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'Texture' was selected."/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="date" type="D" value="43817.5502910995"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.Dialog11.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;JDialog&quot;, &quot;Error: Texture Algorithm Train Max Dip&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JOptionPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OptionPane.buttonArea&quot;).SwingObject(&quot;OptionPane.button&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="date" type="D" value="43817.5504597106"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 27">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="986"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.BaseSetupPanel_ButtonBar_.ToolSetupCardPanel_HashcodeRadioButton&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;BaseSetupPanel$ButtonBar_&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel$HashcodeRadioButton&quot;, &quot;Train&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The toggle button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="date" type="D" value="43817.550238912"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1252"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.PatternSortingSetup1_AdvancedTrainDialog.RootPane.null_layeredPane.null_contentPane.Panel.TabbedPane.Panel2.Panel.PatchableRealTextField2&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;PatternSortingSetup1$AdvancedTrainDialog&quot;, &quot;Global Train Parameters&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JTabbedPane&quot;, &quot;Texture&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatchableRealTextField&quot;, &quot;&quot;, 2))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="date" type="D" value="43817.5503115509"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="980"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane_ToolPalettePanelSplitPane_.ScrollPane.Viewport.Panel.ToolTree&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OverviewComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$ToolPalettePanelSplitPane_&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolTree&quot;, &quot;&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The tree item '|[0]|Feature Finding|Pattern Sort' was clicked with the right mouse button."/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="date" type="D" value="43817.5501500926"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="216"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.Panel.Main_Toolbar.CloseProgramButton&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Main Toolbar&quot;).SwingObject(&quot;CloseProgramButton&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="date" type="D" value="43817.5512545949"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="17"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Height&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture27.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="date" type="D" value="43817.5499340856"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="993"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'test[Enter].pdb' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_2_1.Panel.Panel.Panel.WindowsFileChooserUI_7&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;JDialog&quot;, &quot;Load Pattern Database&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;PatternSortingSetup1$SortingTrainPanel$2$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;WindowsFileChooserUI$7&quot;, &quot;File name:&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="date" type="D" value="43817.5502554514"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1269"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="do nothing"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="date" type="D" value="43817.5504351505"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="245"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Setup&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The tab control page 'Properties' was selected with the left mouse button."/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="date" type="D" value="43817.5504456481"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="981"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.SplitPane.TasksTabbedPane_ToolPalettePanelSplitPane_.ScrollPane.SwingPopupMenu&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OverviewComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;TasksTabbedPane$ToolPalettePanelSplitPane_&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingPopupMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Copy Pattern Sort' was clicked."/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="date" type="D" value="43817.5501971181"/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1197"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.Panel.Panel2.Button&#xA;(Sys.Process(&quot;javaw&quot;).SwingObject(&quot;VpmFrame&quot;).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;VPM&quot;, &quot;&quot;, 0).SwingObject(&quot;HideableTabbedPane&quot;, &quot;Design&quot;, 0).SwingObject(&quot;JSplitPane&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$1&quot;, &quot;&quot;, 0).SwingObject(&quot;DetailComponent$BottomComponent_&quot;, &quot;&quot;, 0).SwingObject(&quot;PropertiesTabbedPane&quot;, &quot;Properties&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;Setup&quot;).SwingObject(&quot;BaseSetupPanel$1&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ToolSetupCardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;PatternSortingSetup1$SortingDatabasePanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Pattern Database&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;JButton&quot;, &quot;Retrain All&quot;, 0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="date" type="D" value="43817.5512389931"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 35">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="stacktext" type="S" value="Setup_loadVPM"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="stacktext" type="S" value="Setup_VPMSizeCheck"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="111"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="stacktext" type="S" value="PST_Train_063"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane2.Panel.PropertiesScrollPane.Viewport.PropertyTable.Panel.&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;ExtendedTextField&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;common.ExtendedTextField&lt;/td&gt;&lt;td&gt;javax.swing.CellRendererPane&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Update the property value in Name Mapping with the found value.&quot; href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}.update.JavaFullClassName.@6A0061007600610078002E007300770069006E0067002E00430065006C006C00520065006E0064006500720065007200500061006E006500&quot;&gt;Update&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{02711061-1F8F-497B-9537-23E9241460C6}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="An object recognition hint. See Details for additional information."/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="date" type="D" value="43817.5505785301"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.javaw.Dialog11.WndCaption&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Error: Texture Algorithm Train Max Dip&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{E4E18C50-3409-45CD-B32B-836BD06D65CA}.{F7D62656-0375-436C-A6D6-CEA328186CED}'&gt;Aliases.javaw.Dialog11&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&quot;Error: Texture Algorithm Train Max Dip&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&quot;Error: Texture Algorithm Train Max Dip&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed: WndCaption equals (case-sensitive) &quot;Error: Texture Algorithm Train Max Dip&quot;."/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="date" type="D" value="43817.550457581"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;SwingObject&quot; method or property of the &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture25.png"/>
+			<Prp name="message" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="43817.5499279282"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="14.0">
+	<children>
+		<child name="PropertyTable" key="{9595BD79-385C-49D1-A2B9-8CD890FACBEE}" path="PropertyTable.tcTbl" />
+	</children>
+</Root>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root identifier="Stores.Objects" version="2" mode="6" name="" className="" groupName="" objectType="0" selected="True">
+	<properties />
+	<children>
+		<child name="SwingObject(&quot;TaskTree&quot;)" className="SwingObject(&quot;TaskTree&quot;)" groupName="" objectType="0" selected="True">
+			<properties>
+				<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+			</properties>
+			<children>
+				<child name="AWTObject(&quot;CellRendererPane&quot;, &quot;&quot;, 0)" className="AWTObject(&quot;CellRendererPane&quot;, &quot;&quot;, 0)" groupName="" objectType="0" selected="True">
+					<properties>
+						<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+						<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+					</properties>
+					<children />
+				</child>
+			</children>
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{10063B2C-A096-49EC-BD01-FEFCD8F1D28B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="31" kind="0" dateTime="43693.1984375" objectName="Aliases.javaw.DeviceSelector.RootPane.null_layeredPane.null_contentPane.Panel.Box.Button" objectLeft="103" objectTop="224" objectRight="258" objectBottom="247" clickPointX="186" clickPointY="235" imageFileName="tcvi16192985969600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="59" kind="0" dateTime="43693.3929166667" objectName="Aliases.javaw.Dialog.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button2" objectLeft="119" objectTop="149" objectRight="194" objectBottom="172" clickPointX="145" clickPointY="159" imageFileName="tcvi17873271829600.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

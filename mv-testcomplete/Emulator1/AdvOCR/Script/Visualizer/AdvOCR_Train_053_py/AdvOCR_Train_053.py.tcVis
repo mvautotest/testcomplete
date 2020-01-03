@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{449F67CC-C1FB-418E-8E36-96C266A4A790}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="37" kind="0" dateTime="43655.1923148148" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.HOG_OCRSetup_HOGVerifyPanel.Panel.Panel.Panel.Panel.TextField" objectLeft="842" objectTop="524" objectRight="1092" objectBottom="546" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-657695140274881.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="38" kind="0" dateTime="43655.1970833333" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.OverviewComponent.Panel.TaskToolbar.TaskAdvanceButton" objectLeft="113" objectTop="73" objectRight="150" objectBottom="108" clickPointX="135" clickPointY="96" imageFileName="tcvi-657283828202720.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

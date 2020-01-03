@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C8F32E9E-2B53-42F9-879C-32671FFF75BB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="43637.2952199074" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel.Panel.Origin2Setup_OriginSetupPanel_1.ROIEditor.Panel.Panel.ScrollPane.Viewport.DisplayCanvas" objectLeft="941" objectTop="102" objectRight="1905" objectBottom="408" clickPointX="1092" clickPointY="179" imageFileName="tcvi2090963671149080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="25" kind="0" dateTime="43662.2680324074" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel.Panel.Origin2Setup_OriginSetupPanel_1.ROIEditor.Panel.Panel.ScrollPane.Viewport.DisplayCanvas" objectLeft="779" objectTop="96" objectRight="1906" objectBottom="532" clickPointX="995" clickPointY="201" imageFileName="tcvi-46352375268960.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{692645F8-0D75-4BC2-ABB7-1495B808EA9D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="43655.2081712963" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.HOG_OCRSetup_HOGTrainPanel.Panel3.Panel.Panel.OCRSetPanel.ToolBar.Panel.Button2" objectLeft="691" objectTop="679" objectRight="715" objectBottom="703" clickPointX="700" clickPointY="691" imageFileName="tcvi-65632556269680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="43655.2081944444" objectName="Aliases.javaw.Dialog3.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button2" objectLeft="162" objectTop="81" objectRight="207" objectBottom="108" clickPointX="178" clickPointY="93" imageFileName="tcvi-65632279669681.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

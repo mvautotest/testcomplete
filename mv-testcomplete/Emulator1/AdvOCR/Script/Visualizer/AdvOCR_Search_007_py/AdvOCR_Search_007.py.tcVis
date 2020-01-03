@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{CBAE33CD-9AE0-49E1-BCFA-19F7DB7E5552}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="43644.2996064815" objectName="Aliases.javaw.Dialog8.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button2" objectLeft="188" objectTop="91" objectRight="288" objectBottom="118" clickPointX="241" clickPointY="106" imageFileName="tcvi-1598824984211440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="19" kind="0" dateTime="43662.3563310185" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.Panel.Panel.HOG_OCRSetup_HOG_OCRSetupPanel_1.ROIEditor.Panel.Panel.ScrollPane.Viewport.DisplayCanvas" objectLeft="779" objectTop="96" objectRight="1906" objectBottom="532" clickPointX="929" clickPointY="212" imageFileName="tcvi-38724656215680.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

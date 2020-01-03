@@ -1,0 +1,12 @@
+;Name of device/emulator
+;'IMPACT Emulator 1   (127.0.0.1:10010) - Local Emulator'
+;'IMPACT Emulator 2   (127.0.0.2:10013) - Local Emulator'
+;'IMPACT Emulator 3   (127.0.0.3:10016) - Local Emulator'
+;'IMPACT Emulator 4   (127.0.0.4:10019) - Local Emulator'
+;'Vision Device   (192.168.0.112)'
+;'Vision Device   (192.168.0.128)'
+;'IMPACT Device 1   (192.168.0.159:10080)'
+;'IMPACT Device 2   (192.168.0.160:10080)'
+;'IMPACT Device 3   (192.168.0.161:10080)'
+;'IMPACT Device 4   (192.168.0.162:10080)'
+IMPACT Device 1   (192.168.0.189:10080)

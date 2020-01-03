@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Prp name="end time" type="D" value="43817.5014843866"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_005 [Script\PST_General_005 - PST_General_005]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{956BC7A3-524B-411E-B84C-E372DF8CB515}"/>
+				<Prp name="start time" type="D" value="43817.500542581"/>
+			</Node>
+			<Node name="row6">
+				<Prp name="end time" type="D" value="43817.5022807407"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="The test item execution has been stopped."/>
+				<Prp name="extended message" type="S" value="&lt;html&gt;&lt;style&gt;&#xA;body {&#xA;  font-family:  Segoe UI, Tahoma, Arial, Helvetica, sans-serif;&#xA;  font-size: 13px;&#xA;  font-weight: normal;&#xA;  margin: 19px;&#xA;  padding: 0;&#xA;}&#xA;p {&#xA;  margin: 20px 0;&#xA;  padding: 0;&#xA;}&#xA;ul {&#xA;  margin: 1ex 0 1ex 2ex;&#xA;  padding: 0;&#xA;}&#xA;li {&#xA;  margin: 1ex 0 0 3ex;&#xA;  padding: 0 0;&#xA;}&#xA;a {&#xA;  color: #0066CC;&#xA;}&#xA;h3 {&#xA;  font-size: 14px;&#xA;  margin: 20px 0 8px 0;&#xA;  padding: 0;&#xA;}&#xA;table {&#xA;  margin: 0;&#xA;  padding: 0;&#xA;  border: 1px solid #909090;&#xA;  border-collapse: collapse;&#xA;}&#xA;.table-border {&#xA;  display: inline-block;&#xA;  border: 1px solid #909090;&#xA;}&#xA;.table-borderless {&#xA;  border: 0px;&#xA;}&#xA;.full-width {&#xA;  width: 100%;&#xA;}&#xA;.table-border.full-width &gt; table {&#xA;  width: 100%;&#xA;}&#xA;td, th {&#xA;  font-size: 14px;&#xA;  text-align: left;&#xA;  vertical-align: middle;&#xA;  padding: 0px 6px 0px 6px;&#xA;}&#xA;td:first-of-type, th:first-of-type {&#xA;  padding-left: 12px;&#xA;}&#xA;td:last-of-type, th:last-of-type {&#xA;  padding-right: 12px;&#xA;}&#xA;td {&#xA;  height: 26px;&#xA;}&#xA;th {&#xA;  font-size: 12px;&#xA;  font-weight: normal;&#xA;  white-space: nowrap;&#xA;  height: 23px;&#xA;  color: #707070;&#xA;  background-color: #F5F6F8;&#xA;}&#xA;table tr:not(:first-child) td {&#xA;  border-top: 1px solid #EEEEEE;&#xA;}&#xA;table tr:not(:first-child) th {&#xA;  border-top: 1px solid #DCDCDC;&#xA;}&#xA;table.table-vertical th {&#xA;  border-right: 1px solid #DCDCDC;&#xA;}&#xA;&lt;/style&gt;&lt;body&gt;The test item execution has been stopped, because an exception occurred and the value of the &quot;Stop on exception&quot; test item's property is &lt;i&gt;Test Item&lt;/i&gt;.&lt;p&gt;&lt;a href=&quot;aqa-help://2017&quot;&gt;Learn More About Stopping Test Execution&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="43817.5022807407"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="end time" type="D" value="43817.5022810069"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_006 [Script\PST_General_006 - PST_General_006]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{7547C786-85D5-4B85-8218-5E5E29556347}"/>
+				<Prp name="start time" type="D" value="43817.5014844792"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="end time" type="D" value="43817.4984396643"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_001 [Script\PST_General_001 - PST_General_001]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{350BFCB3-7DED-442B-AC27-D7B7A50C91D1}"/>
+				<Prp name="start time" type="D" value="43817.4975818634"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="end time" type="D" value="43817.4995755324"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_003 [Script\PST_General_003 - PST_General_003]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{4ED513FD-5876-47F3-A35C-BB4E24B20F00}"/>
+				<Prp name="start time" type="D" value="43817.4984397338"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="end time" type="D" value="43817.5022805556"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="An exception occurred while the element specified in the 'PST_General_006' test item was being executed."/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="43817.5022805556"/>
+			</Node>
+			<Node name="row7">
+				<Prp name="end time" type="D" value="43817.5034526852"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_007 [Script\PST_General_007 - PST_General_007]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{59DDD690-7891-46E7-8552-033C059608D0}"/>
+				<Prp name="start time" type="D" value="43817.5022810995"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="end time" type="D" value="43817.5005425116"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="PST_General_004 [Script\PST_General_004 - PST_General_004]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{A04C4A9B-E220-4844-B2FC-B81B5B6324B6}"/>
+				<Prp name="start time" type="D" value="43817.4995755903"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

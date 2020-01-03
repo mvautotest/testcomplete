@@ -1,0 +1,2734 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test48">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5322703588"/>
+						<Prp name="name" type="S" value="PST_Train_069"/>
+						<Prp name="durationwithoutchildren" type="I" value="108304"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEUAMQBGAEMAQgA3ADIALQAwADYANwA4AC0ANABDADAAQwAtADkAQQA3ADgALQAxAEUARgAyADAANQBCADMAMgA0ADAANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="108304"/>
+					</Node>
+					<Node name="test77">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;C:\Datalogic\IMPACT\Applications\Emulator\Emu...&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5793952894"/>
+						<Prp name="name" type="S" value="PST_Train_099"/>
+						<Prp name="durationwithoutchildren" type="I" value="114309"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADcAOAA0ADkARQA2ADMALQA4ADUAOQBDAC0ANAAwADgAMwAtADgANwA0ADcALQBEAEQAMABGAEUARgBDAEIANgBEADIANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="114309"/>
+					</Node>
+					<Node name="test75">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5732919213"/>
+						<Prp name="name" type="S" value="PST_Train_097"/>
+						<Prp name="durationwithoutchildren" type="I" value="104327"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYAMQBCADQAMQA4ADMALQA2ADUANQBFAC0ANAAyAEUAQgAtADkAMAAxADIALQA1AEYAQQA3ADMAMwAwAEEANwAwAEMARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="104327"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4617921181"/>
+						<Prp name="name" type="S" value="PST_Train_003"/>
+						<Prp name="durationwithoutchildren" type="I" value="68042"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEEAQQAxAEIAQQBGAEYALQBGAEYAOQA5AC0ANABEAEEANgAtADgANwA4ADAALQBBADgARAAyADgAMgBDADYANgBBAEQANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="68042"/>
+					</Node>
+					<Node name="test74">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5721565972"/>
+						<Prp name="name" type="S" value="PST_Train_095"/>
+						<Prp name="durationwithoutchildren" type="I" value="98090"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQAQQAyADgAQwBCAEUALQAzADcANABEAC0ANAAxAEIANwAtAEEANwAzADEALQBEAEUANAA3AEQAOABDADQAQwBCADkAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="98090"/>
+					</Node>
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;PST&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4727030324"/>
+						<Prp name="name" type="S" value="PST_Train_012"/>
+						<Prp name="durationwithoutchildren" type="I" value="121903"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDAEMAOQAyADEAQQBEAEEALQA3ADQAMwBBAC0ANAA0ADEARQAtAEIAMAA1ADUALQA5AEQANwA5AEMANABDAEIARgAwADkANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="121903"/>
+					</Node>
+					<Node name="test23">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4900215625"/>
+						<Prp name="name" type="S" value="PST_Train_026"/>
+						<Prp name="durationwithoutchildren" type="I" value="103269"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADYAQQBFADAANwBCAEIALQA5AEIANABDAC0ANABGADQANQAtADkAMgAwAEMALQA0ADYARQBGADIANQA0ADIARQA1ADgARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="103269"/>
+					</Node>
+					<Node name="test21">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4876415509"/>
+						<Prp name="name" type="S" value="PST_Train_024"/>
+						<Prp name="durationwithoutchildren" type="I" value="102076"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADgANQAzAEQAQgBEADMALQA0ADMAMQAxAC0ANABBADkAMAAtAEEAMwBEAEEALQA2ADYAMgAyAEMAOAA3AEYANAA1AEMAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="102076"/>
+					</Node>
+					<Node name="test32">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5031975926"/>
+						<Prp name="name" type="S" value="PST_Train_049"/>
+						<Prp name="durationwithoutchildren" type="I" value="128831"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEQAQwA1AEEAMgBEADgALQA2AEIARgBCAC0ANABCAEIANQAtAEIAQgAyADUALQA1ADMANwA0AEQAMgAwAEEAMwAyADkAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="128831"/>
+					</Node>
+					<Node name="test92">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_061"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test64">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_085' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5573457755"/>
+						<Prp name="name" type="S" value="PST_Train_085"/>
+						<Prp name="durationwithoutchildren" type="I" value="242017"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADIARAA0AEMAQgBGAEUALQBBADAAMgBFAC0ANAAyAEEARgAtADkAQgBEAEMALQA1ADYANgA2ADIANABBAEQAOABBAEYAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="242017"/>
+					</Node>
+					<Node name="test37">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 12:23:21&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.514961088"/>
+						<Prp name="name" type="S" value="PST_Train_056"/>
+						<Prp name="durationwithoutchildren" type="I" value="131194"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADIAQwAwAEMAQwBDADYALQBEADgARgAzAC0ANAA0ADQAMwAtADkAOQAzADMALQA5ADgARQA3ADgARgAzADIANABBAEEAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="131194"/>
+					</Node>
+					<Node name="test36">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5130515509"/>
+						<Prp name="name" type="S" value="PST_Train_054"/>
+						<Prp name="durationwithoutchildren" type="I" value="164982"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEYAQwA4AEIAMAA3AEIALQA3ADIAMAA4AC0ANAA4ADYAMgAtADgANAAwADYALQA3AEUAOQBEAEEANABCADAARgBBAEMAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="164982"/>
+					</Node>
+					<Node name="test81">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Setup Error'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5846547569"/>
+						<Prp name="name" type="S" value="PST_Database_005"/>
+						<Prp name="durationwithoutchildren" type="I" value="146355"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEUARQAyAEYARgA0ADMALQA4AEUARQA2AC0ANAA5ADEANAAtADkAMwBGADcALQA4ADgAMgA3AEMAQgA0ADkARQBFADgAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="146355"/>
+					</Node>
+					<Node name="test108">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem11"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test71">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5686282755"/>
+						<Prp name="name" type="S" value="PST_Train_092"/>
+						<Prp name="durationwithoutchildren" type="I" value="116601"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADYANgA3AEQAQwBGAEQALQA1ADIANAA5AC0ANAA4ADQAMwAtADkAMgBCADcALQA3AEEAMwAwAEEAMgBFAEIARAA1ADkARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="116601"/>
+					</Node>
+					<Node name="test43">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5231340509"/>
+						<Prp name="name" type="S" value="PST_Train_063"/>
+						<Prp name="durationwithoutchildren" type="I" value="120423"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADcAQQA3ADkARAA3ADcALQBFAEYARgBCAC0ANAAzADkAMgAtAEEAQgBCADgALQA3ADYAQgA2AEYARgAwADIARABGAEMANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="120423"/>
+					</Node>
+					<Node name="test59">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5502607755"/>
+						<Prp name="name" type="S" value="PST_Train_080"/>
+						<Prp name="durationwithoutchildren" type="I" value="153717"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEEANAAxADIAOQAzAEYALQBFADIANAAyAC0ANABCADAANgAtADgAOABBADUALQBBAEYANwAzAEIANAAzADYANgAzAEYAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="153717"/>
+					</Node>
+					<Node name="test25">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_031' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4924167593"/>
+						<Prp name="name" type="S" value="PST_Train_031"/>
+						<Prp name="durationwithoutchildren" type="I" value="245735"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADkAQQA2ADUAMAAxADcALQBBAEMARgA2AC0ANAAwADEANgAtAEEAMQBDADcALQBCADIARABEAEQARAAxADkANwA3ADYANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="245735"/>
+					</Node>
+					<Node name="test112">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem15"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test24">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4912168518"/>
+						<Prp name="name" type="S" value="PST_Train_027"/>
+						<Prp name="durationwithoutchildren" type="I" value="103670"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADgAMQBEADgANgBDADQALQA5AEMARABCAC0ANABEADIANwAtAEIARgAwADkALQA3ADcAMAA1ADMAQQBDAEMANQA4ADcAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="103670"/>
+					</Node>
+					<Node name="test107">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem9"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test57">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5460308565"/>
+						<Prp name="name" type="S" value="PST_Train_078"/>
+						<Prp name="durationwithoutchildren" type="I" value="121139"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEMARQAyAEMAMgBBADMALQA5ADAARAAwAC0ANAAwADgANwAtADgARAA0ADMALQBFAEUARABCAEUARAA4AEMAOQA5ADMANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="121139"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4634919676"/>
+						<Prp name="name" type="S" value="PST_Train_005"/>
+						<Prp name="durationwithoutchildren" type="I" value="72111"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADgARQBGAEQANAAxAEMALQA0AEYANAA1AC0ANAA1AEQAMgAtAEIAQwBEAEQALQA0ADAAOABGADcAQgA3ADIANwA5AEUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="72111"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because xLocation_ is less than 255.125. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4625796412"/>
+						<Prp name="name" type="S" value="PST_Train_004"/>
+						<Prp name="durationwithoutchildren" type="I" value="78823"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEIANAAzADQAMgAxAEQALQBBAEIAOQA5AC0ANAA5ADAAMAAtAEEAOQAyADYALQBDADQAQgA1ADIAQwA1ADEAMgA1AEQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="78823"/>
+					</Node>
+					<Node name="test76">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: ''"/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unexpected window: 'Setup Error'"/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;Sample Pattern Sort - 01 Fail&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;Sample Pattern Sort - 01 Fail&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5744994329"/>
+						<Prp name="name" type="S" value="PST_Train_102"/>
+						<Prp name="durationwithoutchildren" type="I" value="423002"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADYAMQAwAEUARgAwADgALQBGAEIAMQA4AC0ANABBADkAQwAtADkARAA0AEYALQAyADcANwA4ADAAOABDADUANAA0AEIAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="423002"/>
+					</Node>
+					<Node name="test87">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_034"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test46">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_067' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5275796065"/>
+						<Prp name="name" type="S" value="PST_Train_067"/>
+						<Prp name="durationwithoutchildren" type="I" value="245772"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEIANQBCADUANgAzAEQALQBEADYARAAxAC0ANAAzADUAMAAtAEIANAA5ADAALQAyADQAMQAyADEARAAxAEUAQgA5ADQANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="245772"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4601328588"/>
+						<Prp name="name" type="S" value="PST_Train_001"/>
+						<Prp name="durationwithoutchildren" type="I" value="67593"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEQAMwAyADEAQQA2ADIALQBCADEARQAyAC0ANAAzAEUARgAtAEIAQQAwADQALQAxADkANABBADEARgA3AEUAOQAxADgAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="67593"/>
+					</Node>
+					<Node name="test102">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem5"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test40">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5189811227"/>
+						<Prp name="name" type="S" value="PST_Train_059"/>
+						<Prp name="durationwithoutchildren" type="I" value="127927"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBAEIAMQA0ADkANABCADIALQA0ADQARQBBAC0ANABGAEEAOAAtAEIAQgAzAEUALQA3AEQAQwAxADMARQBEAEMAMgA0AEIAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="127927"/>
+					</Node>
+					<Node name="test26">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4952609259"/>
+						<Prp name="name" type="S" value="PST_Train_032"/>
+						<Prp name="durationwithoutchildren" type="I" value="151409"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADkAOAAwADMAQwBBADAALQA2AEUARgA2AC0ANAAzADYARAAtAEIANAAzAEMALQA1AEQANQAwADgAMwBEADcAQgBBADcAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="151409"/>
+					</Node>
+					<Node name="test83">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.587745544"/>
+						<Prp name="name" type="S" value="PST_Database_0026"/>
+						<Prp name="durationwithoutchildren" type="I" value="111988"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEMAMAAwADQANQA0AEYALQAwAEUANwBFAC0ANAAyAEYARgAtAEIAQQA0ADYALQAzAEUAQwBGAEMANwBCADUANAA0AEMAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="111988"/>
+					</Node>
+					<Node name="test53">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 12:57:26&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5387340741"/>
+						<Prp name="name" type="S" value="PST_Train_074"/>
+						<Prp name="durationwithoutchildren" type="I" value="122405"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADMANgBEADAANQAwADQALQA1ADgAMgBGAC0ANAA2ADQAMwAtAEEAMgAwADUALQA5ADAANQA4ADEAMgA2AEIARABGADgAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="122405"/>
+					</Node>
+					<Node name="test47">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;Retrain database to optimize 1 change&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5304242014"/>
+						<Prp name="name" type="S" value="PST_Train_068"/>
+						<Prp name="durationwithoutchildren" type="I" value="159506"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEMAQgBCADgANwBEADkALQAyADMANgAyAC0ANAA1ADcAOAAtADgAMQA2ADkALQBBADMANwA3ADYARgAxAEIAQgBCAEUAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="159506"/>
+					</Node>
+					<Node name="test20">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4864652894"/>
+						<Prp name="name" type="S" value="PST_Train_023"/>
+						<Prp name="durationwithoutchildren" type="I" value="101627"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADEANgAyADcARAAwAEUALQBFADgAOQA1AC0ANAA5ADAARQAtADkAOABFADMALQAzADYAMAA1ADgAQQBBADcAQgA3ADUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="101627"/>
+					</Node>
+					<Node name="test67">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 13:32:48&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5634296296"/>
+						<Prp name="name" type="S" value="PST_Train_088"/>
+						<Prp name="durationwithoutchildren" type="I" value="105754"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADAAOABBADgARgBFADQALQBEAEIAMwA2AC0ANABBAEEAOQAtADgAMAA2ADgALQA5AEIAQwBCADgAQQBFAEYARQA1ADUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="105754"/>
+					</Node>
+					<Node name="test100">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test69">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5660216204"/>
+						<Prp name="name" type="S" value="PST_Train_090"/>
+						<Prp name="durationwithoutchildren" type="I" value="115969"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADkAQwBDAEEAMQAxAEIALQA5ADAAMQA5AC0ANABGADcAMQAtAEIARgAyADAALQA5AEEANQA5ADMANwA2AEMARQA4ADUANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="115969"/>
+					</Node>
+					<Node name="test101">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test39">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5178508102"/>
+						<Prp name="name" type="S" value="PST_Train_058"/>
+						<Prp name="durationwithoutchildren" type="I" value="97659"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEMAMgBFADcAMABEAEIALQBDAEIARAAwAC0ANAA3ADMANwAtADgAQwBEADEALQBDAEMANAAwADAANQA0ADAAMgBCADAAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="97659"/>
+					</Node>
+					<Node name="test65">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 13:29:11&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5601469213"/>
+						<Prp name="name" type="S" value="PST_Train_086"/>
+						<Prp name="durationwithoutchildren" type="I" value="176588"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADgAMQA3ADQAQQAzADkALQA0AEIAOAA3AC0ANAAyADMAOQAtADkARQBBADcALQAwAEEAQwA3AEQARABEADIAQwA4AEQAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="176588"/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4694265394"/>
+						<Prp name="name" type="S" value="PST_Train_010"/>
+						<Prp name="durationwithoutchildren" type="I" value="67653"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEMANgAwAEMAOQBGADMALQA2ADkAMgA0AC0ANAAxADQARQAtADkAOAAyADUALQAzAEQAQwA1ADAANAA2ADMANwA5ADYARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="67653"/>
+					</Node>
+					<Node name="test49">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5335239236"/>
+						<Prp name="name" type="S" value="PST_Train_070"/>
+						<Prp name="durationwithoutchildren" type="I" value="105925"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADYARgBEADEAMwBCADAALQA5AEMARAAwAC0ANABFADMAOQAtADgAMgA1ADEALQAxADIANgA4ADEAMQA0ADQAMQBCAEUARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="105925"/>
+					</Node>
+					<Node name="test50">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;Sample Pattern Sort - 01 Fail_0&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;Sample Pattern Sort - 01 Fail&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5347499074"/>
+						<Prp name="name" type="S" value="PST_Train_071"/>
+						<Prp name="durationwithoutchildren" type="I" value="133397"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADMARgA2AEMAMQA3ADkALQA5ADQANABGAC0ANAA5ADMAQwAtAEIAOAA4AEUALQBCADYANAAzADYANQBFAEYANABGAEEANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="133397"/>
+					</Node>
+					<Node name="test35">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_053' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5102137731"/>
+						<Prp name="name" type="S" value="PST_Train_053"/>
+						<Prp name="durationwithoutchildren" type="I" value="245182"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEUAQQBEAEEAOQAyADUALQAyADIARQAxAC0ANAAxADQAQwAtAEEARgA5ADMALQBCAEIAQgA4ADEAMQA5ADMAQQBBADEAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="245182"/>
+					</Node>
+					<Node name="test79">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5820847801"/>
+						<Prp name="name" type="S" value="PST_Database_002"/>
+						<Prp name="durationwithoutchildren" type="I" value="107938"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEMAOQBCAEIANgA1AEQALQAxADUAOQA5AC0ANAA5ADgAOQAtADgANwBBAEEALQA4ADgAMwBCAEYANAA1AEIAMQA1ADAAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="107938"/>
+					</Node>
+					<Node name="test113">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_SearchROIPassFail"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test78">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5807183565"/>
+						<Prp name="name" type="S" value="PST_Train_066"/>
+						<Prp name="durationwithoutchildren" type="I" value="118031"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEEARABEADAAOQBCADMALQBDAEIAOQAwAC0ANAAyADUANQAtADkARgAzAEYALQA2ADAARQAyADMAQwBDAEEAMwA1ADgAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="118031"/>
+					</Node>
+					<Node name="test34">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;OptionPane_button&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5082156019"/>
+						<Prp name="name" type="S" value="PST_Train_052"/>
+						<Prp name="durationwithoutchildren" type="I" value="172640"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEIANAAzADYAQwAyADYALQBBADAAQwBGAC0ANABFADQAMgAtAEEANgAxADcALQA5ADYAOQA1ADUAMQBDADUAMwAxADAAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="172640"/>
+					</Node>
+					<Node name="test105">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem8"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test73">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5713684028"/>
+						<Prp name="name" type="S" value="PST_Train_094"/>
+						<Prp name="durationwithoutchildren" type="I" value="68098"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADcAMQAxAEIAMgBDADIALQA3AEEANgA0AC0ANAA3AEUANAAtADgAMAA1AEMALQA4ADgAOABFAEQAMwAwAEYANQBFAEIANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="68098"/>
+					</Node>
+					<Node name="test66">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5621907639"/>
+						<Prp name="name" type="S" value="PST_Train_087"/>
+						<Prp name="durationwithoutchildren" type="I" value="107036"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEIANwBBAEIAQgA4ADAALQA0ADUANgA1AC0ANAAwADYANgAtADkAOQAxADIALQBCAEIAMgAwAEEAQQA4AEEARgBGAEQAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="107036"/>
+					</Node>
+					<Node name="test103">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem6"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test17">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4823891319"/>
+						<Prp name="name" type="S" value="PST_Train_020"/>
+						<Prp name="durationwithoutchildren" type="I" value="148127"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADUANwBGAEUAMQBFADYALQBCAEIANQAzAC0ANABFADcAQwAtAEEAMwA2AEEALQA2AEQAMwAyADUAQwAzAEEAMQA5ADkARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="148127"/>
+					</Node>
+					<Node name="test27">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4970133681"/>
+						<Prp name="name" type="S" value="PST_Train_044"/>
+						<Prp name="durationwithoutchildren" type="I" value="100943"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAANAAwADcAMgAxAEYALQBBAEMARQA2AC0ANABCADQAMgAtADgAQgA2ADkALQBEADQARQAwADgANAAzAEEANwA1ADkANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="100943"/>
+					</Node>
+					<Node name="test54">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_075' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5401508218"/>
+						<Prp name="name" type="S" value="PST_Train_075"/>
+						<Prp name="durationwithoutchildren" type="I" value="245816"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEYARQA4ADgAMwAzADcALQAyAEMAQwBEAC0ANAA4AEEARgAtAEEARgA0ADcALQBEADgANgA0ADEAQwBBADkAQwBEAEEAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="245816"/>
+					</Node>
+					<Node name="test28">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4981816898"/>
+						<Prp name="name" type="S" value="PST_Train_045"/>
+						<Prp name="durationwithoutchildren" type="I" value="103354"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADUAMQA0AEIAOAAwAEQALQAyADQAQQA5AC0ANAAzADgAOAAtADkANAAxADUALQAwAEUAMABGADIAQgBFAEQARgA5AEQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="103354"/>
+					</Node>
+					<Node name="test114">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Properties"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test15">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_017' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4765336111"/>
+						<Prp name="name" type="S" value="PST_Train_017"/>
+						<Prp name="durationwithoutchildren" type="I" value="215441"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADUANAA0AEUAMQBBAEIALQAxAEEAQwAwAC0ANAA3ADgAOAAtADkARABDADgALQA5ADIARQBFADIAOQA2ADYAQgA4ADMAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="215441"/>
+					</Node>
+					<Node name="test72">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5699778472"/>
+						<Prp name="name" type="S" value="PST_Train_093"/>
+						<Prp name="durationwithoutchildren" type="I" value="120140"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADcARQBDADUAMwA4ADkALQBCADUANwA2AC0ANAA5ADgAMgAtAEEAMQA1AEEALQBFADkANABBADgANAA4AEMAMABFAEUAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="120140"/>
+					</Node>
+					<Node name="test110">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem13"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test55">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5429959491"/>
+						<Prp name="name" type="S" value="PST_Train_076"/>
+						<Prp name="durationwithoutchildren" type="I" value="149837"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADYAMgA5ADcAMQAxAEQALQBCADMANABBAC0ANAA0ADgAOQAtAEIARgBBADgALQAwADYAQQA2ADYAMgBEADIANQAzAEUARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="149837"/>
+					</Node>
+					<Node name="test98">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_CPM"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test86">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because ChildCount does not equal 42. See Details for additional information."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unexpected window: 'Error'"/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5920659954"/>
+						<Prp name="name" type="S" value="PST_Database_030"/>
+						<Prp name="durationwithoutchildren" type="I" value="161806"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEYAQQA2AEIAMQBBADUALQBFADYANAA3AC0ANAAyAEMAOAAtADgANwBEAEMALQA3AEMANAA1ADEAQQBBADgAQQBGAEYAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="161806"/>
+					</Node>
+					<Node name="test45">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5257794213"/>
+						<Prp name="name" type="S" value="PST_Train_065"/>
+						<Prp name="durationwithoutchildren" type="I" value="155532"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADIAOQAyAEYARgA3ADEALQBDADkARgA1AC0ANAAxADkAOAAtAEEAQQAzAEIALQAwADAAMQA4ADYAOABBADkANwBFAEIAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="155532"/>
+					</Node>
+					<Node name="test19">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4852826852"/>
+						<Prp name="name" type="S" value="PST_Train_022"/>
+						<Prp name="durationwithoutchildren" type="I" value="102177"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEUAMgBFADgAQgA4AEIALQA5AEEAQQA1AC0ANAAxADIAMQAtAEIARgBBADUALQAxADkARgAzADQANwA5AEEAQgBGADAAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="102177"/>
+					</Node>
+					<Node name="test95">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_072"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4668293866"/>
+						<Prp name="name" type="S" value="PST_Train_007"/>
+						<Prp name="durationwithoutchildren" type="I" value="113694"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADkAMwAwAEMANABBAEYALQBBADgAQgBCAC0ANABBAEIAOQAtADkAMwAzADkALQAwADIAMgA4ADIAQgBEADEANwAxAEQARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="113694"/>
+					</Node>
+					<Node name="test42">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5217512963"/>
+						<Prp name="name" type="S" value="PST_Train_062"/>
+						<Prp name="durationwithoutchildren" type="I" value="119468"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADkARABCADQANgBDADcALQA2ADMANQA3AC0ANAA1ADgAOAAtAEEAQgA1AEQALQA1AEQAMQAzADkAOQA2AEMAMQAyAEYAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="119468"/>
+					</Node>
+					<Node name="test94">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_070"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test30">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5005966204"/>
+						<Prp name="name" type="S" value="PST_Train_047"/>
+						<Prp name="durationwithoutchildren" type="I" value="111345"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADQANwBGADEANQA2AEEALQA1ADQAMABBAC0ANAA2ADQANwAtAEEARQBDAEIALQA5ADAAMQBFAEYARgBCAEUAQgAwADcARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="111345"/>
+					</Node>
+					<Node name="test51">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5362939236"/>
+						<Prp name="name" type="S" value="PST_Train_072"/>
+						<Prp name="durationwithoutchildren" type="I" value="99503"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYANgBFAEEARgBFAEYALQA3ADUANAAwAC0ANABEAEIAMAAtADkAQgAyADMALQA3ADMANAA3AEYAQQA1ADkARABEADMAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="99503"/>
+					</Node>
+					<Node name="test90">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_056"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test56">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5447301968"/>
+						<Prp name="name" type="S" value="PST_Train_077"/>
+						<Prp name="durationwithoutchildren" type="I" value="112377"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEIARgBEAEEAQwAxAEEALQBDAEEAMgBBAC0ANABGADMARgAtAEEAOABFAEYALQA5ADMAMAAxAEQARAAyAEMAMgBBAEUAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="112377"/>
+					</Node>
+					<Node name="test104">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem7"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test70">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5673638773"/>
+						<Prp name="name" type="S" value="PST_Train_091"/>
+						<Prp name="durationwithoutchildren" type="I" value="109242"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAAMAA0AEEANQBFAEUALQAyADEARABCAC0ANAA3AEQARQAtAEEAQwAyADkALQBFAEEAMgAyAEQANwBCAEQARgA3AEYAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="109242"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4588927431"/>
+						<Prp name="name" type="S" value="PST_General_007"/>
+						<Prp name="durationwithoutchildren" type="I" value="107134"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADUARQAyAEMAMQAxAEEALQBFADQAMgBBAC0ANAA5ADIARgAtADgAMQA3AEUALQAwADYARAAwADcARAA2ADQARgAxAEYAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="107134"/>
+					</Node>
+					<Node name="test111">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem14"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test38">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5164795602"/>
+						<Prp name="name" type="S" value="PST_Train_057"/>
+						<Prp name="durationwithoutchildren" type="I" value="118474"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADAAMQBBADkAMAAxAEIALQBBAEIAMQBFAC0ANABDAEMAOQAtADgANwBEAEIALQA1ADMAOQBGAEQAOQBEAEYANwBCADkANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="118474"/>
+					</Node>
+					<Node name="test80">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5833340625"/>
+						<Prp name="name" type="S" value="PST_Database_003"/>
+						<Prp name="durationwithoutchildren" type="I" value="114106"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADUAQwBEADcAQgA2AEIALQA5ADUAQQA0AC0ANAAzAEMAQgAtAEEARQAwADQALQAyADgARQBCAEUAMAA4AEIAQwAzADUARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="114106"/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4741139699"/>
+						<Prp name="name" type="S" value="PST_Train_013"/>
+						<Prp name="durationwithoutchildren" type="I" value="70100"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEYAMgA1ADIAQQBEAEMALQA0ADgAOQAyAC0ANABCADUAMwAtAEEAMwBEADYALQAwADQAOAA5ADYAOABFAEMARAA3ADQAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="70100"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error41">
+								<Prp name="msg" type="S" value="The test item execution has been stopped."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_006' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4643266088"/>
+						<Prp name="name" type="S" value="PST_Train_006"/>
+						<Prp name="durationwithoutchildren" type="I" value="216238"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEMARAA2ADQANgA4AEUALQBFAEUAMQAxAC0ANAAwADMARQAtADkAQQBGAEQALQBBADEAQwAyAEYAQwAxAEIANQBDADgANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="216238"/>
+					</Node>
+					<Node name="test58">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_079' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5474329514"/>
+						<Prp name="name" type="S" value="PST_Train_079"/>
+						<Prp name="durationwithoutchildren" type="I" value="244323"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADQAMgBGADYANAA0ADAALQBBAEUAMwA0AC0ANABGAEQARAAtAEEAQQA4ADEALQAyADkAOAAyADUAQgA0ADMAQgBGAEQARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="244323"/>
+					</Node>
+					<Node name="test106">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem10"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test85">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;OptionPane_button&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5904471991"/>
+						<Prp name="name" type="S" value="PST_Database_0029"/>
+						<Prp name="durationwithoutchildren" type="I" value="139862"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADgAOQA3AEYARgA0AEIALQA5ADYAOAAzAC0ANAA4AEEARQAtADkARgAxADcALQA1ADYAMgAxADkAQwAyADAAMQAyADAAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="139862"/>
+					</Node>
+					<Node name="test18">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4841035648"/>
+						<Prp name="name" type="S" value="PST_Train_021"/>
+						<Prp name="durationwithoutchildren" type="I" value="101874"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxAEEAMgBEAEIAQgA4ADMALQBEADUAMwBEAC0ANAAyADQAQwAtAEEAMwA4ADUALQBFAEYAMQA0AEYANABFADQANAA0ADMAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="101874"/>
+					</Node>
+					<Node name="test33">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error42">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;RadioButton&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error44">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;CheckBox&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error41">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error45">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_051' test item was being executed."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;RadioButton&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error43">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;TabbedPane2&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5046887153"/>
+						<Prp name="name" type="S" value="PST_Train_051"/>
+						<Prp name="durationwithoutchildren" type="I" value="304722"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADEAQQBEADAAMgBFADYALQBFADQAQQBGAC0ANAAzADYAMAAtAEEAMgAyADkALQBCADAAOQA2ADAAOQA4ADYAMAAzAEQAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="304722"/>
+					</Node>
+					<Node name="test99">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test44">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5245278588"/>
+						<Prp name="name" type="S" value="PST_Train_064"/>
+						<Prp name="durationwithoutchildren" type="I" value="108133"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAAQQBDADYAQgBCAEQALQBFADYAOQAxAC0ANAAyADgARQAtADkAQQAyAEIALQA3ADcAOQAyADEANAA4AEEANgA0ADUANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="108133"/>
+					</Node>
+					<Node name="test41">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 12:31:02&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5204617593"/>
+						<Prp name="name" type="S" value="PST_Train_061"/>
+						<Prp name="durationwithoutchildren" type="I" value="111416"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADkARgBFADcAMgA0ADUALQAxAEUAOAA1AC0ANAAyAEYAMQAtAEIAMAAwAEEALQBCADIAQgBEADUAMwAwADkARAA3ADkARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="111416"/>
+					</Node>
+					<Node name="test93">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_068"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4681453125"/>
+						<Prp name="name" type="S" value="PST_Train_008"/>
+						<Prp name="durationwithoutchildren" type="I" value="110696"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADkAMQA3ADIAMwBGAEQALQBDAEIAMABEAC0ANAA0ADUAMAAtAEIAMQAzADcALQAzADAAQgBCADQARgA4ADgAMwBCADgARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="110696"/>
+					</Node>
+					<Node name="test84">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="An object recognition hint. See Details for additional information."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="An object recognition hint. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because ChildCount does not equal 42. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;OptionPane_button&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5890417014"/>
+						<Prp name="name" type="S" value="PST_Database_0027"/>
+						<Prp name="durationwithoutchildren" type="I" value="121433"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADMAOQA4AEQANQA2AEIALQBDADEARAA2AC0ANAA5ADkAOAAtAEEARQBGADAALQBDAEIARABEADkAOAA5AEEAMQBDADIAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="121433"/>
+					</Node>
+					<Node name="test82">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because dynamicToolTipText_ does not equal (case-sensitive) &quot;Points used to train this pattern.&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5863487268"/>
+						<Prp name="name" type="S" value="PST_Database_006"/>
+						<Prp name="durationwithoutchildren" type="I" value="120681"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDAEQAQwA5ADYAMAA2ADMALQBDADYAOQAxAC0ANABEADMAOQAtAEIAQQA3AEMALQA2AEIAMgA0ADQAQgA3ADUAQgBGAEUANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="120681"/>
+					</Node>
+					<Node name="test89">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_049"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test13">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4749253356"/>
+						<Prp name="name" type="S" value="PST_Train_014"/>
+						<Prp name="durationwithoutchildren" type="I" value="69832"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADYANgBEADgAQgAyADQALQBBADcANwBBAC0ANAA3ADQAMQAtAEEARABBAEIALQBBAEIAMAAzAEYANQBEADMANwA1ADkAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="69832"/>
+					</Node>
+					<Node name="test109">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="ProjectTestItem12"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test22">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4888230324"/>
+						<Prp name="name" type="S" value="PST_Train_025"/>
+						<Prp name="durationwithoutchildren" type="I" value="103551"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADcAMgAwAEQAQQBCADYALQBCADYAOQAyAC0ANAAxAEUANQAtADkARAA4ADgALQBFADcAQgBGAEIAOAA4ADIAMgBEAEQANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="103551"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4609152083"/>
+						<Prp name="name" type="S" value="PST_Train_002"/>
+						<Prp name="durationwithoutchildren" type="I" value="75763"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEYANgA1ADAANQAyADgALQBGADMAQwBBAC0ANAA0ADcANwAtADgAQwAyAEEALQBEAEEANQA2ADUAMwBGAEEANwBCAEIANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="75763"/>
+					</Node>
+					<Node name="test68">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5646536574"/>
+						<Prp name="name" type="S" value="PST_Train_089"/>
+						<Prp name="durationwithoutchildren" type="I" value="118186"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADAAOQA4AEIANAA4ADMALQBDAEQARQAzAC0ANAA2ADIAQQAtADkAMwAyAEMALQBBADUAMAA4ADQANAAxADEAMgBFADkAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="118186"/>
+					</Node>
+					<Node name="test97">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_092"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test31">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5018853588"/>
+						<Prp name="name" type="S" value="PST_Train_048"/>
+						<Prp name="durationwithoutchildren" type="I" value="113375"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADQARgA4AEUAQwAxAEYALQAxADUAMgBFAC0ANABCAEEAQQAtADkARgA5ADUALQBBADMANgBDAEMAMAA1AEUAMwAzAEMAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="113375"/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_011' test item was being executed."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4702095602"/>
+						<Prp name="name" type="S" value="PST_Train_011"/>
+						<Prp name="durationwithoutchildren" type="I" value="215434"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADAAQQA4ADMAMwA4ADEALQBBADkAMQBDAC0ANAAwADMAOQAtADgARQA4ADEALQA1AEMAMAA4ADkARQA3ADUAMAAxAEQANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="215434"/>
+					</Node>
+					<Node name="test29">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4993779167"/>
+						<Prp name="name" type="S" value="PST_Train_046"/>
+						<Prp name="durationwithoutchildren" type="I" value="105294"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQANgAyADIAMwA2ADkALQA4ADcANABFAC0ANABCADcARQAtADkARAA5ADEALQBFADYAOQBDADUAMwA4ADgARgA4AEMAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="105294"/>
+					</Node>
+					<Node name="test60">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5520399074"/>
+						<Prp name="name" type="S" value="PST_Train_081"/>
+						<Prp name="durationwithoutchildren" type="I" value="112225"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADEAQwBGADcANgA0AEYALQBCAEEAMQAxAC0ANAA5ADQARQAtAEIAMgAwAEYALQAxAEUAMQBCADMAOAAzADAANwA2ADkARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="112225"/>
+					</Node>
+					<Node name="test52">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 12:55:29&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.5374456019"/>
+						<Prp name="name" type="S" value="PST_Train_073"/>
+						<Prp name="durationwithoutchildren" type="I" value="111322"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADcAOAA0ADAAMgA2ADUALQA4ADEANgA1AC0ANAAzAEQAMAAtADgANwBCAEYALQBBAEEAMgAzAEQAMQBGADcAOQA2ADQANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="111322"/>
+					</Node>
+					<Node name="test14">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.4757335995"/>
+						<Prp name="name" type="S" value="PST_Train_015"/>
+						<Prp name="durationwithoutchildren" type="I" value="69119"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEEAQQA4ADIAMQA4ADUALQBGADcAMAA2AC0ANAA4AEEAOAAtAEEANAA0ADEALQA3ADYAQQBGADEAOQBFADQAMwAwADMANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="69119"/>
+					</Node>
+					<Node name="test88">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_038"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test96">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_076"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test91">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5939390857"/>
+						<Prp name="name" type="S" value="PST_Database_059"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test16">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="RuntimeError: Unable to convert the specified object to the str object."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unable to perform the action because the control is disabled."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error41">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'PST_Train_019' test item was being executed."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="The object &quot;Panel.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unexpected window: 'Select a Vision Device to Connect to:'"/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;Button&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;List&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject.SwingObject.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;ROIEditor.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject.SwingObject.SwingObject.component.elementData_2.Items&quot; does not exist."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;PropertiesTabbedPane3.Panel.Setup.BaseSetupPanel_1.Panel.Panel.SwingObject&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="Unable to find the object PropertiesTabbedPane3. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.4790271412"/>
+						<Prp name="name" type="S" value="PST_Train_019"/>
+						<Prp name="durationwithoutchildren" type="I" value="290475"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEMAQgBEAEEAQQBDAEQALQBFAEEARQBCAC0ANAA5ADgANgAtAEEARQBEAEIALQAyADgAMgA3ADIARQAxADIAMwAzAEMANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="290475"/>
+					</Node>
+					<Node name="test62">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5546710648"/>
+						<Prp name="name" type="S" value="PST_Train_083"/>
+						<Prp name="durationwithoutchildren" type="I" value="120866"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADIAMgBEAEQANQAxADYALQBEADgAMgBDAC0ANAA5ADgAQQAtADgAMQBGADUALQA0ADQARgAwADIARQA1ADQAQwBFADYAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="120866"/>
+					</Node>
+					<Node name="test63">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.55607"/>
+						<Prp name="name" type="S" value="PST_Train_084"/>
+						<Prp name="durationwithoutchildren" type="I" value="110224"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADcANwAwADkARQBGADUALQBGADgAQwAyAC0ANAAwADQARQAtAEEAOQA4ADcALQA5ADQAQQBEADgAQgAzAEIAMQA1AEQANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="110224"/>
+					</Node>
+					<Node name="test61">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.5533388542"/>
+						<Prp name="name" type="S" value="PST_Train_082"/>
+						<Prp name="durationwithoutchildren" type="I" value="115101"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEQARQA5ADYAOQAwADkALQA5AEQANgAzAC0ANABFADMAOQAtAEEAOQBCADIALQA0ADYAQQA1ADAARgA0AEMAQgA4ADAARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="115101"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="PatternSortingTool"/>
+				<Prp name="starttime" type="D" value="43822.4588927431"/>
+				<Prp name="failedtests" type="I" value="37"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="28"/>
+				<Prp name="duration" type="I" value="11667778"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="37"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="43822.4588855208"/>
+		<Prp name="name" type="S" value="Emulator1"/>
+		<Prp name="user" type="S" value="hale"/>
+		<Prp name="stop" type="D" value="43822.5939405556"/>
+		<Prp name="tests" type="I" value="115"/>
+		<Prp name="host" type="S" value="VNMLTRD-TYEN2"/>
+		<Prp name="testname" type="S" value="PatternSortingTool"/>
+		<Prp name="incompletedtests" type="I" value="28"/>
+		<Prp name="key" type="S" value="{280D5219-6478-4D5C-AC89-D0CD34DE7C11}"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+	</Node>
+</Nodes>

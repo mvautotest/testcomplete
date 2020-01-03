@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="14.0">
+	<children>
+		<child name="Regions" key="{30C9EBE9-D59C-4B09-A07C-A2BE36096E2D}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
+		<child name="Tables" key="{6B13D540-D936-43D6-B79E-6D63F11ABFD1}" type="Tables" typeId="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" pluginName="Stores" path="Tables\Tables.tcTbls" />
+		<child name="Objects" key="{79571437-99CA-4555-BEB2-DE70AA6B7089}" type="Objects" typeId="{30501691-969F-4007-923F-BA4459E51E6A}" pluginName="Stores" path="Objects.tcObjects" />
+	</children>
+</Root>

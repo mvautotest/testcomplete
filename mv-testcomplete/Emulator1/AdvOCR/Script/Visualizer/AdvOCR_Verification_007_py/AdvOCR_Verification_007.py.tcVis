@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A547E1EB-A5EB-4EFC-84D1-907084C273B4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="35" kind="0" dateTime="43657.185462963" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.HOG_OCRSetup_HOGVerifyPanel.Panel.Panel.Panel.Panel.Panel.ComboBox.WindowsComboBoxUI_XPComboBoxButton" objectLeft="784" objectTop="495" objectRight="801" objectBottom="517" clickPointX="790" clickPointY="509" imageFileName="tcvi-485487609264800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="36" kind="0" dateTime="43657.1854861111" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.HOG_OCRSetup_HOGVerifyPanel.Panel.Panel.Panel.Panel.Panel.ComboBox" objectLeft="731" objectTop="495" objectRight="801" objectBottom="517" clickPointX="755" clickPointY="545" imageFileName="tcvi-485485781264801.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

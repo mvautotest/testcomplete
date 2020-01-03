@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{081F8CE4-1DB4-40AC-B256-607C61868C97}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="21" kind="0" dateTime="43690.3296990741" objectName="Aliases.javaw.Dialog21.RootPane.null_layeredPane.null_contentPane.PatternSortDatabaseViewer_28.ToolBar" objectLeft="468" objectTop="38" objectRight="488" objectBottom="58" clickPointX="476" clickPointY="52" imageFileName="tcvi10420764058600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="27" kind="0" dateTime="43690.3746064815" objectName="Aliases.javaw.Dialog22.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="150" objectTop="85" objectRight="225" objectBottom="108" clickPointX="-732" clickPointY="-456" imageFileName="tcvi108087218116480.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="29" kind="0" dateTime="43690.3746412037" objectName="Aliases.javaw.Dialog5.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="101" objectTop="85" objectRight="176" objectBottom="108" clickPointX="153" clickPointY="98" imageFileName="tcvi108090640116481.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

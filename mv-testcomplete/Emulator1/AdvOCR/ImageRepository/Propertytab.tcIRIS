@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{5092AF79-26C8-4BAA-937B-03B9D2B7FB3D}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="Propertytab" />
+	<testData />
+	<data>
+		<item caption="LinkCharacterBox" moniker="{CF4770C0-4143-4DB6-8FC5-3E329DB9645F}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkCharacterBox.png" initialHash="02E5D68F" selectionLeft="1148" selectionTop="659" selectionWidth="19" selectionHeight="19" initialLeft="1148" initialTop="659" initialWidth="19" initialHeight="19" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="LinkOCRFontLibrary" moniker="{0A7FF795-62BD-4418-9E47-C1C6DF85EDE7}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkOCRFontLibrary.png" initialHash="20F0B879" selectionLeft="1148" selectionTop="735" selectionWidth="20" selectionHeight="18" initialLeft="1148" initialTop="735" initialWidth="20" initialHeight="18" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="LinkSegmentaion" moniker="{8839DC36-4E81-46FC-8DA8-537C6F7205F2}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkSegmentaion_1.png" initialHash="25DE060F" selectionLeft="1145" selectionTop="848" selectionWidth="24" selectionHeight="19" initialLeft="1145" initialTop="848" initialWidth="24" initialHeight="19" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

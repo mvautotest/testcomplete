@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{ED419540-E767-4B06-AC29-8AAE69BD6466}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="43672.1236342593" objectName="Aliases.javaw.Dialog4.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_1_1.Panel.Panel.Panel.WindowsFileChooserUI_7" objectLeft="190" objectTop="368" objectRight="511" objectBottom="389" clickPointX="-643" clickPointY="-302" imageFileName="tcvi587289073600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="18" kind="0" dateTime="43672.1238657407" objectName="Aliases.javaw.Dialog5.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="155" objectTop="85" objectRight="230" objectBottom="108" clickPointX="209" clickPointY="93" imageFileName="tcvi589329673601.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="19" kind="0" dateTime="43672.123900463" objectName="Aliases.javaw.Dialog4.RootPane.null_layeredPane.null_contentPane.PatternSortingSetup1_SortingTrainPanel_1_1.Panel.Panel.Panel2.WindowsFileChooserUI_10" objectLeft="541" objectTop="395" objectRight="618" objectBottom="418" clickPointX="567" clickPointY="409" imageFileName="tcvi589625073602.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

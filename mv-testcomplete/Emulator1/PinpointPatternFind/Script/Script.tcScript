@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Setup" key="{64452522-7B16-44DC-938C-B5B528C42421}" path="Setup.py" />
+		<child name="PinpointPatternFind_025" key="{59D14CFB-1D3F-46DC-A3F4-34D953D63DEB}" path="PinpointPatternFind_025.py" />
+		<child name="Unit1" key="{6CC0A02B-2BB0-42E6-AB71-41CE58DA5250}" path="Unit1.py" />
+		<child name="PinpointPatternFind_024" key="{FEF75092-45D4-4343-B52F-C4FAB02E2F0D}" path="PinpointPatternFind_024.py" />
+		<child name="PinpointPatternFind_023" key="{2B3806A2-65F3-45DB-A713-357B2F2C6FAA}" path="PinpointPatternFind_023.py" />
+		<child name="AlgorithmPinPointPattern_045" key="{112B6B7E-816E-4754-A91C-E936042C42CB}" path="AlgorithmPinPointPattern_045.py" />
+		<child name="Unit2" key="{C4B51054-417F-40AE-812E-9827E166E103}" path="Unit2.py" />
+	</children>
+</Root>

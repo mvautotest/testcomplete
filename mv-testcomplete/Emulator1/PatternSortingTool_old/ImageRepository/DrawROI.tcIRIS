@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{D1990D33-7A20-44E5-9C3E-376539EF7D39}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="DrawROI" />
+	<testData />
+	<data>
+		<item caption="ROI1" moniker="{30D18028-D4B5-4EE8-91C8-49C7A28A6809}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ROI1.png" initialHash="0E55EC35" selectionLeft="963" selectionTop="203" selectionWidth="3" selectionHeight="3" initialLeft="963" initialTop="203" initialWidth="3" initialHeight="3" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="ROI3" moniker="{7E180798-DDC1-4FCA-871E-BB2C1A2E491A}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ROI3.png" initialHash="1B706840" selectionLeft="1029" selectionTop="254" selectionWidth="134" selectionHeight="114" initialLeft="1029" initialTop="254" initialWidth="134" initialHeight="114" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="ROI6" moniker="{A243D792-7747-4694-9751-9C8198BFDE4E}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ROI6.png" initialHash="042D472F" selectionLeft="823" selectionTop="98" selectionWidth="570" selectionHeight="437" initialLeft="823" initialTop="98" initialWidth="570" initialHeight="437" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

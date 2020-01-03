@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6CC0A02B-2BB0-42E6-AB71-41CE58DA5250}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="43798.3828356481" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.Item2.Item.Item.Panel.Main_Toolbar.LoadProgramButton" objectLeft="168" objectTop="50" objectRight="205" objectBottom="85" clickPointX="185" clickPointY="71" imageFileName="tcvi2420421110040.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="43798.3828587963" objectName="Aliases.javaw.ToolBar_LoadProgramAction_LoadProgramDialog.RootPane.null_layeredPane.null_contentPane.Panel.Panel.VisionProgramsPanel.ScrollPane.Viewport.Table" objectLeft="19" objectTop="118" objectRight="458" objectBottom="342" clickPointX="93" clickPointY="122" imageFileName="tcvi2422531110041.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="43798.3828819444" objectName="Aliases.javaw.ToolBar_LoadProgramAction_LoadProgramDialog.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Button" objectLeft="178" objectTop="386" objectRight="227" objectBottom="409" clickPointX="218" clickPointY="404" imageFileName="tcvi2424125110042.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

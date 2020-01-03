@@ -1,0 +1,2 @@
+﻿def Test1():
+ Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.HOG_OCRSetup_HOGTrainPanel.Panel3.Panel.Panel.OCRSetPanel.ScrollPane.Viewport.OCRSetPanel_LibraryPanel_.OCRSetPanel_CharTemplatePanel_2.SwingObject("JTextField", "", 0).Click(True)

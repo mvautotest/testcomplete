@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{85328B2D-61CB-4ADA-A3BA-629C833071D8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="36" kind="0" dateTime="43699.1976273148" objectName="Aliases.javaw.Dialog25.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="104" objectTop="85" objectRight="179" objectBottom="108" clickPointX="130" clickPointY="92" imageFileName="tcvi268261109123400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="43" kind="0" dateTime="43699.2075347222" objectName="Aliases.javaw.Dialog6.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="105" objectTop="99" objectRight="180" objectBottom="122" clickPointX="151" clickPointY="107" imageFileName="tcvi26911698454320.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

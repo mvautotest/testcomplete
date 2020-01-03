@@ -1,0 +1,56 @@
+﻿#Author: Ha Le
+#The test verify user can create characterbox and train them
+
+import Setup
+def AdvOCR_CPM_014():
+  Setup.Setup_InnitializeCPM()
+  Setup.Setup_InnitializeVPM() 
+  Setup.Setup_loadVPM()
+  Setup.Setup_OCRImages()
+  Setup.Setup_VPMNewButton()
+  Setup.Setup_AdvOCREmpty()
+
+  
+  Setup.Setup_LoadCPM()
+  Setup.Setup_DragOCRFontLibraryToCpFile()
+  Setup.Setup_EnableRunMode()
+  Aliases.javaw.CpmFrame2.RootPane.null_layeredPane.null_contentPane.Panel.ScrollPane.Viewport.CpmFrame_25.Panel_1.OCRSet.SwingObject("SegmentationFrame").SwingObject("AddCharBoxButton").ClickButton()
+  
+  displayCanvas = Aliases.javaw.CpmFrame2.RootPane.null_layeredPane.null_contentPane.Panel.ScrollPane.Viewport.CpmFrame_25.Panel_1.OCRSet.SwingObject("SearchImage").SwingObject("JPanel", "", 1).SwingObject("JPanel", "", 0).SwingObject("JScrollPane", "", 0).SwingObject("JViewport", "", 0).SwingObject("DisplayCanvas", "", 0)
+
+  displayCanvas.Drag(190, 92, -65, 9)
+  Delay(300)
+  displayCanvas.Drag(99, 73, 2, 37)
+  displayCanvas.Keys("^c^v")
+  displayCanvas.Click(139, 140)
+  displayCanvas.Keys("^v")
+  displayCanvas.Click(169, 140)
+  displayCanvas.Keys("^v")
+  displayCanvas.Click(194, 142)
+  displayCanvas.Keys("^v")
+  displayCanvas.Click(221, 142)
+  displayCanvas.Keys("^v")
+  displayCanvas.Click(246, 143)
+  displayCanvas.Keys("^v")
+  displayCanvas.Click(278, 143)
+  displayCanvas.Click(103, 118)
+  
+  displayCanvas.Keys("l")
+  Delay(100)
+  displayCanvas.Keys("o")
+  Delay(100)
+  displayCanvas.Keys("t")
+  Delay(100)
+  displayCanvas.Keys("2")
+  Delay(100)
+  displayCanvas.Keys("a")
+  Delay(100)
+  displayCanvas.Keys("w")
+  Delay(100)
+  displayCanvas.Keys("7")
+  Delay(100)
+  Aliases.javaw.CpmFrame2.RootPane.null_layeredPane.null_contentPane.Panel.ScrollPane.Viewport.CpmFrame_25.Panel_1.OCRSet.SwingObject("TrainButton").ClickButton()
+  aqObject.CheckProperty(Aliases.javaw.CpmFrame2.RootPane.null_layeredPane.null_contentPane.Panel.SwingObject("JScrollPane", "", 0).SwingObject("JViewport", "", 0).SwingObject("CpmFrame$25", "Panel 1", 0).SwingObject("Panel 1").SwingObject("OCRSet", "OCR Font Library2", 0).SwingObject("OCRSetFrame").SwingObject("OCRSetDisplay").SwingObject("OCRSetPanel", "", 0).SwingObject("JScrollPane", "", 0).SwingObject("JViewport", "", 0).SwingObject("OCRSetPanel$LibraryPanel_", "", 0), "ChildCount", cmpEqual, 7)
+  Setup.Setup_DisableRunMode()
+  Setup.Setup_closeCPM()
+  Setup.Setup_closeVPM()

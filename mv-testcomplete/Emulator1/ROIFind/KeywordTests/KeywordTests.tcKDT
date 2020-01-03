@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Test1" key="{49C18487-2649-479E-B941-A2E5F3ECE6B7}" path="Test1.tcKDTest" />
+	</children>
+</Root>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Test1" key="{49C18487-2649-479E-B941-A2E5F3ECE6B7}" path="Test1.tcKDTest" />
+	</children>
+</Root>
+>>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867

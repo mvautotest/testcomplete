@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{CBD6111D-A071-45D7-B3D7-B9A5F9701E55}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="25" kind="0" dateTime="43692.2986921296" objectName="Aliases.javaw.Dialog23.RootPane.null_layeredPane.null_contentPane.PatternSortDatabaseViewer_25.WindowsPlacesBar.ToggleButton" objectLeft="19" objectTop="210" objectRight="101" objectBottom="279" clickPointX="59" clickPointY="242" imageFileName="tcvi8419184380920.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="35" kind="0" dateTime="43692.3388888889" objectName="Aliases.javaw.Dialog22.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="144" objectTop="85" objectRight="219" objectBottom="108" clickPointX="176" clickPointY="96" imageFileName="tcvi87664734124880.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

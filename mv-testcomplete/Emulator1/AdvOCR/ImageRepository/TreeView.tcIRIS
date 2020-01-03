@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{2472D48C-3861-4785-B1AD-3E72C5CAEE6E}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="TreeView" />
+	<testData />
+	<data>
+		<item caption="ExpandOCR" moniker="{471E2569-1E31-4F4F-A417-25588F548423}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ExpandOCR.png" initialHash="84FF3387" selectionLeft="221" selectionTop="207" selectionWidth="12" selectionHeight="11" initialLeft="221" initialTop="207" initialWidth="12" initialHeight="11" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="SegmentaionOCR" moniker="{023957CA-4C5D-419F-A9DA-53D39203D440}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\SegmentaionOCR.png" initialHash="27AE51A0" selectionLeft="236" selectionTop="378" selectionWidth="275" selectionHeight="18" initialLeft="236" initialTop="378" initialWidth="275" initialHeight="18" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="OCRFontLibrary" moniker="{6DC0371C-1C3E-4A98-8AF3-9F700FBB8AB9}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\OCRFontLibrary.png" initialHash="69805C09" selectionLeft="219" selectionTop="287" selectionWidth="132" selectionHeight="18" initialLeft="219" initialTop="287" initialWidth="132" initialHeight="18" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

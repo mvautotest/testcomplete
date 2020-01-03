@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1400" key="{AFA73A9D-00FE-4637-B06E-4844EF12E814}" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{64C4C512-2CDE-49B9-A86D-B9A6A57656DF}" path="LinkButton.tcIRIS" />
+		<child key="{D1990D33-7A20-44E5-9C3E-376539EF7D39}" path="DrawROI.tcIRIS" />
+	</children>
+</Root>

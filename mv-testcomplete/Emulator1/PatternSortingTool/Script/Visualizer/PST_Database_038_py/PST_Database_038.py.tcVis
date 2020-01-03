@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{508518EE-8D99-4C75-AF46-74040AFBA803}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="48" kind="0" dateTime="43692.3821064815" objectName="Aliases.javaw.VpmFrame.RootPane.null_layeredPane.null_contentPane.VPM.HideableTabbedPane.SplitPane.DetailComponent.DetailComponent_1.DetailComponent_BottomComponent_.PropertiesTabbedPane.Panel.Setup.BaseSetupPanel_1.ScrollPane.Viewport.Panel.Panel.ToolSetupCardPanel.PatternSortingSetup1_SortingDatabasePanel.Panel.Panel.Panel.PatternSortDatabaseViewer.Panel.ScrollPane.Viewport.PatternSortDatabaseViewer_DatabasePanel_.PatternSortDatabaseViewer_PatternModelPanel_4.Label" objectLeft="995" objectTop="629" objectRight="1059" objectBottom="710" clickPointX="1025" clickPointY="668" imageFileName="tcvi9139875099280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="64" kind="0" dateTime="43696.2976388889" objectName="Aliases.javaw.Dialog14.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button" objectLeft="158" objectTop="85" objectRight="233" objectBottom="108" clickPointX="193" clickPointY="96" imageFileName="tcvi17701125102720.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

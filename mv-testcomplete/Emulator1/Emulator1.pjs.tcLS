@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{7D58D69A-3366-4BCD-BEC2-C48A2751549B}"/>
+			</Node>
+			<Node name="{4b81a262-213e-4f4b-9b9e-2286a36f4fc9}">
+				<Prp name="relpath" type="S" value="Test\Test.mds.tcLS"/>
+			</Node>
+			<Node name="{4e740895-36dd-4470-b95e-540a6b1e0744}">
+				<Prp name="relpath" type="S" value="ListEdit\ListEdit.mds.tcLS"/>
+			</Node>
+			<Node name="{7d58d69a-3366-4bcd-bec2-c48a2751549b}">
+				<Prp name="relpath" type="S" value="PinpointPatternFind\PinpointPatternFind.mds.tcLS"/>
+			</Node>
+			<Node name="{8502881b-664b-46cc-bfa5-e7a35290b26d}">
+				<Prp name="relpath" type="S" value="AdvORC\AdvOCR.mds.tcLS"/>
+			</Node>
+<<<<<<< HEAD
+			<Node name="{be6bc535-820d-41ea-aff8-6f3962a9dcdd}">
+=======
+			<Node name="{b0f30d77-d1e9-4533-9404-c474ff3cdd1d}">
+>>>>>>> 4550603c95fc33a9cabececc04615fbdac4a4867
+				<Prp name="relpath" type="S" value="ROIFind\ROIFind.mds.tcLS"/>
+			</Node>
+			<Node name="{d014ddd9-8ee9-4867-9798-7e4ca3212d4f}">
+				<Prp name="relpath" type="S" value="AdvOCR\AdvOCR.mds.tcLS"/>
+			</Node>
+			<Node name="{df3cc003-e9fa-47e2-af93-c5f4d78b168e}">
+				<Prp name="relpath" type="S" value="PatternSortingTool\PatternSortingTool.mds.tcLS"/>
+			</Node>
+			<Node name="{f6c81a6d-7928-498c-8df4-fd3bbd0a601c}">
+				<Prp name="relpath" type="S" value="EnviromentSetup\1.EnviromentSetup.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{A55501A4-6651-49AD-B51B-7DCB89FA8154}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_CPM"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test21">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem14"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem3"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_076"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_061"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test17">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem9"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem5"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test22">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem15"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test18">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem11"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because stringValue_ does not equal (case-sensitive) &quot;2019-12-23 16:04:30&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.6686376273"/>
+						<Prp name="duration" type="I" value="119107"/>
+						<Prp name="name" type="S" value="PST_Database_056"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="119107"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADEAMgBDADIAQQA3ADIALQBCAEMAMQA0AC0ANAA0ADMAQgAtADgANQBGAEIALQA2ADMAOQA2ADQAQwA2ADAAOAA5AEEARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test15">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem8"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_068"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_072"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test13">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem6"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test24">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Properties"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test14">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem7"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test20">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem13"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test16">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem10"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test19">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="ProjectTestItem12"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test23">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_SearchROIPassFail"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;OptionPane_button2&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to perform the action because the button '' is disabled."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="43822.6700162037"/>
+						<Prp name="duration" type="I" value="147455"/>
+						<Prp name="name" type="S" value="PST_Database_059"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="147455"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADcANgA1AEUARgA0ADAALQA1ADgAQgBEAC0ANAAyADYAQwAtAEEAMQAwADAALQA3AEYAOQBFAEIANwA0ADgAOQA5ADUANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_070"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43822.6717231597"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="PST_Database_092"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="43822.6686376273"/>
+				<Prp name="duration" type="I" value="266562"/>
+				<Prp name="name" type="S" value="PatternSortingTool"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="23"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="43822.6686371644"/>
+		<Prp name="host" type="S" value="VNMLTRD-TYEN2"/>
+		<Prp name="name" type="S" value="Emulator1"/>
+		<Prp name="stop" type="D" value="43822.6717243056"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="25"/>
+		<Prp name="user" type="S" value="hale"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="key" type="S" value="{232E4E4C-1D35-4A17-8E44-290C5E46A37B}"/>
+		<Prp name="testname" type="S" value="PatternSortingTool"/>
+		<Prp name="incompletedtests" type="I" value="23"/>
+	</Node>
+</Nodes>

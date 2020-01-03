@@ -1,0 +1,10 @@
+﻿
+  
+ 
+
+def Test2():
+  javaw = Aliases.javaw
+  javaw.VpmFrame.RootPane.null_layeredPane.Item2.Item.Item.Panel.Main_Toolbar.LoadProgramButton.ClickButton()
+  panel = javaw.ToolBar_LoadProgramAction_LoadProgramDialog.RootPane.null_layeredPane.null_contentPane.Panel
+  panel.Panel.VisionProgramsPanel.ScrollPane.Viewport.Table.ClickCell(0, "File Name")
+  panel.Panel2.Button.ClickButton()

@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<child name="Stores" key="{F6EC6BD8-0731-4527-85CE-FA598B11B6B3}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="NameMapping" key="{CC2F9014-E13B-423D-B388-BE953D13EC67}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Script" key="{4B4F946A-5F44-45F8-9BCB-17311C5DB342}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{8572CB80-8A89-49CE-8F92-C97B39C8FD05}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{B4A280DA-9506-4044-AED4-13D51E93BAD1}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ImageRepository" key="{6A20ACA5-BF21-4682-B460-E5C4C6D12A5E}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
+	</children>
+	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
+	<testItems key="{D678BEC3-EB0F-4F85-A363-3266162402B4}" version="14">
+		<children>
+			<testItem name="AdvOCR_CPM" key="{46BBCD46-7EDF-4D2C-8FC0-880A268D342C}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_CPM_001" key="{32EBFCB6-57DD-4913-A6BF-71E869B5E259}" group="False" enabled="False" testMoniker="{319AB0B2-50B8-4F11-B25C-505FB520BC29}AdvOCR_CPM_001" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_005" key="{0D5D3854-6C38-408F-AC90-427A72BFE6EE}" group="False" enabled="False" testMoniker="{A0688C56-3EAF-4D84-BA42-8099EC495C7C}AdvOCR_CPM_005" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_006" key="{36238C36-7F90-409B-B573-9F586F4B98E8}" group="False" enabled="False" testMoniker="{160BEBB2-F74B-473E-ABB0-5A6E7AA7758E}AdvOCR_CPM_006" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_007" key="{9809F5BE-6A2B-41D6-A0E2-529EFB48605B}" group="False" enabled="False" testMoniker="{7F02445F-3385-4D5F-AAA3-6986F49C2316}AdvOCR_CPM_007" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_008" key="{1935B697-C245-4FD7-85E5-EDDBDB3A1BEB}" group="False" enabled="False" testMoniker="{78D853D4-B4F2-4CE7-B804-40DAE5BC301C}AdvOCR_CPM_008" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_009" key="{D4C711F8-0708-49E2-A811-451F985630A6}" group="False" enabled="False" testMoniker="{463DA69A-62F0-45E8-86DE-19AECFE1B576}AdvOCR_CPM_009" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_010" key="{1CAAAD6B-E553-4840-BFC3-25A137EBE8A1}" group="False" enabled="False" testMoniker="{2091CDF3-0A1B-4BB9-B9EB-586D213F2104}AdvOCR_CPM_010" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_011" key="{90348734-2882-4142-AB55-B0E0CFA57C18}" group="False" enabled="False" testMoniker="{9929D882-9096-4B99-805F-CE191E8D3B57}AdvOCR_CPM_011" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_012" key="{079D4581-585C-47AD-A73F-3DC391185118}" group="False" enabled="False" testMoniker="{C35AA0B4-7127-450D-A1EF-AD630FE85BC6}AdvOCR_CPM_012" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_013" key="{3E4E30CF-63F3-4999-B33F-EB600A086F32}" group="False" enabled="False" testMoniker="{8274B836-4628-4750-A5F4-A29B68A5653D}AdvOCR_CPM_013" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_014" key="{BA611ECF-BB55-4DD9-8959-23E7DB9F605A}" group="False" enabled="False" testMoniker="{680D9E41-927D-495B-A946-763CED0FD36A}AdvOCR_CPM_014" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_015" key="{EEBE4F63-7EE6-4B27-A10A-0EA434F313B9}" group="False" enabled="False" testMoniker="{317EB0E2-34E2-45B6-A5BF-5E1617A57E8F}AdvOCR_CPM_015" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_016" key="{41E850C0-4941-46EF-9C20-D613D32A4199}" group="False" enabled="False" testMoniker="{A99FAD95-9CB1-4C94-94D9-AF2F048313A8}AdvOCR_CPM_016" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_017" key="{6B3E3A7F-4F5E-4BA3-9FF2-48C2E33940F7}" group="False" enabled="False" testMoniker="{1C0793EE-8E54-419E-A768-5F2D660E839B}AdvOCR_CPM_017" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_018" key="{CA339A10-B1F0-41D3-9A50-3D60C3A64919}" group="False" enabled="False" testMoniker="{2F478CF3-59A9-42F6-A284-4E06750EAD72}AdvOCR_CPM_018" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_019" key="{35BE1020-0981-4F14-B2F8-84E0220B47A6}" group="False" enabled="False" testMoniker="{B03ECAD3-4166-478A-B149-A937D2CFD504}AdvOCR_CPM_019" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_020" key="{3294EBB9-4012-4B04-873D-E3B936483053}" group="False" enabled="False" testMoniker="{D629BC5A-B03E-46DC-8072-B2B84DB14358}AdvOCR_CPM_020" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_022" key="{3A8FF431-7CDB-4F47-A6BE-6E6F380FD5AF}" group="False" enabled="False" testMoniker="{3C568E33-8F15-4032-8466-D34896F73CBC}AdvOCR_CPM_022" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_CPM_023" key="{61893EE0-6F4B-4430-9462-0DD9D3B893CA}" group="False" enabled="False" testMoniker="{3B9738FC-A169-46D1-9F9B-4982340E392B}AdvOCR_CPM_023" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="AdvOCR_Display" key="{DC8D6B18-5059-475B-8A3D-4A69B0818DEB}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_Display_001" key="{7923DD5C-C3A3-4D02-A72C-4C252FFF5F8B}" group="False" enabled="False" testMoniker="{F1BD865E-B144-48BD-A7B7-BFBDC6763CDF}AdvOCR_Display_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_002" key="{BE81ED16-198E-419B-BE3D-C4440F9A890D}" group="False" enabled="False" testMoniker="{B8807E71-80A3-4ABD-8FB2-68B6C65318FD}AdvOCR_Display_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_003" key="{ED7D2D97-0E63-46E3-B3E5-A055B23B85E6}" group="False" enabled="False" testMoniker="{D22BC55D-46B9-4AC6-87F8-14F4B997D39C}AdvOCR_Display_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_005" key="{E059CE24-AEC8-44A5-8420-34EBC679B0A4}" group="False" enabled="False" testMoniker="{8BE0917A-B3C4-4979-83F7-707EDCD26094}AdvOCR_Display_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_007" key="{B14BD301-2182-4140-AF24-638ECAFFE6A1}" group="False" enabled="False" testMoniker="{F42F1D16-0028-4C9A-9016-6DE7F55E1F97}AdvOCR_Display_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_008" key="{7505905A-1A74-4E75-8976-128312E9942B}" group="False" enabled="False" testMoniker="{4839957F-BBF2-48AE-AA0D-E94CDC8C15A7}AdvOCR_Display_008" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_009" key="{753D943E-DC2C-4760-80D4-E14CE96ADDFC}" group="False" enabled="False" testMoniker="{574F8717-3A92-465E-9715-23E45A4238BA}AdvOCR_Display_009" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_010" key="{D00DE75B-1BF6-4CDF-9BDA-947E1713E2F2}" group="False" enabled="False" testMoniker="{4E6868E1-9D7B-491A-AFED-76263094015C}AdvOCR_Display_010" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Display_006" key="{A679D655-6487-4A3E-95F1-C8908CCB6482}" group="False" enabled="False" testMoniker="{C1AF8980-C1C3-442F-AF6C-C0CF26798061}AdvOCR_Display_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="AdcOCR_General" key="{25972CF3-30C6-48BC-8E46-8CBD7E6E7463}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_General_001" key="{599F65BD-628F-4E89-A25A-D1AC66AFD49E}" group="False" enabled="False" testMoniker="{80C35287-63E4-4609-B3F4-74DAB0DF08D4}AdvOCR_General_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_General_002" key="{20CB4D2A-5814-48F6-BA89-16EB20B44DC8}" group="False" enabled="False" testMoniker="{C8F32E9E-2B53-42F9-879C-32671FFF75BB}AdvOCR_General_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_General_003" key="{97FE8D9B-1AF1-4C7F-9609-A069199EA241}" group="False" enabled="False" testMoniker="{51218468-DF9F-4F81-9286-F3B98D4D2A13}AdvOCR_General_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_General_004" key="{981BD72B-1E27-4937-A1AD-8B7B78AE15ED}" group="False" enabled="False" testMoniker="{7F4ECE1E-09BB-47CD-A9B6-D7AD75F8DBBE}AdvOCR_General_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="AdvOCR_Search" key="{1574D46E-6EED-4263-8C18-2FAE17136172}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_Search_001" key="{E5EF11C3-6B93-4A9E-861F-439FF9B475A3}" group="False" enabled="False" testMoniker="{D5FD0F99-5D1E-47AD-AC14-EF3B71B22778}AdvOCR_Search_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_002" key="{938B9D7F-26FF-4AF9-88DD-82FBE4DEDC82}" group="False" enabled="False" testMoniker="{207E0B5C-E6A0-4A31-84B5-EF0D8FE2D1D8}AdvOCR_Search_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_003" key="{44F74720-7D74-4428-80FD-7D51596FD314}" group="False" enabled="False" testMoniker="{6B993D9C-FDF3-4A10-9375-7AB227A8565B}AdvOCR_Search_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_004" key="{27582774-CF00-4831-A3E8-F25C88DCDD74}" group="False" enabled="False" testMoniker="{3AA83161-BFAB-452B-9AA0-2DF18110B65A}AdvOCR_Search_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_005" key="{A3DDC18F-43DB-4721-B1A1-A78C77DE201F}" group="False" enabled="False" testMoniker="{437E2D28-52B2-47F7-B2B3-DE1F5FA4709A}AdvOCR_Search_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_006" key="{653D83AC-D86C-4E3E-8A0E-7072948B46CC}" group="False" enabled="False" testMoniker="{1FE984A2-D8C8-4F1E-82CF-95B900046203}AdvOCR_Search_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_007" key="{20853E1E-C3C4-4066-8B90-22003A0580CD}" group="False" enabled="False" testMoniker="{CBAE33CD-9AE0-49E1-BCFA-19F7DB7E5552}AdvOCR_Search_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_008" key="{FD63B530-3BDA-4541-811C-39AB997E132E}" group="False" enabled="False" testMoniker="{E1BEE8BB-20AB-406F-9E76-C78BF8C77795}AdvOCR_Search_008" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_009" key="{A8CCDF17-BE7F-435E-9515-6145EFADBC40}" group="False" enabled="False" testMoniker="{FDA59735-85D1-45C7-ACB8-B28432969AAD}AdvOCR_Search_009" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Search_010" key="{88D7C218-A45C-4F96-9E1E-523555DF2F2E}" group="False" enabled="False" testMoniker="{FD80574A-946E-4E42-9A2C-13F28CBB5B62}AdvOCR_Search_010" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="AdvOCR_Train" key="{455552F8-6D3C-429B-A71B-AC8A7B7AEB0B}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_Train_001" key="{7E1B9BAF-F688-4227-BDC0-7FBCFEF954AD}" group="False" enabled="False" testMoniker="{2F842B5B-51BE-4E6F-AE82-8488E842F079}AdvOCR_Train_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_002" key="{0C7FA09F-8F21-4903-B326-A6D69CD510AF}" group="False" enabled="False" testMoniker="{6A57BD16-BBAC-468F-BA58-A2951278A8BF}AdvOCR_Train_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_003" key="{42D0F322-6EE8-4AF7-B4AA-96BEE494E428}" group="False" enabled="False" testMoniker="{EB883751-4079-47EA-91CC-87B65E0C0677}AdvOCR_Train_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_004" key="{8D7DE600-E932-4E60-94EA-FD7A60BB14C2}" group="False" enabled="False" testMoniker="{4E7D9019-C79B-46ED-B839-0DDE0FCCA728}AdvOCR_Train_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_005" key="{0CB151D4-A088-49CE-BE82-2653565CF10A}" group="False" enabled="False" testMoniker="{D02A3A88-DF8F-4F2C-9152-D7E5FE2AB538}AdvOCR_Train_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_006" key="{1EFF7B5D-0586-4706-801E-EBEA694664F1}" group="False" enabled="False" testMoniker="{172CC550-3414-4A04-A2D3-87ECCB3957C8}AdvOCR_Train_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_007" key="{B248A309-D3D9-42B3-ADB3-A239287C8FDE}" group="False" enabled="False" testMoniker="{82B34BFC-1264-4DF2-9A26-94C8C64A8B9A}AdvOCR_Train_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_008" key="{561F7555-CC15-4907-AA4E-6810074DB7AF}" group="False" enabled="False" testMoniker="{D7B0ED43-1E2F-4345-B7EB-2677B9B01A94}AdvOCR_Train_008" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_009" key="{9F7BA8AA-69C2-48E4-AAAB-A5E7DC3A91DB}" group="False" enabled="False" testMoniker="{790DE2F1-7E56-45F6-94AD-CC85356A0472}AdvOCR_Train_009" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_012" key="{F8E95494-0692-4FCF-A968-E60F64F1F647}" group="False" enabled="False" testMoniker="{686FA3DB-EC2F-4762-A01F-26188DAFF2E3}AdvOCR_Train_012" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_013" key="{00DDC73B-68CB-469D-89DF-0DB305894639}" group="False" enabled="False" testMoniker="{52DC6FA7-474C-4B3D-866B-A133011C00DE}AdvOCR_Train_013" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_014" key="{34BA2F24-0FB4-4D12-BDCC-9C393CE9B126}" group="False" enabled="False" testMoniker="{352CAD43-B12F-4949-85B8-F980E4A3B030}AdvOCR_Train_014" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_015" key="{B750AC50-0555-4F71-8720-AA22C73808EB}" group="False" enabled="False" testMoniker="{BD482606-B2F7-46B8-8E1A-8D8DE3F76590}AdvOCR_Train_015" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_016" key="{03BC8FCA-4B53-4395-806E-C58276AD63E9}" group="False" enabled="False" testMoniker="{7AD034E8-3D07-423B-828B-191DC0858892}AdvOCR_Train_016" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_017" key="{FF4FDBF9-9C09-4711-8DF5-1C675FB5EEDE}" group="False" enabled="False" testMoniker="{68561F1E-6FD4-45FC-994C-D0F74DE0E8EF}AdvOCR_Train_017" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_018" key="{889750C7-0B18-4374-80D4-A6F05018939A}" group="False" enabled="False" testMoniker="{7020CA4E-CED5-4249-99B5-9DE2F7357594}AdvOCR_Train_018" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_019" key="{9BBC1B0A-A04D-41E5-9486-B56ECAC32D2C}" group="False" enabled="False" testMoniker="{D2CED872-8163-4F6F-A9E4-663A3088E1CD}AdvOCR_Train_019" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_020" key="{E0CC4F9E-78EE-4FFD-A06B-AC1A16444B8D}" group="False" enabled="False" testMoniker="{63F2BBAA-7783-484F-A7F5-862486DA0FFE}AdvOCR_Train_020" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_021" key="{1D17EF0E-DEA3-44F2-962D-A354E999FA92}" group="False" enabled="False" testMoniker="{D0A24BA7-C83A-4996-B74B-E48E158E26B4}AdvOCR_Train_021" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_023" key="{046063D1-C0DA-46AA-875F-F2EFBD4F648B}" group="False" enabled="False" testMoniker="{3953AB17-00C9-44F0-A01D-F2A897C8CE69}AdvOCR_Train_023" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_023" key="{5BD18498-7095-4E86-B9C1-41AA821EE771}" group="False" enabled="False" testMoniker="{43980244-AB9A-413B-8960-C1FE9D08455A}AdvOCR_Train_023" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_025" key="{8EA58BF7-E914-4FB8-AC51-6526557C1266}" group="False" enabled="False" testMoniker="{1B4FFC42-6827-49E1-A553-BCA3A75030DD}AdvOCR_Train_025" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_026" key="{571460B7-CEE0-4EAA-BEEB-34BC140A6DFE}" group="False" enabled="True" testMoniker="{C4C50BA4-E381-40CD-B905-7B8494E86F56}AdvOCR_Train_026" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_028" key="{E5C2A3D9-3ECF-4CE9-B8A3-33E50D2C9336}" group="False" enabled="False" testMoniker="{4BB58060-3DD0-44EC-A13C-8B523AB0E25C}AdvOCR_Train_028" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_031" key="{62128FFF-27BA-44A3-861B-1291FF0A69E7}" group="False" enabled="False" testMoniker="{EB21441A-5D48-4440-9FAC-DBEE45725728}AdvOCR_Train_031" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_033" key="{453C6CD7-922E-493B-9FD0-DECAD355CF23}" group="False" enabled="False" testMoniker="{0423C902-1728-49FD-AE32-353BF4556450}AdvOCR_Train_033" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_034" key="{E0A3678A-741C-46A4-81F3-9B9BD31C76D8}" group="False" enabled="False" testMoniker="{551ED030-92F0-4138-849D-DC0459D3C092}AdvOCR_Train_034" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_036" key="{5CF54165-17BD-40C6-9C69-DBEF0B16A324}" group="False" enabled="False" testMoniker="{5E76F6B8-13BD-46DE-AE0F-CC0506F5C27D}AdvOCR_Train_036" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_039" key="{A03F0427-678C-4BD5-AD0F-F0BBE770AD75}" group="False" enabled="False" testMoniker="{9488E1E4-7427-4A11-A39E-8F412B59A4D4}AdvOCR_Train_039" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_040" key="{C9DA9C47-E822-40FB-BCE1-7C325D38EA67}" group="False" enabled="False" testMoniker="{6B7BFD16-7A86-4CC2-A420-E9B0F695028A}AdvOCR_Train_040" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_041" key="{9EEEA122-9250-43A4-85DD-0B119DD2CAAD}" group="False" enabled="False" testMoniker="{90F59CAD-F52F-41DA-802D-19578D878E71}AdvOCR_Train_041" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_042" key="{208903C8-7A32-4CA8-8413-64AB8D0DCBD9}" group="False" enabled="False" testMoniker="{B692BED9-238E-46B9-A4AE-229E92B6490F}AdvOCR_Train_042" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_043" key="{4B7DE7DD-2BBF-4262-A7D7-E15BFEFAABE3}" group="False" enabled="False" testMoniker="{40D25E0F-C5AB-477E-B621-B9A4D5CC697E}AdvOCR_Train_043" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_044" key="{5365A346-A6CD-4ED1-B70F-B1A50CAE7DC2}" group="False" enabled="False" testMoniker="{C43832BF-CABF-491E-9696-39C38514C531}AdvOCR_Train_044" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_045" key="{4431D58C-2BD0-4DE8-B6F5-766FEC9382BE}" group="False" enabled="False" testMoniker="{6A2FDC12-9D10-4637-ADDB-BCEABCAB045F}AdvOCR_Train_045" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_046" key="{9FC1BC2A-319F-4CFE-A93C-537E279D0757}" group="False" enabled="False" testMoniker="{EAE53A90-2382-447C-97DF-9E3127FCFC32}AdvOCR_Train_046" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_048" key="{E17BF774-5343-43C9-9F21-03694F696366}" group="False" enabled="False" testMoniker="{BA8C6DBE-523C-43AA-A75F-DF6AB7AFCF7C}AdvOCR_Train_048" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_049" key="{5A51DED8-90BE-499E-B08A-FA3A13250FEC}" group="False" enabled="False" testMoniker="{A1336B3E-3B46-4B53-BE57-F71583D59304}AdvOCR_Train_049" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_050" key="{617E1E30-F0D8-465F-A7DB-B0F6C0847FD3}" group="False" enabled="False" testMoniker="{46427DFB-0772-4159-AFB7-4A662F6305A4}AdvOCR_Train_050" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_051" key="{6F508A05-7310-47C1-96CF-40A371218C7E}" group="False" enabled="False" testMoniker="{242C6EC9-58D5-4626-A11B-E4C65DDF17B5}AdvOCR_Train_051" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_052" key="{BCF58E7F-CDB7-44D1-9388-206C75D40F69}" group="False" enabled="False" testMoniker="{409F895E-2251-4885-9146-6405E6D53B39}AdvOCR_Train_052" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_053" key="{E77B743F-4649-49BE-9FF3-3553BDE7F55B}" group="False" enabled="False" testMoniker="{449F67CC-C1FB-418E-8E36-96C266A4A790}AdvOCR_Train_053" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_054" key="{2B1005FC-273D-4EA0-A085-2F7B0DD847B6}" group="False" enabled="False" testMoniker="{F7B72115-1B3E-4646-92BE-32C0B78573EE}AdvOCR_Train_054" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_055" key="{3AD84916-CE16-457F-95EE-E27FB6B1E012}" group="False" enabled="False" testMoniker="{692645F8-0D75-4BC2-ABB7-1495B808EA9D}AdvOCR_Train_055" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_056" key="{DE2D945E-D0A0-47C1-9396-A797B6BD9FBE}" group="False" enabled="False" testMoniker="{71784C1E-9CC0-4FF9-9E4B-7B80B23EE53B}AdvOCR_Train_056" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_061" key="{A916ACE8-EDBF-476D-89EF-959139D62AF4}" group="False" enabled="False" testMoniker="{5FFF7D67-1CA7-4DDE-A5EA-FF2059C00EA9}AdvOCR_Train_061" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_062" key="{5879B945-F684-410C-85B5-B8BC8967A4B6}" group="False" enabled="False" testMoniker="{234A01B3-8837-43C5-A3A9-1C2B5A29486F}AdvOCR_Train_062" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_068" key="{889DCD94-3261-4B1C-BA95-FA5F4F6E8766}" group="False" enabled="False" testMoniker="{41210DAF-15A7-4F0C-A5D2-5D60EE3B033B}AdvOCR_Train_068" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_070" key="{67AA7FA9-0A7A-49E4-8E0A-44F2AD99DF21}" group="False" enabled="True" testMoniker="{BADFD7A5-529A-4342-914F-681E452AAA2A}AdvOCR_Train_070" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_071" key="{EA38BC61-AE9D-4F74-BC54-A2000E96AC65}" group="False" enabled="False" testMoniker="{C24FE087-4855-4AFA-B518-36BA94BB943F}AdvOCR_Train_071" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_073" key="{22AF71EB-2176-4969-B3FB-CDC0163CB061}" group="False" enabled="True" testMoniker="{53C000F7-5CF7-49B1-A6E8-5C645543F68D}AdvOCR_Train_073" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_074" key="{0AE4A240-AEBC-4ECE-BDD6-94F082093F13}" group="False" enabled="True" testMoniker="{52D6382B-3C91-416E-9980-95CEACD56AB6}AdvOCR_Train_074" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_075" key="{0CB8BF77-C910-47C4-8658-CC368F42EFA6}" group="False" enabled="False" testMoniker="{242087F8-C693-43D2-AC79-DA15364EF36E}AdvOCR_Train_075" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_076" key="{57224D98-A3ED-4783-A686-B90C4AE1F699}" group="False" enabled="False" testMoniker="{93C38781-01F8-44B2-87D5-009C646368A2}AdvOCR_Train_076" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_077" key="{3FE36738-1527-4EDF-910A-EFA0E0D09D52}" group="False" enabled="False" testMoniker="{7F02FD33-5F93-4DD6-A090-321EAFAB5735}AdvOCR_Train_077" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_078" key="{A9F46B1C-2146-453D-AF63-7423A954D024}" group="False" enabled="False" testMoniker="{A9CD4D4E-B849-4567-9D37-289F3761C949}AdvOCR_Train_078" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_079" key="{3140D62F-DE10-412D-8BB8-F2CE8BC53C0A}" group="False" enabled="False" testMoniker="{B877EC04-7ABE-46F7-9A8D-3272B81849C0}AdvOCR_Train_079" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_080" key="{EA9CD427-B374-4237-9537-F5B168DCDEC3}" group="False" enabled="False" testMoniker="{7388DEBC-4EFC-491E-B78F-EA24D72EEA5C}AdvOCR_Train_080" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_081" key="{EFA51D7D-F91F-4D78-8ECD-8DC8523C1FCA}" group="False" enabled="False" testMoniker="{01A4FEDE-146C-4B11-B5A1-D2B380829B5B}AdvOCR_Train_081" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_084" key="{5E9D61B6-8B90-4B57-83AE-095A75CBAEB9}" group="False" enabled="False" testMoniker="{87D6CD0E-823C-4873-AB95-BBD897D9016F}AdvOCR_Train_084" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_085" key="{37CA2580-FEB1-495D-BE17-3F8821C9C965}" group="False" enabled="False" testMoniker="{7DAE2CDE-7F5C-43AE-8ADE-316186AE5AC6}AdvOCR_Train_085" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_083" key="{0DB9443A-AD62-44E6-A705-FC9BC2EDF677}" group="False" enabled="False" testMoniker="{D8286A0D-30CB-41FE-B052-9C6ABD3707F9}AdvOCR_Train_083" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_082" key="{55074C3A-48CF-4E31-991D-48ED8B54E636}" group="False" enabled="False" testMoniker="{15583297-7F7F-4438-89A4-88112CC5F210}AdvOCR_Train_082" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_072" key="{37A5C659-C3F7-450F-AFDC-CB7046317BA6}" group="False" enabled="False" testMoniker="{96B3F22F-257F-4051-9308-C07308299F54}AdvOCR_Train_072" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_069" key="{51706FF1-F424-4364-BA18-F08409B32A12}" group="False" enabled="False" testMoniker="{9AB71031-D720-4550-9A9F-20825199792F}AdvOCR_Train_069" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_067" key="{F6091493-001F-4A85-AE20-0301F8396028}" group="False" enabled="False" testMoniker="{A1EE540D-2AA8-469F-B84B-F69D880B2B0F}AdvOCR_Train_067" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_066" key="{8256AEC4-4709-45FA-A464-19DA2B89D6DE}" group="False" enabled="False" testMoniker="{BE25FBB4-1E5F-4004-8EC6-B9825EE4CB79}AdvOCR_Train_066" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_065" key="{3CC41F7F-F0CB-4BF5-A165-3FED49AD140D}" group="False" enabled="False" testMoniker="{A485E213-987C-4C57-959C-7915E2401BA8}AdvOCR_Train_065" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_064" key="{50A8677C-3DB7-4FC8-BA36-DA69BE3A7B6E}" group="False" enabled="False" testMoniker="{B07D9CA5-3F7B-4D04-886C-FA6EFE86AE63}AdvOCR_Train_064" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_063" key="{D767FA6B-6442-4A83-AD94-A94BE87B6B7C}" group="False" enabled="False" testMoniker="{04330504-BDE1-476C-A86A-B0DB198AA4F4}AdvOCR_Train_063" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_060" key="{2F73ABC3-E49E-45D2-BBD3-AD2F6CF6C931}" group="False" enabled="False" testMoniker="{B17C9FD7-1B8D-41F8-996A-E17D4E481946}AdvOCR_Train_060" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_059" key="{5BD1A529-87EC-46E0-BB72-A15189A3AE3C}" group="False" enabled="False" testMoniker="{BFEE310B-4BDA-4249-8132-C678B056D65E}AdvOCR_Train_059" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_058" key="{90DC5619-48B1-43AC-A187-CA8F056EF82B}" group="False" enabled="False" testMoniker="{9F405731-3893-41D5-87F3-1729A31E39C4}AdvOCR_Train_058" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Train_057" key="{09E20651-8592-47B2-B40A-E550498DD3D8}" group="False" enabled="False" testMoniker="{DAEB986B-E4ED-45A5-A279-8B5C0F3CFC86}AdvOCR_Train_057" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="AdvOCR_Verification" key="{028668B4-6982-4837-B538-00A90A560502}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="AdvOCR_Verification_001" key="{F0BACC92-6FA2-418D-B1F7-20FF09934A60}" group="False" enabled="False" testMoniker="{CF16E91A-A581-4488-AA78-47AA964D1132}AdvOCR_Verification_001" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_002" key="{CD2AF17E-9EB4-490C-8E7D-9BE24D7EDA18}" group="False" enabled="False" testMoniker="{AE2B069F-32A7-42DE-A41C-C8A0F85ED263}AdvOCR_Verification_002" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_003" key="{7AB61072-AC07-4D97-A25D-1C43DAA1956E}" group="False" enabled="False" testMoniker="{A3AD412B-912F-4DF6-990F-9D1124C5C61B}AdvOCR_Verification_003" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_004" key="{3D0F388F-8983-475F-A4DC-D0FE808AEAA5}" group="False" enabled="False" testMoniker="{9604153C-1B0E-4C6E-AE9D-4B4437077838}AdvOCR_Verification_004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_005" key="{46578B0F-A512-4B8B-B264-BC5028779ED8}" group="False" enabled="False" testMoniker="{F258E28D-A2AD-4425-A4AA-83F8E9611EC3}AdvOCR_Verification_005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_006" key="{0502895F-FEA2-4FD6-A203-FB108DE1BDBE}" group="False" enabled="False" testMoniker="{3B1A9B4F-22F7-4725-8291-97BBCF3414BE}AdvOCR_Verification_006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_007" key="{C8F916AA-AF7E-47D9-B200-45D332EA4282}" group="False" enabled="True" testMoniker="{A547E1EB-A5EB-4EFC-84D1-907084C273B4}AdvOCR_Verification_007" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_008" key="{20DD3996-7605-49F3-BF01-3F50E1CE7723}" group="False" enabled="False" testMoniker="{F8070CDE-1031-4253-893C-CBC8C0863286}AdvOCR_Verification_008" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_009" key="{3FBF9156-FC89-4428-B285-9D53F1A570D7}" group="False" enabled="False" testMoniker="{E3E64880-824F-4B6A-99A7-5B6761C18B25}AdvOCR_Verification_009" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_010" key="{5020E064-E91E-413A-93D6-1EAFC7ECEBF4}" group="False" enabled="False" testMoniker="{0D777F7B-4422-4517-BF1A-788491CE0958}AdvOCR_Verification_010" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_010" key="{E7954CF1-BC5D-487C-A17D-7FDC0198C107}" group="False" enabled="False" testMoniker="{74174BB7-F4A8-4435-8EA7-F0AC2AAF7422}AdvOCR_Verification_010" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_012" key="{8EF207DE-F6F9-43C9-90C9-F6314544FAAC}" group="False" enabled="True" testMoniker="{A0A2B40E-73E1-43BD-9565-300711234073}AdvOCR_Verification_012" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_015" key="{DB11EE6C-FA67-453A-8145-7409277EE06A}" group="False" enabled="False" testMoniker="{C5B6BF3A-503D-4FC8-B4B9-8D91DD42FEF8}AdvOCR_Verification_015" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_016" key="{812C7A57-8530-42C0-AD34-D6C0D6BE10D4}" group="False" enabled="False" testMoniker="{0A1B195E-B670-4DA1-91FC-B771B982E832}AdvOCR_Verification_016" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_017" key="{1DBDE3A3-D91C-46AC-B51F-1AB03ACE1699}" group="False" enabled="False" testMoniker="{A6628C50-7590-49AA-B6F2-853C171B240F}AdvOCR_Verification_017" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_018" key="{5A22C6BB-D6CB-4467-8A37-30387CF0CD99}" group="False" enabled="False" testMoniker="{AFEB36E5-3304-44FD-A68C-20638BCF336E}AdvOCR_Verification_018" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_019" key="{7007D8C7-4EEB-4BAD-8181-64183AD94693}" group="False" enabled="False" testMoniker="{2B2C55C3-9645-4FC0-B56C-FE6E1208EC9D}AdvOCR_Verification_019" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_020" key="{E5787231-4078-4E63-8B3C-D0EC9D2B2DE6}" group="False" enabled="False" testMoniker="{FA4BAB6B-45CC-40A7-854D-B0BD7E3117B4}AdvOCR_Verification_020" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="AdvOCR_Verification_013" key="{787A82ED-CE2C-4953-818C-E9416CE6FAE2}" group="False" enabled="False" testMoniker="{A4C68DEE-964B-47F9-9BF4-96D89C7FFA9A}AdvOCR_Verification_013" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="main" key="{FDE375F5-D28D-4BF1-BE95-E2C988C4C419}" group="False" enabled="False" testMoniker="{805E53D6-08B2-4849-BC09-4285B6AEB635}main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{539EECB0-7E73-40CD-8FD2-8543C0701D37}">
+		<data Version="3" />
+	</variables>
+	<settings key="{C5AA86DD-CF2E-42C9-8D59-7DFD1C29064B}">
+		<settingsVersion value="14.30" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="34" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="javax.swing.JButton" val1="{AA8311A8-D893-4F5F-88F3-5BA33E9B94AA}" val2="13" val3="4" />
+				<row val0="javax.swing.plaf.basic.BasicOptionPaneUI$ButtonFactory$ConstrainedButton" val1="{AA8311A8-D893-4F5F-88F3-5BA33E9B94AA}" val2="13" val3="4" />
+				<row val0="javax.swing.JCheckBox" val1="{B9215B74-2F96-4065-9FB3-9D1526EEBAD7}" val2="13" val3="4" />
+				<row val0="javax.swing.JComboBox" val1="{C5BDADF2-41F0-4398-B76A-995160721368}" val2="13" val3="4" />
+				<row val0="javax.swing.JCheckBoxMenuItem" val1="{21399519-3421-4366-82A0-8B707D81F4CA}" val2="13" val3="4" />
+				<row val0="javax.swing.JRadioButtonMenuItem" val1="{269EC47C-1911-47FC-83D4-8C43FE45B32E}" val2="13" val3="4" />
+				<row val0="javax.swing.JPasswordField" val1="{2DE03994-1524-4838-88B6-07CF537142F5}" val2="13" val3="4" />
+				<row val0="javax.swing.JRadioButton" val1="{8EB0BD9E-D470-4078-823D-94CC2E1CC78B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollBar" val1="{9A5DD4B7-FE5C-4E55-A7C6-A66E8C1D942B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollPane$ScrollBar" val1="{9A5DD4B7-FE5C-4E55-A7C6-A66E8C1D942B}" val2="13" val3="4" />
+				<row val0="javax.swing.JScrollPane" val1="{6EA27BFE-7A0E-4AB4-9DC6-6486E47EC32C}" val2="13" val3="4" />
+				<row val0="javax.swing.JSlider" val1="{8EB26B4A-C26F-46DE-897C-282740A9C2FE}" val2="13" val3="4" />
+				<row val0="javax.swing.JSpinner" val1="{49BA71C6-8A9E-4EEF-BC35-B2F618F79D67}" val2="13" val3="4" />
+				<row val0="javax.swing.JTabbedPane" val1="{9C7A9C5B-96A7-46F8-8F71-7DB3262F22BB}" val2="13" val3="4" />
+				<row val0="javax.swing.JEditorPane" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextArea" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextPane" val1="{A5ACBD31-EFEE-4377-A289-510AD94E4B4E}" val2="13" val3="4" />
+				<row val0="javax.swing.JFormattedTextField" val1="{3D30CB6B-934E-4787-8686-D2DC944F9C07}" val2="13" val3="4" />
+				<row val0="javax.swing.JTextField" val1="{3D30CB6B-934E-4787-8686-D2DC944F9C07}" val2="13" val3="4" />
+				<row val0="javax.swing.JToggleButton" val1="{526C06EE-D0F5-4038-A174-172D34A1FA7B}" val2="13" val3="4" />
+				<row val0="javax.swing.JToolBar" val1="{A978648F-2B98-42EA-9B88-313F326959A4}" val2="13" val3="4" />
+				<row val0="javax.swing.JTable" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="3" val3="0" />
+				<row val0="javax.swing.JTable" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="12" val3="0" />
+				<row val0="javax.swing.JToggleButton" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="12" val3="0" />
+				<row val0="javax.swing.JButton" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="12" val3="0" />
+				<row val0="Sybase.PowerBuilder.WPF.Controls.Toolbar" val1="{EAD16A26-B713-4E49-9F87-1940B9661C85}" val2="13" val3="4" />
+				<row val0="System.Windows.Controls.Ribbon.RibbonTextBox" val1="{CCB59672-CEB6-4008-B85B-3635E6F97AF6}" val2="13" val3="4" />
+				<row val0="Microsoft.Windows.Controls.Ribbon.RibbonDropDownButton" val1="{59961675-0280-4B7B-8A20-B3A795597F95}" val2="13" val3="4" />
+				<row val0="Microsoft.Windows.Controls.DataGridComboBoxColumn" val1="{648D8B2E-F5A8-4299-A25B-B4E9F6FCFFBE}" val2="13" val3="4" />
+				<row val0="Sybase.PowerBuilder.WPF.Controls.HTrackBar" val1="{9DDA2BEA-7B80-4D47-AD49-6B31B02502AB}" val2="13" val3="4" />
+				<row val0="Sybase.PowerBuilder.WPF.Controls.ListBox" val1="{6BD0992C-9447-4381-AA22-C5F8337AE51B}" val2="13" val3="4" />
+				<row val0="Microsoft.Windows.Controls.DataGridCell" val1="{3DC76248-EE22-4240-8D64-D2FF72D49916}" val2="13" val3="4" />
+				<row val0="TcxGridRowIndicatorHitTest" val1="{EB79BB2A-A052-40BC-89B5-11D6B0442417}" val2="13" val3="4" />
+				<row val0="cpm.ControlPropertiesPane$ControlPropertiesInnerPane" val1="{5FC86967-5765-46CC-9EC7-0CD1819D15E0}" val2="12" val3="0" />
+				<row val0="javax.swing.JTree" val1="{FA98F18D-09D4-423E-94D0-F822397B369C}" val2="13" val3="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="13" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeFirefoxObject" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 5/SE" />
+				<row val0="iPhone 6/7/8" />
+				<row val0="iPhone 6/7/8 Plus" />
+				<row val0="Apple iPhone X" />
+				<row val0="Google Pixel 2" />
+				<row val0="Samsung Galaxy Note 9" />
+				<row val0="Samsung Galaxy S9" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="7" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 5/SE" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="iPhone 6/7/8" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="iPhone 6/7/8 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone X" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="375" val8="812" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Pixel 2" val6="Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36" val7="411" val8="731" val9="2.625" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="414" val8="846" val9="3.5" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy S9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="360" val8="740" val9="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop test item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="False" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="True" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{25A02B33-4899-4F99-96F2-88E3DF833F0C}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{DB5AD91D-0E18-4E98-A7A1-F3C8D587FBC2}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{051B58F3-DC87-4048-A919-35CA791E4DD4}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{0FF97CD2-A2BF-41E5-9BDC-60D6277F1619}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

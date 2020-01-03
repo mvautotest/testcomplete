@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{64C4C512-2CDE-49B9-A86D-B9A6A57656DF}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="LinkButton" />
+	<testData />
+	<data>
+		<item caption="LinkTrainCharacterbox" moniker="{6F709947-61AF-4D08-B6F6-5390FD5980C1}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkTrainCharacterbox.png" initialHash="F73E5A38" selectionLeft="1147" selectionTop="792" selectionWidth="20" selectionHeight="18" initialLeft="1147" initialTop="792" initialWidth="20" initialHeight="18" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="LinkDatabase" moniker="{38FC49C9-AF0D-4A3D-A057-874A2B710CFF}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkDatabase.png" initialHash="DE094278" selectionLeft="332" selectionTop="333" selectionWidth="111" selectionHeight="17" initialLeft="332" initialTop="333" initialWidth="111" initialHeight="17" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="LinkPatternDB" moniker="{79D99633-3840-4693-871E-7155E4935702}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\LinkPatternDB.png" initialHash="ABB7FC09" selectionLeft="1148" selectionTop="792" selectionWidth="18" selectionHeight="17" initialLeft="1148" initialTop="792" initialWidth="18" initialHeight="17" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>
